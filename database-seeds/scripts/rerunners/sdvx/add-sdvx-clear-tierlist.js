@@ -308,6 +308,7 @@ function normalizeTitle(title) {
 		.replace(/？/g, "?")
 		.replace(/`/g, "'")
 		.replace(/’/g, "'")
+		.replace(/”/g, '"')
 		.replace(/～/g, "~");
 }
 

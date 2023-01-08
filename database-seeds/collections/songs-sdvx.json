@@ -22871,6 +22871,45 @@
 	},
 	{
 		"altTitles": [],
+		"artist": "kors k vs Yooh",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 1847,
+		"searchTerms": [
+			"2beasts korskyooh",
+			"ﾄｩｰﾋﾞｰｽﾂｱﾝﾁｪｲﾝﾄﾞ"
+		],
+		"title": "2 Beasts Unchained"
+	},
+	{
+		"altTitles": [],
+		"artist": "Xceon vs DJ Command (Eurobeat Union)",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 1848,
+		"searchTerms": [
+			"fegrix xceoncommand",
+			"ﾌｪｸﾞﾘｯｸｽ"
+		],
+		"title": "Fegrix"
+	},
+	{
+		"altTitles": [],
+		"artist": "virkato",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 1849,
+		"searchTerms": [
+			"sasoribi virkato",
+			"ﾋﾟｱﾉｷｮｳｿｳｷｮｸﾀﾞｲｲﾁﾊﾞﾝｻｿﾘﾋﾞ"
+		],
+		"title": "ピアノ協奏曲第１番”蠍火”"
+	},
+	{
+		"altTitles": [],
 		"artist": "Toby Fox",
 		"data": {
 			"displayVersion": "exceed"
@@ -23102,5 +23141,83 @@
 			"ﾌﾞｲﾁｭｯﾊﾞﾉｳﾀ"
 		],
 		"title": "ぶいちゅっばの歌"
+	},
+	{
+		"altTitles": [],
+		"artist": "Risk Junk",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 1963,
+		"searchTerms": [
+			"onemore riskjunk",
+			"ﾜﾝﾓｱﾗﾌﾞﾘｰ"
+		],
+		"title": "One More Lovely"
+	},
+	{
+		"altTitles": [],
+		"artist": "DJ TECHNORCH fw. GUHROOVY",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 1964,
+		"searchTerms": [
+			"kamaitachi djtechnorch",
+			"ｶﾏｲﾀﾁ"
+		],
+		"title": "KAMAITACHI"
+	},
+	{
+		"altTitles": [],
+		"artist": "HHH×MM×ST",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 1965,
+		"searchTerms": [
+			"followtomorrow hhhmmst",
+			"ﾌｫﾛｰﾄｩﾓﾛｰ"
+		],
+		"title": "Follow Tomorrow"
+	},
+	{
+		"altTitles": [],
+		"artist": "猫叉Master feat.霜月はるか",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 1966,
+		"searchTerms": [
+			"elespa nekomata",
+			"ｴﾚﾒﾝﾄｵﾌﾞｽﾊﾟｰﾀﾞ"
+		],
+		"title": "Element of SPADA"
+	},
+	{
+		"altTitles": [],
+		"artist": "lapix",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 1967,
+		"searchTerms": [
+			"amazingmirage lapix",
+			"ｱﾒｲｼﾞﾝｸﾞﾐﾗｰｼﾞｭ"
+		],
+		"title": "Amazing Mirage"
+	},
+	{
+		"altTitles": [],
+		"artist": "C-Show",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 1968,
+		"searchTerms": [
+			"pleasewelcome cshow",
+			"ﾌﾟﾘｰｽﾞｳｪﾙｶﾑﾐｽﾀｰｼｰ"
+		],
+		"title": "Please Welcome Mr.C"
 	}
 ]
