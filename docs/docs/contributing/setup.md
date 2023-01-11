@@ -105,26 +105,11 @@ As such, we're going to take the lazy route and use something called [Docker](ht
 	You should install [Docker Desktop](https://docs.docker.com/desktop/) instead.
 	Docker doesn't work well inside WSL.
 
-=== "Debian, Ubuntu"
-	```sh
-	# Installing docker on debian & co. is *embarassingly* difficult, to the point where
-	# the docker team maintain a fairly long, complex script that actually installs it on
-	# your system.
+=== "Debian"
+	[Please use the official Docker install guide.](https://docs.docker.com/engine/install/debian/)
 
-	# The following commands should install docker. Replace <focal> with your version of ubuntu.
-	sudo apt update
-	sudo apt install apt-transport-https ca-certificates curl software-properties-common
-	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-	sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-	sudo apt update
-	sudo apt install docker-ce
-	sudo usermod -aG docker ${USER}
-	su - ${USER}
-
-	# The following command should install docker compose.
-	sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-	sudo chmod +x /usr/local/bin/docker-compose
-	```
+=== "Ubuntu"
+	[Please use the official Docker install guide.](https://docs.docker.com/engine/install/ubuntu/)
 
 === "Arch, Manjaro"
 	```sh
@@ -170,12 +155,7 @@ to your repository.
 There's a remarkably easy way to do this, using GitHub's `gh` tool.
 
 === "Debian, Ubuntu, WSL Ubuntu"
-	```sh
-	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
-	sudo apt-add-repository https://cli.github.com/packages
-	sudo apt update
-	sudo apt install gh
-	```
+	[Use the official Linux instructions.](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
 
 === "Arch, Manjaro"
 	```sh
