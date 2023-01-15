@@ -78,7 +78,7 @@
 		display: block;
 		background-image: var(--image-url);
 		mask-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
-		--webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+		-webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: inherit;
