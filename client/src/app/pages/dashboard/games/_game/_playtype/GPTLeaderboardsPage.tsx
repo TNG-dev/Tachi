@@ -1,5 +1,5 @@
 import { CreateUserMap } from "util/data";
-import { UppercaseFirst } from "util/misc";
+import { ToFixedFloor, UppercaseFirst } from "util/misc";
 import { NumericSOV, StrSOV } from "util/sorts";
 import ClassBadge from "components/game/ClassBadge";
 import ScoreLeaderboard from "components/game/ScoreLeaderboard";
@@ -146,7 +146,7 @@ function ProfileLeaderboard({ game, playtype }: GamePT) {
 								{r.ratings[e]
 									? gptConfig.profileRatingAlgs[e].formatter
 										? gptConfig.profileRatingAlgs[e].formatter!(r.ratings[e]!)
-										: r.ratings[e]!.toFixed(2)
+										: ToFixedFloor(r.ratings[e]!, 2)
 									: "No Data."}
 							</td>
 						))}

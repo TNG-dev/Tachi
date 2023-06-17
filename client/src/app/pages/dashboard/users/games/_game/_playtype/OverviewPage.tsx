@@ -1,5 +1,5 @@
 import { ClumpActivity } from "util/activity";
-import { UppercaseFirst } from "util/misc";
+import { ToFixedFloor, UppercaseFirst } from "util/misc";
 import { FormatDate, MillisToSince } from "util/time";
 import TimelineChart from "components/charts/TimelineChart";
 import useSetSubheader from "components/layout/header/useSetSubheader";
@@ -108,7 +108,7 @@ function UserHistory({
 
 	const currentPropValue = useMemo(() => {
 		if (mode === "rating" && rating) {
-			return data[0].ratings[rating] ? data[0].ratings[rating]!.toFixed(2) : "N/A";
+			return data[0].ratings[rating] ? ToFixedFloor(data[0].ratings[rating]!, 2) : "N/A";
 		} else if (mode === "ranking") {
 			return (
 				<>
@@ -258,11 +258,12 @@ function RatingTimeline({
 				tickSize: 5,
 				tickPadding: 5,
 				tickRotation: 0,
-				format: (y) => (y ? y.toFixed(2) : "N/A"),
+				format: (y) => (y ? ToFixedFloor(y, 2) : "N/A"),
 			}}
 			tooltipRenderFn={(p) => (
 				<div>
-					{p.data.y ? (p.data.y as number).toFixed(2) : "N/A"} {UppercaseFirst(rating)}
+					{p.data.y ? ToFixedFloor(p.data.y as number, 2) : "N/A"}{" "}
+					{UppercaseFirst(rating)}
 					<br />
 					<small className="text-muted">{MillisToSince(+p.data.xFormatted)}</small>
 				</div>

@@ -1,5 +1,5 @@
 import { ChangeOpacity } from "util/color-opacity";
-import { FormatMillions } from "util/misc";
+import { FormatMillions, ToFixedFloor } from "util/misc";
 import { GPT_CLIENT_IMPLEMENTATIONS } from "lib/game-implementations";
 import React from "react";
 import { PBScoreDocument, ScoreDocument } from "tachi-common";
@@ -22,7 +22,7 @@ export default function JubeatScoreCell({
 		>
 			<strong>{sc.scoreData.grade}</strong>
 			<br />
-			<b>{sc.scoreData.musicRate.toFixed(2)}%</b>
+			<b>{ToFixedFloor(sc.scoreData.musicRate, 2)}%</b>
 			<br />
 			{FormatMillions(sc.scoreData.score)}
 		</td>

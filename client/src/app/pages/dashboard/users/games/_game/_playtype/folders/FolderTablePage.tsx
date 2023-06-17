@@ -1,7 +1,7 @@
 import { APIFetchV1 } from "util/api";
 import { DEFAULT_BAR_PROPS } from "util/charts";
 import { ChangeOpacity } from "util/color-opacity";
-import { Reverse, UppercaseFirst } from "util/misc";
+import { Reverse, ToFixedFloor, UppercaseFirst } from "util/misc";
 import { NumericSOV, StrSOV } from "util/sorts";
 import { ResponsiveBar } from "@nivo/bar";
 import { BarChartTooltip } from "components/charts/ChartTooltip";
@@ -387,7 +387,7 @@ function OverviewBarChart({
 			data={dataset}
 			minValue={0}
 			maxValue={100}
-			valueFormat={(v) => `${v.toFixed(2)}%`}
+			valueFormat={(v) => `${ToFixedFloor(v, 2)}%`}
 			margin={{ left: 10 + longestTitle * 8, bottom: 50, top: 20, right: 20 }}
 			layout="horizontal"
 			axisBottom={{

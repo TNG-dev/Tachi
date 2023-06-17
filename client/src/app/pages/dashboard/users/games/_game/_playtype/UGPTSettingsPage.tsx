@@ -1,5 +1,5 @@
 import { APIFetchV1 } from "util/api";
-import { UppercaseFirst } from "util/misc";
+import { ToFixedFloor, UppercaseFirst } from "util/misc";
 import { ErrorPage } from "app/pages/ErrorPage";
 import useSetSubheader from "components/layout/header/useSetSubheader";
 import Card from "components/layout/page/Card";
@@ -319,7 +319,7 @@ function PreferencesForm({ reqUser, game, playtype }: UGPT) {
 						</Col>
 						<Col xs={12} lg={3} className="my-auto">
 							Expected Profile VF6{" "}
-							{((formik.values.gameSpecific.vf6Target ?? 0) * 50).toFixed(2)}
+							{ToFixedFloor((formik.values.gameSpecific.vf6Target ?? 0) * 50, 2)}
 						</Col>
 					</Row>
 

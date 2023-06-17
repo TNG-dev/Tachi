@@ -68,7 +68,7 @@ export function FormatGPTProfileRating(
 		return gptConfig.profileRatingAlgs[key].formatter!(value);
 	}
 
-	return value.toFixed(2);
+	return ToFixedFloor(value, 2);
 }
 
 export function FormatGPTSessionRating(
@@ -572,4 +572,28 @@ export function isCardIDValid(cardID: string) {
 	}
 
 	return cardID.length === 16;
+}
+
+/**
+ * Floor a number to N decimal places.
+ *
+ * @example `FloorToNDP(1.594, 1) -> 1.5`
+ * @example `FloorToNDP(1.599, 2) -> 1.59`
+ *
+ * @param number - The number to floor.
+ * @param dp - The amount of decimal places to floor to.
+ */
+export function FloorToNDP(number: number, dp: integer) {
+	const mul = 10 ** dp;
+
+	return Math.floor(number * mul) / mul;
+}
+
+/**
+ * Format a number to this many decimal places, rounding down.
+ */
+export function ToFixedFloor(number: number, decimalPlaces: integer) {
+	const floored = FloorToNDP(number, decimalPlaces);
+
+	return floored.toString();
 }

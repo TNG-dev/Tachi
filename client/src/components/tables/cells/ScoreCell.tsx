@@ -1,4 +1,5 @@
 import { ChangeOpacity } from "util/color-opacity";
+import { ToFixedFloor } from "util/misc";
 import React from "react";
 import { integer } from "tachi-common";
 
@@ -24,8 +25,7 @@ export default function ScoreCell({
 		>
 			<strong>{grade}</strong>
 			<br />
-			{`${percent.toFixed(2)}%`}
-
+			{`${ToFixedFloor(percent, 2)}%`},
 			{score !== undefined && (
 				<>
 					<br />

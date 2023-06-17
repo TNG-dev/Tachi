@@ -1,5 +1,5 @@
 import { NumericSOV } from "util/sorts";
-import { UppercaseFirst } from "util/misc";
+import { ToFixedFloor, UppercaseFirst } from "util/misc";
 import React, { useMemo } from "react";
 import { GetGamePTConfig, integer } from "tachi-common";
 import { ConfDecimalScoreMetric, ConfIntegerScoreMetric } from "tachi-common/types/metrics";
@@ -109,7 +109,7 @@ export default function FolderScoreAverages({
 						playRate === 100 ? "success" : playRate > 50 ? "warning" : "danger"
 					}`}
 				>
-					{playRate.toFixed(2)}%
+					{ToFixedFloor(playRate, 2)}%
 					{unplayed > 0 && (
 						<>
 							<br />

@@ -1,5 +1,6 @@
 import { CreateChartMap } from "util/data";
 import { NumericSOV } from "util/sorts";
+import { ToFixedFloor } from "util/misc";
 import Card from "components/layout/page/Card";
 import PBTable from "components/tables/pbs/PBTable";
 import ApiError from "components/util/ApiError";
@@ -90,9 +91,10 @@ function Component({ game, playtype, reqUser }: UGPT) {
 		<Row>
 			<Col xs={12}>
 				<Card
-					header={`Pick-Up (${pickUpDataset
-						.reduce((a, e) => a + (e.calculatedData.jubility ?? 0), 0)
-						.toFixed(1)})`}
+					header={`Pick-Up (${ToFixedFloor(
+						pickUpDataset.reduce((a, e) => a + (e.calculatedData.jubility ?? 0), 0),
+						1
+					)})`}
 				>
 					<PBTable
 						game={game}
@@ -105,9 +107,10 @@ function Component({ game, playtype, reqUser }: UGPT) {
 				</Card>
 				<Divider />
 				<Card
-					header={`Common (${normalDataset
-						.reduce((a, e) => a + (e.calculatedData.jubility ?? 0), 0)
-						.toFixed(1)})`}
+					header={`Common (${ToFixedFloor(
+						normalDataset.reduce((a, e) => a + (e.calculatedData.jubility ?? 0), 0),
+						1
+					)})`}
 				>
 					<PBTable
 						game={game}
