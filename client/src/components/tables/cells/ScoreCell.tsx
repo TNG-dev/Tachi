@@ -25,7 +25,7 @@ export default function ScoreCell({
 		>
 			<strong>{grade}</strong>
 			<br />
-			{`${ToFixedFloor(percent, 2)}%`},
+			{`${ToFixedFloor(percent, 2)}%`}
 			{score !== undefined && (
 				<>
 					<br />
