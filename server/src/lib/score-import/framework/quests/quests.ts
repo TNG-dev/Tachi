@@ -8,6 +8,7 @@ import type {
 	GoalImportInfo,
 	integer,
 	Playtype,
+	QuestDocument,
 	QuestImportInfo,
 	QuestSubscriptionDocument,
 } from "tachi-common";
@@ -23,6 +24,17 @@ export async function UpdateUsersQuests(
 
 	const { quests, questSubs } = await GetRelevantQuests(goalIDs, game, playtypes, userID, logger);
 
+	return UpdateQuestsForUser(quests, questSubs, game, userID, logger);
+}
+
+export async function UpdateQuestsForUser(
+	quests: Array<QuestDocument>,
+	questSubs: Array<QuestSubscriptionDocument>,
+
+	game: Game,
+	userID: integer,
+	logger: KtLogger
+) {
 	// create a map here to avoid linear searching when
 	// co-iterating
 	const questSubMap = new Map<string, QuestSubscriptionDocument>();

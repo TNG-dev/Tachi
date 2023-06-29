@@ -5,6 +5,8 @@ import { SYMBOL_TACHI_API_AUTH } from "lib/constants/tachi";
 import { ONE_MINUTE } from "lib/constants/time";
 import CreateLogCtx, { ChangeRootLogLevel, GetLogLevel } from "lib/logger/logger";
 import { SendSiteAnnouncementNotification } from "lib/notifications/notification-wrappers";
+import { UpdateGoalsForUser } from "lib/score-import/framework/goals/goals";
+import { UpdateQuestsForUser } from "lib/score-import/framework/quests/quests";
 import { DeleteMultipleScores, DeleteScore } from "lib/score-mutation/delete-scores";
 import { ServerConfig, TachiConfig } from "lib/setup/config";
 import { p } from "prudence";
@@ -16,7 +18,7 @@ import { IsValidPlaytype } from "utils/misc";
 import DestroyUserGamePlaytypeData from "utils/reset-state/destroy-ugpt";
 import { GetUserWithID, ResolveUser } from "utils/user";
 import type { RequestHandler } from "express";
-import type { Game, integer, Playtype } from "tachi-common";
+import type { Game, GoalSubscriptionDocument, integer, Playtype } from "tachi-common";
 
 const logger = CreateLogCtx(__filename);
 
@@ -386,6 +388,61 @@ router.delete("/supporter/:userID", async (req, res) => {
 	return res.status(200).json({
 		success: true,
 		description: `Done.`,
+		body: {},
+	});
+});
+
+/**
+ * Reprocess all goals for every user. This should be used to un-screw the site
+ * if the server goes down or peoples goals fall out of sync. Obviously, this
+ * should never happen, but the error handling around this stuff is really wacky.
+ *
+ * @name POST /api/v1/admin/reprocess-all-goals
+ */
+router.post("/reprocess-all-goals", async (req, res) => {
+	const ugpts = await db["game-stats"].find({});
+
+	const promises = [];
+
+	for (const ugpt of ugpts) {
+		promises.push(async () => {
+			const logger = CreateLogCtx(`${ugpt.userID} ${ugpt.game}`);
+
+			const goalSubs = await db["goal-subs"].find({
+				game: ugpt.game,
+				playtype: ugpt.playtype,
+				userID: ugpt.userID,
+			});
+
+			const goalSubsMap = new Map<string, GoalSubscriptionDocument>();
+
+			for (const gSub of goalSubs) {
+				goalSubsMap.set(gSub.goalID, gSub);
+			}
+
+			const goals = await db.goals.find({
+				goalID: { $in: goalSubs.map((e) => e.goalID) },
+			});
+
+			await UpdateGoalsForUser(goals, goalSubsMap, ugpt.userID, logger);
+
+			const allQuestSubs = await db["quest-subs"].find({
+				game: ugpt.game,
+				playtype: ugpt.playtype,
+				userID: ugpt.userID,
+			});
+
+			const quests = await db.quests.find({
+				questID: { $in: allQuestSubs.map((e) => e.questID) },
+			});
+
+			await UpdateQuestsForUser(quests, allQuestSubs, ugpt.game, ugpt.userID, logger);
+		});
+	}
+
+	return res.status(200).json({
+		success: true,
+		description: "Reprocessed all goals.",
 		body: {},
 	});
 });
