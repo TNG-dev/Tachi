@@ -440,6 +440,8 @@ router.post("/reprocess-all-goals", async (req, res) => {
 		});
 	}
 
+	await Promise.all(promises);
+
 	return res.status(200).json({
 		success: true,
 		description: "Reprocessed all goals.",
