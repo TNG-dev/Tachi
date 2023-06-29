@@ -595,5 +595,5 @@ export function FloorToNDP(number: number, dp: integer) {
 export function ToFixedFloor(number: number, decimalPlaces: integer) {
 	const floored = FloorToNDP(number, decimalPlaces);
 
-	return floored.toString();
+	return floored.toFixed(decimalPlaces);
 }
