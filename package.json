@@ -1,6 +1,6 @@
 {
 	"name": "tachi",
-	"version": "2.4.2",
+	"version": "2.4.3",
 	"private": true,
 	"description": "The root of the Tachi monorepo. Contains common utils like linters.",
 	"scripts": {
