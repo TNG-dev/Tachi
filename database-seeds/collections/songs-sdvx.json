@@ -22561,5 +22561,125 @@
 			"DECO黻27"
 		],
 		"title": "ヒバナ-Reloaded-"
+	},
+	{
+		"altTitles": [],
+		"artist": "大神ミオ",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2104,
+		"searchTerms": [
+			"rinsaku_ookamimio"
+		],
+		"title": "凛として咲く花の如く"
+	},
+	{
+		"altTitles": [],
+		"artist": "technoplanet feat. Kuroto Sion",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2105,
+		"searchTerms": [
+			"happyend_technoplanet"
+		],
+		"title": "ハッピーエンド"
+	},
+	{
+		"altTitles": [],
+		"artist": "打打だいず + Tanchiky + siromaru",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2106,
+		"searchTerms": [
+			"tenkyuno_daizutanchisiromaru"
+		],
+		"title": "天穹のアルカナビット"
+	},
+	{
+		"altTitles": [],
+		"artist": "u-z feat.紫咲ほたる",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2107,
+		"searchTerms": [
+			"cadenzamaiden_uz"
+		],
+		"title": "CadenzaMaiden"
+	},
+	{
+		"altTitles": [],
+		"artist": "Capchii × low meow × Uzumaki",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2108,
+		"searchTerms": [
+			"fortune_capchii"
+		],
+		"title": "For.*tune"
+	},
+	{
+		"altTitles": [],
+		"artist": "Tsubusare BOZZ feat.madoka*",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2109,
+		"searchTerms": [
+			"kikaijikake_tsubusarebozz"
+		],
+		"title": "機械仕掛けの魔法使い"
+	},
+	{
+		"altTitles": [],
+		"artist": "coTatsu",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2110,
+		"searchTerms": [
+			"jumpscare_cotatsu"
+		],
+		"title": "Juωpscare!!"
+	},
+	{
+		"altTitles": [],
+		"artist": "かぼちゃ feat. CO-DA",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2111,
+		"searchTerms": [
+			"prideoffireball_kabochacoda"
+		],
+		"title": "PRIDE of the FIREBALL"
+	},
+	{
+		"altTitles": [],
+		"artist": "日夜すずり feat. 凜々",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2112,
+		"searchTerms": [
+			"dix_higurashisuzuri"
+		],
+		"title": "D.I.X."
+	},
+	{
+		"altTitles": [],
+		"artist": "Tracy feat. miko",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2113,
+		"searchTerms": [
+			"secondgame_tracy"
+		],
+		"title": "Second Game"
 	}
 ]
