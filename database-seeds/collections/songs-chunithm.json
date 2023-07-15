@@ -16585,5 +16585,64 @@
 		"id": 2385,
 		"searchTerms": [],
 		"title": "eden"
+	},
+	{
+		"altTitles": [],
+		"artist": "kanone",
+		"data": {
+			"displayVersion": "sun",
+			"genre": "ゲキマイ"
+		},
+		"id": 2399,
+		"searchTerms": [],
+		"title": "雷切-RAIKIRI-"
+	},
+	{
+		"altTitles": [],
+		"artist": "BlackY",
+		"data": {
+			"displayVersion": "sun",
+			"genre": "ゲキマイ"
+		},
+		"id": 2400,
+		"searchTerms": [],
+		"title": "LAMIA"
+	},
+	{
+		"altTitles": [],
+		"artist": "Zekk「WACCA」",
+		"data": {
+			"displayVersion": "sun",
+			"genre": "VARIETY"
+		},
+		"id": 2409,
+		"searchTerms": [
+			"furiforu",
+			"Freefall",
+			"Free Fall"
+		],
+		"title": "フリーフォール"
+	},
+	{
+		"altTitles": [],
+		"artist": "Kobaryo「WACCA」",
+		"data": {
+			"displayVersion": "sun",
+			"genre": "VARIETY"
+		},
+		"id": 2410,
+		"searchTerms": [],
+		"title": "Invisible Frenzy"
+	},
+	{
+		"altTitles": [],
+		"artist": "DJ Noriken「WACCA」",
+		"data": {
+			"displayVersion": "sun",
+			"genre": "VARIETY"
+		},
+		"id": 2411,
+		"searchTerms": [],
+		"title": "Quon"
 	}
 ]
