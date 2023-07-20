@@ -32,7 +32,7 @@ export interface BeatorajaScore {
 	exscore: integer;
 	passnotes: integer;
 	gauge: number;
-	deviceType: "BM_CONTROLLER" | "KEYBOARD";
+	deviceType: "BM_CONTROLLER" | "KEYBOARD" | "MIDI";
 	minbp: integer;
 	option: integer;
 

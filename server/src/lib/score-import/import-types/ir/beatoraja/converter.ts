@@ -15,7 +15,7 @@ import type { DryScore } from "../../../framework/common/types";
 import type { ConverterFunction } from "../../common/types";
 import type { BeatorajaChart, BeatorajaContext, BeatorajaScore } from "./types";
 import type { KtLogger } from "lib/logger/logger";
-import type { ChartDocument, SongDocument, Playtypes } from "tachi-common";
+import type { ChartDocument, SongDocument, Playtypes, Playtype } from "tachi-common";
 import type { Mutable } from "utils/types";
 
 const LAMP_LOOKUP = {
@@ -164,8 +164,16 @@ export const ConverterIRBeatoraja: ConverterFunction<BeatorajaScore, BeatorajaCo
 			"bms:7K" | "bms:14K"
 		> | null;
 	} else {
+		let playtype: Playtypes["pms"];
+
 		// It's still called BM_CONTROLLER even though its popn!
-		const playtype = data.deviceType === "BM_CONTROLLER" ? "Controller" : "Keyboard";
+		if (data.deviceType === "BM_CONTROLLER") {
+			playtype = "Controller";
+		} else if (data.deviceType === "KEYBOARD") {
+			playtype = "Keyboard";
+		} else {
+			throw new InvalidScoreFailure("MIDI is not allowed for PMS scores.");
+		}
 
 		chart = (await FindChartOnSHA256Playtype(game, data.sha256, playtype)) as ChartDocument<
 			"pms:Controller" | "pms:Keyboard"

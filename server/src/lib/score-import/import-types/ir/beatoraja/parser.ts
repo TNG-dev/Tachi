@@ -13,7 +13,7 @@ const PR_BEATORAJA_SCORE = {
 	exscore: p.isPositiveInteger,
 	passnotes: p.isPositiveInteger,
 	gauge: p.or(p.isBetween(0, 100), p.is(-1)),
-	deviceType: p.isIn("BM_CONTROLLER", "KEYBOARD"),
+	deviceType: p.isIn("BM_CONTROLLER", "KEYBOARD", "MIDI"),
 	minbp: p.or(p.isPositiveInteger, p.is(-1)),
 	option: p.isInteger,
 

@@ -338,7 +338,7 @@ export const BMS_7K_CONF = {
 
 	scoreMeta: z.strictObject({
 		random: RANDOM_SCHEMA.optional().nullable(),
-		inputDevice: z.enum(["BM_CONTROLLER", "KEYBOARD"]).optional().nullable(),
+		inputDevice: z.enum(["BM_CONTROLLER", "KEYBOARD", "MIDI"]).optional().nullable(),
 		client: z.enum(["lr2oraja", "LR2"]).optional().nullable(),
 		gauge: z.enum(["EASY", "NORMAL", "HARD", "EX-HARD"]).optional().nullable(),
 	}),
@@ -356,7 +356,7 @@ export const BMS_14K_CONF = {
 
 	scoreMeta: z.strictObject({
 		random: z.tuple([RANDOM_SCHEMA, RANDOM_SCHEMA]).optional().nullable(),
-		inputDevice: z.enum(["BM_CONTROLLER", "KEYBOARD"]).optional().nullable(),
+		inputDevice: z.enum(["BM_CONTROLLER", "KEYBOARD", "MIDI"]).optional().nullable(),
 		client: z.enum(["lr2oraja", "LR2"]).optional().nullable(),
 		gauge: z.enum(["EASY", "NORMAL", "HARD", "EX-HARD"]).optional().nullable(),
 	}),
