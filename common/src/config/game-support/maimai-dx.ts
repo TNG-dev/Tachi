@@ -10,6 +10,7 @@ export const MAIMAI_DX_CONF = {
 	playtypes: ["Single"],
 	songData: z.strictObject({
 		displayVersion: z.string(),
+		genre: z.string(),
 	}),
 } as const satisfies INTERNAL_GAME_CONFIG;
 
@@ -171,6 +172,7 @@ export const MAIMAI_DX_SINGLE_CONF = {
 	versions: {
 		universeplus: "UNiVERSE PLUS",
 		festival: "FESTiVAL",
+		festivalplus: "FESTiVAL PLUS",
 	},
 
 	chartData: z.strictObject({

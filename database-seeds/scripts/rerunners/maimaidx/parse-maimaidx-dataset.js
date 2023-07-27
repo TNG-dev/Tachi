@@ -1,8 +1,8 @@
 const fetch = require("node-fetch");
 const { CreateChartID, ReadCollection, WriteCollection } = require("../../util");
 
-const CURRENT_VERSION = "festival";
-const CURRENT_VERSION_NUM = 230;
+const CURRENT_VERSION = "festivalplus";
+const CURRENT_VERSION_NUM = 235;
 const DATA_URL = "https://maimai.sega.jp/data/maimai_songs.json";
 const ALIAS_URL =
 	"https://raw.githubusercontent.com/lomotos10/GCM-bot/main/data/aliases/en/maimai.tsv";
@@ -29,6 +29,7 @@ const versionMap = new Map([
 	[220, "UNiVERSE"],
 	[225, "UNiVERSE PLUS"],
 	[230, "FESTiVAL"],
+	[235, "FESTiVAL PLUS"]
 ]);
 
 const diffNames = ["bas", "adv", "exp", "mas", "remas"];
@@ -70,7 +71,7 @@ const versionOverrides = ["INTERNET OVERDOSE", "Knight Rider", "Let you DIVE!", 
 
 		let version = Number(data.version.substring(0, 3));
 		if (version > CURRENT_VERSION_NUM && !versionOverrides.includes(data.title)) {
-			// Skipping songs that are newer than currently supported version (FESTiVAL).
+			// Skipping songs that are newer than currently supported version (FESTiVAL PLUS).
 			continue;
 		}
 		if (data.title === "　" && data.artist === "x0o0x_") {
@@ -95,6 +96,7 @@ const versionOverrides = ["INTERNET OVERDOSE", "Knight Rider", "Let you DIVE!", 
 				altTitles,
 				data: {
 					displayVersion: versionMap.get(version),
+					genre: data.catcode.trim(),
 				},
 			});
 			console.log(`New song: ${data.artist.trim()} - ${data.title.trim()}`);
