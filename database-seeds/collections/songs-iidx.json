@@ -24362,5 +24362,38 @@
 		"id": 2203,
 		"searchTerms": [],
 		"title": "STAR BEAT"
+	},
+	{
+		"altTitles": [],
+		"artist": "Eagle feat.Kradness",
+		"data": {
+			"displayVersion": "inf",
+			"genre": "HYPER POP / BREAKCORE"
+		},
+		"id": 2204,
+		"searchTerms": [],
+		"title": "ALL OK!!"
+	},
+	{
+		"altTitles": [],
+		"artist": "BEMANI Sound Team \"HuΣeR\" feat.Fernweh",
+		"data": {
+			"displayVersion": "inf",
+			"genre": "HYPER JAPANESQUE"
+		},
+		"id": 2205,
+		"searchTerms": [],
+		"title": "Lycoris"
+	},
+	{
+		"altTitles": [],
+		"artist": "VOLTA",
+		"data": {
+			"displayVersion": "inf",
+			"genre": "TECH CORE"
+		},
+		"id": 2206,
+		"searchTerms": [],
+		"title": "Vector"
 	}
 ]

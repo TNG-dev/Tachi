@@ -42,3 +42,4 @@ failed-tests.log
 # bootstrap flag
 I_HAVE_BOOTSTRAPPED_OK
 database-seeds/scripts/rerunners/iidx/okapi-inf.js
+database-seeds/scripts/rerunners/iidx/okapi-inf legg.js
