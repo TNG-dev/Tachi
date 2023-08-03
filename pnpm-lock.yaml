@@ -261,7 +261,7 @@ importers:
       deepmerge: ^4.2.2
       encoding-japanese: ^1.0.30
       fast-json-stable-hash: ^1.0.3
-      fast-xml-parser: ^4.0.2
+      fast-xml-parser: ^4.2.5
       glob: ^7.2.0
       html-entities: ^2.3.2
       iconv-lite: ^0.6.3
@@ -272,7 +272,6 @@ importers:
       prudence: 0.10.0
       tachi-common: workspace:../../common
       tsconfig-paths: 3.12.0
-      xml2js: ^0.4.23
     dependencies:
       '@types/lodash.get': 4.4.7
       '@types/node': 18.11.18
@@ -284,7 +283,7 @@ importers:
       deepmerge: 4.2.2
       encoding-japanese: 1.0.30
       fast-json-stable-hash: 1.0.3
-      fast-xml-parser: 4.0.2
+      fast-xml-parser: 4.2.7
       glob: 7.2.3
       html-entities: 2.3.3
       iconv-lite: 0.6.3
@@ -294,7 +293,6 @@ importers:
       node-fetch: 2.6.7
       prudence: 0.10.0
       tachi-common: link:../../common
-      xml2js: 0.4.23
     devDependencies:
       tsconfig-paths: 3.12.0
 
@@ -404,7 +402,6 @@ importers:
       winston: 3.5.1
       winston-daily-rotate-file: 4.6.0
       winston-transport: 4.5.0
-      xml2js: ^0.5.0
     dependencies:
       '@aws-sdk/client-s3': 3.49.0_brkgtpysd3itykgdcoi6jctzqq
       '@aws-sdk/signature-v4-crt': 3.49.0
@@ -471,7 +468,6 @@ importers:
       winston: 3.5.1
       winston-daily-rotate-file: 4.6.0_winston@3.5.1
       winston-transport: 4.5.0
-      xml2js: 0.5.0
     devDependencies:
       '@types/supertest': 2.0.11
       '@types/tap': 15.0.5
@@ -5955,6 +5951,13 @@ packages:
       strnum: 1.0.5
     dev: false
 
+  /fast-xml-parser/4.2.7:
+    resolution: {integrity: sha512-J8r6BriSLO1uj2miOk1NW0YVm8AGOOu3Si2HQp/cSmo6EA4m3fcwu2WKjJ4RK9wMLBtg69y1kS8baDiQBR41Ig==}
+    hasBin: true
+    dependencies:
+      strnum: 1.0.5
+    dev: false
+
   /fastestsmallesttextencoderdecoder/1.0.22:
     resolution: {integrity: sha512-Pb8d48e+oIuY4MaM64Cd7OW1gt4nxCHs7/ddPPZ/Ic3sg8yVGM7O9wDvZ7us6ScaUupzM+pfBolwtYhN1IxBIw==}
     dev: false
@@ -9366,10 +9369,6 @@ packages:
     dependencies:
       chokidar: 3.5.3
 
-  /sax/1.2.4:
-    resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==}
-    dev: false
-
   /scheduler/0.20.2:
     resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}
     dependencies:
@@ -10837,27 +10836,6 @@ packages:
         optional: true
       utf-8-validate:
         optional: true
-    dev: false
-
-  /xml2js/0.4.23:
-    resolution: {integrity: sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==}
-    engines: {node: '>=4.0.0'}
-    dependencies:
-      sax: 1.2.4
-      xmlbuilder: 11.0.1
-    dev: false
-
-  /xml2js/0.5.0:
-    resolution: {integrity: sha512-drPFnkQJik/O+uPKpqSgr22mpuFHqKdbS835iAQrUC73L2F5WkboIRd63ai/2Yg6I1jzifPFKH2NTK+cfglkIA==}
-    engines: {node: '>=4.0.0'}
-    dependencies:
-      sax: 1.2.4
-      xmlbuilder: 11.0.1
-    dev: false
-
-  /xmlbuilder/11.0.1:
-    resolution: {integrity: sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==}
-    engines: {node: '>=4.0'}
     dev: false
 
   /xtend/4.0.2:
