@@ -29,7 +29,7 @@ const versionMap = new Map([
 	[220, "UNiVERSE"],
 	[225, "UNiVERSE PLUS"],
 	[230, "FESTiVAL"],
-	[235, "FESTiVAL PLUS"]
+	[235, "FESTiVAL PLUS"],
 ]);
 
 const diffNames = ["bas", "adv", "exp", "mas", "remas"];
@@ -42,8 +42,14 @@ const diffMap = new Map([
 	["remas", "Re:Master"],
 ]);
 
-// maimai DX FESTiVAL+ songs that are in maimai DX FESTiVAL International Version
-const versionOverrides = ["INTERNET OVERDOSE", "Knight Rider", "Let you DIVE!", "Trrricksters!!"];
+// Songs that are released in different versions in international and Japanese regions.
+// The key is the title in the dataset, and the value is the version to use.
+const versionOverrides = {
+	"INTERNET OVERDOSE": "festival",
+	"Knight Rider": "festival",
+	"Let you DIVE!": "festival",
+	"Trrricksters!!": "festival",
+};
 
 (async () => {
 	const songs = ReadCollection("songs-maimaidx.json");
@@ -69,7 +75,7 @@ const versionOverrides = ["INTERNET OVERDOSE", "Knight Rider", "Let you DIVE!", 
 	for (const data of datum) {
 		let thisSongID = songID;
 
-		let version = Number(data.version.substring(0, 3));
+		const version = versionOverrides[data.title] ?? Number(data.version.substring(0, 3));
 		if (version > CURRENT_VERSION_NUM && !versionOverrides.includes(data.title)) {
 			// Skipping songs that are newer than currently supported version (FESTiVAL PLUS).
 			continue;
@@ -77,9 +83,6 @@ const versionOverrides = ["INTERNET OVERDOSE", "Knight Rider", "Let you DIVE!", 
 		if (data.title === "　" && data.artist === "x0o0x_") {
 			// Manual override since the song's title is "" (empty) in the dataset.
 			continue;
-		}
-		if (versionOverrides.includes(data.title)) {
-			version = CURRENT_VERSION_NUM;
 		}
 
 		if (existingSongs.has(data.title)) {

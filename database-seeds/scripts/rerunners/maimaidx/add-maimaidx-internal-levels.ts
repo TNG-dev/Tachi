@@ -1,8 +1,8 @@
 /**
  * Run parse-maimaidx-dataset.js first.
  *
- * Internal levels for FESTiVAL songs are at
- * https://docs.google.com/spreadsheets/d/1xbDMo-36bGL_d435Oy8TTVq4ADFmxl9sYFqhTXiJYRg/edit
+ * Internal levels for FESTiVAL+ songs are at
+ * https://docs.google.com/spreadsheets/d/1xqXfzfDfxiEE9mREwgX_ITIY8AowRM7w-TH2t1I_RJE/edit
  *
  * Download sheets as CSV and use `-f <CSV filename>`.
  *
@@ -91,6 +91,7 @@ const manualTitleMap = new Map([
 	["God Knows…", "God knows..."],
 	["Jorqer", "Jörqer"],
 	["スカーレット警察のゲットーパトロール２４時", "スカーレット警察のゲットーパトロール24時"],
+	["Bad Apple!! feat.nomico 〜五十嵐撫子Ver.〜", "Bad Apple!! feat.nomico ～五十嵐 撫子 Ver.～"],
 ]);
 
 function normalizeTitle(title: string): string {
@@ -116,6 +117,16 @@ function normalizeTitle(title: string): string {
 			.replace(/～/gu, "~")
 			.replace(/－/gu, "-")
 			.replace(/＠/gu, "@")
+			.replace(/１/gu, "1")
+			.replace(/２/gu, "2")
+			.replace(/３/gu, "3")
+			.replace(/４/gu, "4")
+			.replace(/５/gu, "5")
+			.replace(/６/gu, "6")
+			.replace(/７/gu, "7")
+			.replace(/８/gu, "8")
+			.replace(/９/gu, "9")
+			.replace(/０/gu, "0")
 	);
 }
 
@@ -168,7 +179,7 @@ function addTmaiSheet(csvData: string[][]) {
 				break;
 			}
 
-			const song = songs.find((s) => s.title === title);
+			const song = findSong(songs, title, "");
 			if (!song) {
 				console.log(`Could not find song ${title}`);
 				continue;
@@ -248,7 +259,11 @@ function addOtherSheet(
 
 				const sheetDifficulty = row[colNumber + categoryColumnOffset + 2]!;
 				const internalLevelString = row[colNumber + categoryColumnOffset + 4];
-				if (!internalLevelString || internalLevelString === "#N/A") {
+				if (
+					!internalLevelString ||
+					internalLevelString === "#N/A" ||
+					internalLevelString === "-"
+				) {
 					continue;
 				}
 				const internalLevel = Number(internalLevelString.match(/\d+\.\d+/u)?.[0]);

@@ -8,8 +8,7 @@ const VERSION = "FESTiVAL PLUS";
 const VERSIONID = "festivalplus";
 const TITLE = `maimai DX (${VERSION})`;
 const SHORTTITLE = `${VERSIONID}-levels`; // this is used in the tableID
-const DESCRIPTION =
-	`Levels for maimai DX in ${VERSION}.`;
+const DESCRIPTION = `Levels for maimai DX in ${VERSION}.`;
 const LEVELS = [
 	"1",
 	"2",
@@ -46,7 +45,7 @@ MutateCollection("folders.json", (foldersCol) => {
 			type: "charts",
 			data: {
 				level,
-				versions: VERSIONID
+				versions: VERSIONID,
 			},
 			inactive: false,
 			searchTerms: [],
