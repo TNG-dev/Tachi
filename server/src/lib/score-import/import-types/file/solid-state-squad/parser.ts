@@ -32,7 +32,7 @@ const PR_SOLID_STATE: PrudenceSchema = {
 					// I *hate* XML.
 					//
 					// What a disaster.
-					songname: p.or("string", p.is(0.59)),
+					songname: p.or("string", "number"),
 					styles: "string",
 
 					exscore: p.isPositiveInteger,
@@ -66,7 +66,8 @@ const PR_SOLID_STATE: PrudenceSchema = {
 const xmlParser = new XMLParser();
 
 // .59 is a song that is interpreted as a float by our XML parser.
-type PreStringifiedS3Score = Omit<S3Score, "songname"> & { songname: string | 0.59 };
+// so is 2002 and 1989. I hate this parser.
+type PreStringifiedS3Score = Omit<S3Score, "songname"> & { songname: number | string };
 
 export function ParseSolidStateXML(
 	fileData: Express.Multer.File,
@@ -128,7 +129,7 @@ export function ParseSolidStateXML(
 		// Note that we can't even use the generic solution .toString, because the
 		// song title is .59, not 0.59.
 		// This is genuinely horrific.
-		songname: e.songname === 0.59 ? ".59" : e.songname,
+		songname: e.songname === 0.59 ? ".59" : String(e.songname),
 	}));
 
 	return {
