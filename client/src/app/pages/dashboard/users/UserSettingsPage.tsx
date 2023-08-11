@@ -77,7 +77,7 @@ export default function UserSettingsDocumentPage({ reqUser }: Props) {
 	);
 }
 
-function AccountSettings({ reqUser }: { reqUser: UserDocument }) {
+export function AccountSettings({ reqUser }: { reqUser: UserDocument }) {
 	const formikPassword = useFormik({
 		initialValues: {
 			"!oldPassword": "",

@@ -3,10 +3,12 @@ import { ONE_MINUTE } from "util/constants/time";
 import Divider from "components/util/Divider";
 import Muted from "components/util/Muted";
 import { UserContext } from "context/UserContext";
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
 import toast from "react-hot-toast";
 import { SetState } from "types/react";
+import useApiQuery from "components/util/query/useApiQuery";
+import { AccountSettings } from "app/pages/dashboard/users/UserSettingsPage";
 import useSetSubheader from "../header/useSetSubheader";
 
 export default function EmailVerify({
@@ -28,17 +30,27 @@ export default function EmailVerify({
 		return r.success ? r.body : false;
 	}
 
+	const { data } = useApiQuery<string>(`/users/${user!.id}/email`);
+
 	useEffect(() => {
 		const interval = setInterval(CheckEmail, ONE_MINUTE);
 
 		return () => clearInterval(interval);
 	}, []);
 
+	const [showChange, setShowChange] = useState(false);
+
 	return (
 		<div className="col-12 col-lg-6 offset-lg-3 text-center" style={{ fontSize: "1.4rem" }}>
 			One last thing! You need to verify your email before you can use the site.
 			<br />
-			An email has been sent to the address you signed up with. (<code>{email}</code>)
+			An email has been sent to the address you signed up with.
+			{data && (
+				<>
+					{" "}
+					(<code>{data}</code>)
+				</>
+			)}
 			<br />
 			It might've ended up in your spam, so check there too!
 			<br />
@@ -62,9 +74,24 @@ export default function EmailVerify({
 				Yup, verified my email.
 			</Button>
 			<Divider />
-			<a
+			<Button
+				variant="danger"
+				onClick={() => {
+					setShowChange(!showChange);
+				}}
+			>
+				I signed up with the wrong email address. Let me change it!
+			</Button>
+			{showChange && (
+				<div className="col-12">
+					<Divider className="mt-4 mb-4" />
+					<AccountSettings reqUser={user!} />
+				</div>
+			)}
+			<Divider />
+			<Button
 				style={{ fontSize: "1.1rem" }}
-				href="#"
+				variant="warning"
 				onClick={async () => {
 					await APIFetchV1("/auth/resend-verify-email", {
 						method: "POST",
@@ -74,7 +101,7 @@ export default function EmailVerify({
 				}}
 			>
 				I haven't got it. Re-send the email!
-			</a>
+			</Button>
 			<br />
 			<span style={{ fontSize: "1rem" }}>
 				<Muted>
