@@ -150,6 +150,11 @@ export function AccountSettings({ reqUser }: { reqUser: UserDocument }) {
 						placeholder="Your Current Password"
 						onChange={formikEmail.handleChange}
 					/>
+					{formikEmail.values["!password"].length < 8 && (
+						<Form.Text className="text-warning">
+							Passwords have to be at least 8 characters long.
+						</Form.Text>
+					)}
 				</Form.Group>
 				<Form.Group>
 					<Form.Label>New Email</Form.Label>
@@ -160,11 +165,6 @@ export function AccountSettings({ reqUser }: { reqUser: UserDocument }) {
 						placeholder="New Email"
 						onChange={formikEmail.handleChange}
 					/>
-					{formikEmail.values["!password"].length < 8 && (
-						<Form.Text className="text-warning">
-							Passwords have to be at least 8 characters long.
-						</Form.Text>
-					)}
 				</Form.Group>
 				<Form.Group>
 					<Form.Label>Confirm New Email</Form.Label>
