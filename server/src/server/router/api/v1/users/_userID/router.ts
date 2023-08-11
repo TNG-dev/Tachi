@@ -11,16 +11,19 @@ import notifsRouter from "./notifications/router";
 import pfpRouter from "./pfp/router";
 import sessionsRouter from "./sessions/router";
 import settingsRouter from "./settings/router";
-import { HashPassword, PasswordCompare, ValidatePassword } from "../../auth/auth";
+import { HashPassword, PasswordCompare, ValidateEmail, ValidatePassword } from "../../auth/auth";
 import { Router } from "express";
 import db from "external/mongo/db";
 import { GetRecentActivity } from "lib/activity/activity";
 import { ONE_MONTH } from "lib/constants/time";
+import { SendEmail } from "lib/email/client";
+import { EmailFormatVerifyEmail } from "lib/email/formats";
 import CreateLogCtx from "lib/logger/logger";
 import { GetRivalIDs } from "lib/rivals/rivals";
+import { ServerConfig } from "lib/setup/config";
 import { p } from "prudence";
 import prValidate from "server/middleware/prudence-validate";
-import { DeleteUndefinedProps, IsNonEmptyString, StripUrl } from "utils/misc";
+import { DeleteUndefinedProps, IsNonEmptyString, Random20Hex, StripUrl } from "utils/misc";
 import { optNullFluffStrField } from "utils/prudence";
 import {
 	GetGoalSummary,
@@ -29,7 +32,7 @@ import {
 	GetRecentlyViewedFoldersAnyGPT,
 } from "utils/queries/summary";
 import { GetUser } from "utils/req-tachi-data";
-import { FormatUserDoc, GetAllRankings, GetUserWithID } from "utils/user";
+import { CheckIfEmailInUse, FormatUserDoc, GetAllRankings, GetUserWithID } from "utils/user";
 import type {
 	AnyProfileRatingAlg,
 	GPTString,
@@ -308,6 +311,120 @@ router.get("/is-email-verified", RequireSelfRequestFromUser, async (req, res) =>
 		body: true,
 	});
 });
+
+/**
+ * Get what email this user signed up with.
+ *
+ * @name GET /api/v1/users/:userID/email
+ */
+router.get("/email", RequireSelfRequestFromUser, async (req, res) => {
+	const user = GetUser(req);
+
+	const email = await db["user-private-information"].findOne({
+		userID: user.id,
+	});
+
+	if (email) {
+		return res.status(200).json({
+			success: true,
+			description: `User signed up with this email.`,
+			body: email.email,
+		});
+	}
+
+	logger.error(`User ${user.id} doesn't have private info?`);
+
+	return res.status(500).json({
+		success: false,
+		description: `Internal Server Error`,
+	});
+});
+
+/**
+ * Change what email is associated with this account.
+ *
+ * @name GET /api/v1/users/:userID/email
+ */
+router.post(
+	"/change-email",
+	RequireSelfRequestFromUser,
+	prValidate({
+		email: ValidateEmail,
+		"!password": ValidatePassword,
+	}),
+	async (req, res) => {
+		const user = GetUser(req);
+
+		const body = req.safeBody as {
+			"!password": string;
+			email: string;
+		};
+
+		const privateInfo = await db["user-private-information"].findOne({
+			userID: user.id,
+		});
+
+		if (!privateInfo) {
+			logger.error(`User ${user.id} has no associated private info?`);
+			return res.status(500).json({
+				success: false,
+				description: `Internal server error.`,
+			});
+		}
+
+		const isPasswordValid = await PasswordCompare(body["!password"], privateInfo.password);
+
+		if (!isPasswordValid) {
+			return res.status(403).json({
+				success: false,
+				description: `Invalid password.`,
+			});
+		}
+
+		const existingEmail = await CheckIfEmailInUse(body.email);
+
+		if (existingEmail) {
+			logger.info(`User attempted to change to email that was already in use.`);
+			return res.status(409).json({
+				success: false,
+				description: `This email is already in use.`,
+			});
+		}
+
+		logger.info(`User ${user.id} changed email from ${privateInfo.email} to ${body.email}`);
+
+		await db["user-private-information"].update(
+			{
+				userID: user.id,
+			},
+			{
+				$set: {
+					email: body.email,
+				},
+			}
+		);
+
+		if (ServerConfig.EMAIL_CONFIG) {
+			const resetEmailCode = Random20Hex();
+
+			await db["verify-email-codes"].insert({
+				code: resetEmailCode,
+				userID: user.id,
+				email: body.email,
+			});
+
+			const { text, html } = EmailFormatVerifyEmail(user.username, resetEmailCode);
+
+			void SendEmail(body.email, "Email Verification", html, text);
+		}
+
+		return res.status(200).json({
+			success: true,
+			description: `Re-sent email verification to new email`,
+			body: null,
+		});
+	}
+);
 
 /**
  * Changes the users password.

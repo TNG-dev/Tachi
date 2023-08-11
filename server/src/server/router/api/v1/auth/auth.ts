@@ -18,6 +18,10 @@ const BCRYPT_SALT_ROUNDS = 12;
 export const ValidatePassword = (self: unknown) =>
 	(typeof self === "string" && self.length >= 8) || "Passwords must be 8 characters or more.";
 
+const LAZY_EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/u;
+
+export const ValidateEmail = p.regex(LAZY_EMAIL_REGEX);
+
 /**
  * Compares a plaintext string of a users password to a hash.
  * @param plaintext The provided user input.

@@ -38,7 +38,7 @@ export default function EmailVerify({
 		<div className="col-12 col-lg-6 offset-lg-3 text-center" style={{ fontSize: "1.4rem" }}>
 			One last thing! You need to verify your email before you can use the site.
 			<br />
-			An email has been sent to the address you signed up with.
+			An email has been sent to the address you signed up with. (<code>{email}</code>)
 			<br />
 			It might've ended up in your spam, so check there too!
 			<br />

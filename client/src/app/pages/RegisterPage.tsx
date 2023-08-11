@@ -51,6 +51,16 @@ export default function RegisterPage() {
 				return;
 			}
 
+			// user trying to gmail but can't use their keyboard
+			// like TEN people have made this mistake and then complained to me on discord
+			// what the hell?
+			//
+			// how do real websites deal with this?
+			if (values.email.match(/@gma/u) && !values.email.match(/@gmail\.com *$/u)) {
+				setErr("This email address is probably typo'd. Did you mean 'gmail'?");
+				return;
+			}
+
 			const rj = await APIFetchV1<UserDocument>(
 				"/auth/register",
 				{
@@ -70,7 +80,9 @@ export default function RegisterPage() {
 				true
 			);
 
-			recaptchaRef.current.reset();
+			if (recaptchaRef.current) {
+				recaptchaRef.current.reset();
+			}
 
 			if (!rj.success) {
 				setErr(HumaniseError(rj.description));

@@ -6,6 +6,7 @@ import {
 	PasswordCompare,
 	ReinstateInvite,
 	ValidateCaptcha,
+	ValidateEmail,
 	ValidatePassword,
 } from "./auth";
 import { Router } from "express";
@@ -36,8 +37,6 @@ import type { integer } from "tachi-common";
 const logger = CreateLogCtx(__filename);
 
 const router: Router = Router({ mergeParams: true });
-
-const LAZY_EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/u;
 
 /**
  * Logs in a user.
@@ -170,7 +169,7 @@ router.post(
 		{
 			username: p.regex(/^[a-zA-Z_-][a-zA-Z0-9_-]{2,20}$/u),
 			"!password": ValidatePassword,
-			email: p.regex(LAZY_EMAIL_REGEX),
+			email: ValidateEmail,
 			inviteCode: "*string",
 			captcha: "string",
 		},
