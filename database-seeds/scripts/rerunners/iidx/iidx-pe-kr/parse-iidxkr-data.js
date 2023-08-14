@@ -64,8 +64,8 @@ async function parseKr(file, mode, catVals) {
 					chartID: chart.chartID,
 				},
 				data: {
-					tierlistInfo: {
-						[`kt-${mode}`]: {
+					data: {
+						[mode]: {
 							text: cv.text,
 							value: cv.value,
 							individualDifference: cv.idv,
@@ -89,7 +89,7 @@ function h(text, value, idv = false) {
 	return { text, value, idv };
 }
 
-parseKr("sp11N.json", "NC", [
+parseKr("sp11N.json", "ncTier", [
 	h("11S+", 12.2),
 	h("11S", 12),
 	h("11A+", 11.9),
@@ -101,18 +101,23 @@ parseKr("sp11N.json", "NC", [
 	h("11F", 10.8),
 ]);
 
-parseKr("sp11H.json", "HC", [
+parseKr("sp11H.json", "hcTier", [
 	h("11S+", 12.2),
 	h("11S+", 12.2, true), // 個人差
-	h("11S", 12),
-	h("11S", 12, true), // 個人差
+	h("11S", 12.0),
+	h("11S", 12.0, true), // 個人差
+	h("11S-", 11.95),
+	h("11S-", 11.95, true), // 個人差
 	h("11A+", 11.9),
 	h("11A+", 11.9, true), // 個人差
 	h("11A", 11.8),
 	h("11A", 11.8, true), // 個人差
 	h("11B+", 11.7),
+	h("11B+", 11.7, true),
 	h("11B", 11.6),
+	h("11B", 11.6, true),
 	h("11C", 11.4),
+	h("11C", 11.4, true),
 	h("11D", 11.2),
 	h("11E", 11.0),
 	h("11F", 10.8),
