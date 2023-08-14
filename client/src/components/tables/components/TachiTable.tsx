@@ -4,9 +4,10 @@ import Icon from "components/util/Icon";
 import SmallText from "components/util/SmallText";
 import { useZTable, ZTableSortFn } from "components/util/table/useZTable";
 import { UserSettingsContext } from "context/UserSettingsContext";
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
 import { integer } from "tachi-common";
+import Select from "components/util/Select";
 import FilterDirectivesIndicator from "./FilterDirectivesIndicator";
 import NoDataWrapper from "./NoDataWrapper";
 import PageSelector from "./PageSelector";
@@ -98,6 +99,16 @@ export default function TachiTable<D>({
 
 	const sortFunctions = GetSortFunctions(headers);
 
+	const ztable = useZTable(dataset ?? [], {
+		search,
+		searchFunction,
+		sortFunctions,
+		entryName,
+		pageLen,
+		defaultSortMode,
+		defaultReverseSort,
+	});
+
 	const {
 		window,
 		setPage,
@@ -111,15 +122,7 @@ export default function TachiTable<D>({
 		reverseSort,
 		changeSort,
 		filteredDataset,
-	} = useZTable(dataset ?? [], {
-		search,
-		searchFunction,
-		sortFunctions,
-		entryName,
-		pageLen,
-		defaultSortMode,
-		defaultReverseSort,
-	});
+	} = ztable;
 
 	const headersRow = ParseHeaders(headers, {
 		changeSort,
@@ -162,7 +165,18 @@ export default function TachiTable<D>({
 			</div>
 			<div className="col-12 px-0">
 				<div className="row">
-					<div className="col-lg-4 align-self-center">{displayStr}</div>
+					<div className="col-lg-4 align-self-center">
+						<Select
+							name={`Show this many ${entryName}:`}
+							value={ztable.pageLen.toString()}
+							setValue={(e) => ztable.setPageLen(Number(e))}
+						>
+							<option value="10">10</option>
+							<option value="25">25</option>
+							<option value="50">50</option>
+							<option value="100">100</option>
+						</Select>
+					</div>
 					<div className="d-none d-lg-flex col-lg-4 justify-content-center align-items-center">
 						{settings?.preferences.developerMode && (
 							<Button

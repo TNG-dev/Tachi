@@ -33,7 +33,7 @@ export function useZTable<D>(originalDataset: D[], providedOptions?: Partial<ZTa
 	const {
 		search,
 		entryName,
-		pageLen,
+		pageLen: initialPageLen,
 		defaultReverseSort,
 		searchFunction,
 		sortFunctions,
@@ -41,6 +41,7 @@ export function useZTable<D>(originalDataset: D[], providedOptions?: Partial<ZTa
 	} = options;
 
 	const [page, setPage] = useState(1);
+	const [pageLen, setPageLen] = useState(initialPageLen);
 
 	// what we're currently sorting on. If null, use natural order.
 	const [sortMode, setSortMode] = useState(defaultSortMode);
@@ -67,7 +68,7 @@ export function useZTable<D>(originalDataset: D[], providedOptions?: Partial<ZTa
 		return mutatedSet;
 	}, [search, originalDataset, sortMode, reverseSort]);
 
-	const maxPage = useMemo(() => Math.ceil(dataset.length / pageLen), [dataset]);
+	const maxPage = useMemo(() => Math.ceil(dataset.length / pageLen), [dataset, pageLen]);
 
 	const pageState = useMemo(() => {
 		if ((page === maxPage && page === 1) || maxPage === 0) {
@@ -96,12 +97,12 @@ export function useZTable<D>(originalDataset: D[], providedOptions?: Partial<ZTa
 		)} of ${dataset.length} ${entryName}${
 			search !== "" ? ` (Filtered from ${originalDataset.length})` : ""
 		}.`;
-	}, [page, dataset]);
+	}, [page, dataset, pageLen]);
 
 	// Create a sliding window that can be used for pagination.
 	const window = useMemo(
 		() => dataset.slice((page - 1) * pageLen, page * pageLen),
-		[page, dataset, search]
+		[page, dataset, search, pageLen]
 	);
 
 	// simple utilities for previous and next buttons
@@ -111,6 +112,11 @@ export function useZTable<D>(originalDataset: D[], providedOptions?: Partial<ZTa
 
 	const decrementPage = () => {
 		setPage(page - 1);
+	};
+
+	const setInnerPageLen = (pageLen: number) => {
+		setPageLen(pageLen);
+		setPage(1);
 	};
 
 	// utility for sorting
@@ -137,5 +143,7 @@ export function useZTable<D>(originalDataset: D[], providedOptions?: Partial<ZTa
 		changeSort,
 		reverseSort,
 		filteredDataset: dataset,
+		pageLen,
+		setPageLen: setInnerPageLen,
 	};
 }
