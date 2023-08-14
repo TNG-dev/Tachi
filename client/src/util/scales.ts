@@ -7,6 +7,7 @@ const scales: Record<Game, number> = {
 	chunithm: 5,
 	gitadora: 1,
 	maimaidx: 1,
+	maimai: 1,
 	museca: 5,
 	sdvx: 5,
 	usc: 5,

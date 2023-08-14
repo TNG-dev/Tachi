@@ -8,7 +8,7 @@ import { TachiConfig } from "lib/config";
 import { PrudenceSchema, p } from "prudence";
 import React, { useEffect, useMemo, useState } from "react";
 import { Alert, Button, Col, Form, Modal, Row } from "react-bootstrap";
-import { FormatPrError, GetGameConfig } from "tachi-common";
+import { FormatPrError, GetGameConfig, GetGamePTConfig, GetScoreMetrics } from "tachi-common";
 import { PR_GOAL_SCHEMA } from "tachi-common/lib/schemas";
 import { SetState } from "types/react";
 import { RawQuestDocument } from "types/tachi";
@@ -38,8 +38,33 @@ const PR_LOCAL_QUESTS_SCHEMA: PrudenceSchema = {
 						{
 							goal: {
 								name: "string",
-								charts: PR_GOAL_SCHEMA.charts,
-								criteria: PR_GOAL_SCHEMA.criteria,
+								charts: p.or(
+									{
+										type: p.is("folder"),
+										data: "string",
+									},
+									{
+										type: p.is("multi"),
+										data: ["string"],
+									},
+									{
+										type: p.is("single"),
+										data: "string",
+									}
+								),
+								criteria: p.or(
+									{
+										mode: p.is("single"),
+										key: "string", // temp
+										value: "number",
+									},
+									{
+										mode: p.isIn("absolute", "proportion"),
+										countNum: p.isPositive,
+										key: "string", // temp
+										value: "number",
+									}
+								),
 							},
 							note: p.optional("string"),
 						},
