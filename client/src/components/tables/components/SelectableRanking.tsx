@@ -36,7 +36,7 @@ export default function SelectableRanking({
 	}
 
 	return (
-		<th className="vstack gap-1 align-items-center justify-content-center">
+		<th className="align-items-center justify-content-center">
 			<select
 				onChange={(v) => setRankingViewMode(v.target.value as RankingViewMode)}
 				value={rankingViewMode}

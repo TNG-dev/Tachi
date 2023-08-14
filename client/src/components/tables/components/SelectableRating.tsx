@@ -36,7 +36,7 @@ export default function SelectableRating<GPT extends GPTString>({
 	}
 
 	return (
-		<th className="vstack gap-1 align-items-center justify-content-center">
+		<th className="align-items-center justify-content-center">
 			<select
 				onChange={(v) => setRating(v.target.value as AllRatings<GPT>)}
 				value={rating}
