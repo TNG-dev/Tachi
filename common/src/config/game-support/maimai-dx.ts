@@ -56,6 +56,41 @@ const MaimaiDXColours = [
 	ClassValue("RAINBOW", "Rainbow"),
 ];
 
+const MaimaiDXMatchingClasses = [
+	ClassValue("B5", "B5"),
+	ClassValue("B4", "B4"),
+	ClassValue("B3", "B3"),
+	ClassValue("B2", "B2"),
+	ClassValue("B1", "B1"),
+
+	ClassValue("A5", "A5"),
+	ClassValue("A5", "A5"),
+	ClassValue("A4", "A4"),
+	ClassValue("A3", "A3"),
+	ClassValue("A2", "A2"),
+	ClassValue("A1", "A1"),
+
+	ClassValue("S5", "S5"),
+	ClassValue("S4", "S4"),
+	ClassValue("S3", "S3"),
+	ClassValue("S2", "S2"),
+	ClassValue("S1", "S1"),
+
+	ClassValue("SS5", "SS5"),
+	ClassValue("SS4", "SS4"),
+	ClassValue("SS3", "SS3"),
+	ClassValue("SS2", "SS2"),
+	ClassValue("SS1", "SS1"),
+
+	ClassValue("SSS5", "SSS5"),
+	ClassValue("SSS4", "SSS4"),
+	ClassValue("SSS3", "SSS3"),
+	ClassValue("SSS2", "SSS2"),
+	ClassValue("SSS1", "SSS1"),
+
+	ClassValue("LEGEND", "Legend"),
+]
+
 export const MAIMAI_DX_SINGLE_CONF = {
 	providedMetrics: {
 		percent: {
@@ -165,6 +200,10 @@ export const MAIMAI_DX_SINGLE_CONF = {
 			type: "PROVIDED",
 			values: MaimaiDXDans,
 		},
+		matchingClass: {
+			type: "PROVIDED",
+			values: MaimaiDXMatchingClasses,
+		}
 	},
 
 	orderedJudgements: ["pcrit", "perfect", "great", "good", "miss"],

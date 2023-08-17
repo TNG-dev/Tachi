@@ -343,6 +343,38 @@ export const GPT_CLIENT_IMPLEMENTATIONS: GPTClientImplementations = {
 					color: "var(--bs-dark)",
 				},
 			},
+			matchingClass: {
+				B5: bgc("green", "var(--bs-light)"),
+				B4: bgc("green", "var(--bs-light)"),
+				B3: bgc("green", "var(--bs-light)"),
+				B2: bgc("green", "var(--bs-light)"),
+				B1: bgc("green", "var(--bs-light)"),
+				A5: bgc("red", "var(--bs-light)"),
+				A4: bgc("red", "var(--bs-light)"),
+				A3: bgc("red", "var(--bs-light)"),
+				A2: bgc("red", "var(--bs-light)"),
+				A1: bgc("red", "var(--bs-light)"),
+				S5: bgc("brown", "var(--bs-light)"),
+				S4: bgc("brown", "var(--bs-light)"),
+				S3: bgc("brown", "var(--bs-light)"),
+				S2: bgc("brown", "var(--bs-light)"),
+				S1: bgc("brown", "var(--bs-light)"),
+				SS5: bgc("gray", "var(--bs-light)"),
+				SS4: bgc("gray", "var(--bs-light)"),
+				SS3: bgc("gray", "var(--bs-light)"),
+				SS2: bgc("gray", "var(--bs-light)"),
+				SS1: bgc("gray", "var(--bs-light)"),
+				SSS5: bgc("var(--bs-warning)", "var(--bs-dark)"),
+				SSS4: bgc("var(--bs-warning)", "var(--bs-dark)"),
+				SSS3: bgc("var(--bs-warning)", "var(--bs-dark)"),
+				SSS2: bgc("var(--bs-warning)", "var(--bs-dark)"),
+				SSS1: bgc("var(--bs-warning)", "var(--bs-dark)"),
+				LEGEND: {
+					background:
+						"linear-gradient(-45deg, #f0788a, #f48fb1, #9174c2, #79bcf2, #70a173, #f7ff99, #faca7d, #ff9d80, #f0788a)",
+					color: "var(--bs-dark)",
+				}
+			}
 		},
 		difficultyColours: {
 			Basic: COLOUR_SET.green,
@@ -658,8 +690,8 @@ export const GPT_CLIENT_IMPLEMENTATIONS: GPTClientImplementations = {
 							{chart.data.rankedLevel === null
 								? "Unranked Chart."
 								: sc.calculatedData.blockRating === null
-								? "Failed"
-								: sc.calculatedData.blockRating}
+									? "Failed"
+									: sc.calculatedData.blockRating}
 						</strong>
 					</td>
 				) : (
