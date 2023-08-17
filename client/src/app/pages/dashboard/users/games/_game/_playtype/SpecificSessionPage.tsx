@@ -138,7 +138,8 @@ function SessionPage({ data, game, playtype }: UGPT & { data: SessionReturns }) 
 					<EditableText
 						as="h1"
 						className="enable-rfs"
-						initial={session.name}
+						initialText={session.name || ""}
+						placeholderText={session.name || "Untitled Session"}
 						onSubmit={(name) => {
 							const newSession: SessionReturns = {
 								...sessionData,
@@ -156,7 +157,8 @@ function SessionPage({ data, game, playtype }: UGPT & { data: SessionReturns }) 
 					/>
 
 					<EditableText
-						initial={session.desc ?? "No Description..."}
+						initialText={session.desc || ""}
+						placeholderText={session.desc || "No Description..."}
 						className="fs-5"
 						onSubmit={(desc) => {
 							const newSession: SessionReturns = {
