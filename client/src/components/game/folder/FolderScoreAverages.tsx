@@ -100,72 +100,74 @@ export default function FolderScoreAverages({
 	const playRate = (100 * played.length) / folderDataset.length;
 
 	return (
-		<MiniTable className="table-responsive-md" headers={["Score Stats"]} colSpan={100}>
-			<tr>
-				<td>Played</td>
-				<td
-					colSpan={6}
-					className={`text-${
-						playRate === 100 ? "success" : playRate > 50 ? "warning" : "danger"
-					}`}
-				>
-					{ToFixedFloor(playRate, 2)}%
-					{unplayed > 0 && (
-						<>
-							<br />
-							<Muted>
-								({played.length} played, {unplayed} unplayed)
-							</Muted>
-						</>
-					)}
-				</td>
-			</tr>
-			{Object.entries(data).map(([k, v]) => (
-				<>
-					<tr>
-						<td>{UppercaseFirst(k)} Average (Played Charts)</td>
-						{/* @ts-expect-error this won't fail */}
-						<td colSpan={6}>{metrics[k].formatter(v.avgPlayed)}</td>
-					</tr>
-					<tr>
-						<td>{UppercaseFirst(k)} Average (All Charts)</td>
-						{/* @ts-expect-error this won't fail */}
-						<td colSpan={6}>{metrics[k].formatter(v.avgAll)}</td>
-					</tr>
-					<tr>
-						<td>Best {UppercaseFirst(k)}</td>
-						<DifficultyCell alwaysShort chart={v.best} game={game} />
-						<TitleCell
-							game={game}
-							song={v.best.__related.song}
-							chart={v.best}
-							comment={v.best.__related.pb.comment}
-						/>
-						<ScoreCoreCells
-							game={game}
-							score={v.best.__related.pb}
-							short
-							chart={v.best}
-						/>
-					</tr>
-					<tr>
-						<td>Worst {UppercaseFirst(k)}</td>
-						<DifficultyCell alwaysShort chart={v.worst} game={game} />
-						<TitleCell
-							game={game}
-							song={v.worst.__related.song}
-							chart={v.worst}
-							comment={v.worst.__related.pb.comment}
-						/>
-						<ScoreCoreCells
-							game={game}
-							score={v.worst.__related.pb}
-							short
-							chart={v.worst}
-						/>
-					</tr>
-				</>
-			))}
-		</MiniTable>
+		<div className="overflow-auto">
+			<MiniTable headers={["Score Stats"]} colSpan={100}>
+				<tr>
+					<td>Played</td>
+					<td
+						colSpan={6}
+						className={`text-${
+							playRate === 100 ? "success" : playRate > 50 ? "warning" : "danger"
+						}`}
+					>
+						{ToFixedFloor(playRate, 2)}%
+						{unplayed > 0 && (
+							<>
+								<br />
+								<Muted>
+									({played.length} played, {unplayed} unplayed)
+								</Muted>
+							</>
+						)}
+					</td>
+				</tr>
+				{Object.entries(data).map(([k, v]) => (
+					<>
+						<tr>
+							<td>{UppercaseFirst(k)} Average (Played Charts)</td>
+							{/* @ts-expect-error this won't fail */}
+							<td colSpan={6}>{metrics[k].formatter(v.avgPlayed)}</td>
+						</tr>
+						<tr>
+							<td>{UppercaseFirst(k)} Average (All Charts)</td>
+							{/* @ts-expect-error this won't fail */}
+							<td colSpan={6}>{metrics[k].formatter(v.avgAll)}</td>
+						</tr>
+						<tr>
+							<td>Best {UppercaseFirst(k)}</td>
+							<DifficultyCell alwaysShort chart={v.best} game={game} />
+							<TitleCell
+								game={game}
+								song={v.best.__related.song}
+								chart={v.best}
+								comment={v.best.__related.pb.comment}
+							/>
+							<ScoreCoreCells
+								game={game}
+								score={v.best.__related.pb}
+								short
+								chart={v.best}
+							/>
+						</tr>
+						<tr>
+							<td>Worst {UppercaseFirst(k)}</td>
+							<DifficultyCell alwaysShort chart={v.worst} game={game} />
+							<TitleCell
+								game={game}
+								song={v.worst.__related.song}
+								chart={v.worst}
+								comment={v.worst.__related.pb.comment}
+							/>
+							<ScoreCoreCells
+								game={game}
+								score={v.worst.__related.pb}
+								short
+								chart={v.worst}
+							/>
+						</tr>
+					</>
+				))}
+			</MiniTable>
+		</div>
 	);
 }

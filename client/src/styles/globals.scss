@@ -5,9 +5,9 @@
 .credits-easter-egg {
     transition: text-decoration-color 120ms ease-in-out;
     text-decoration: underline;
-    text-decoration-color: rgba($link-color, 0);
+    text-decoration-color: transparent;
     &:hover {
-        text-decoration-color: rgba($link-color, 1);
+        text-decoration-color: var(--#{$prefix}body-color);
     }
 }
 

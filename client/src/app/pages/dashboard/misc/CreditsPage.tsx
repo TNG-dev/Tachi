@@ -43,7 +43,7 @@ export default function CreditsPage() {
 			<Divider />
 			<p>
 				If you want to support {TachiConfig.name} development, see{" "}
-				<Link to="/support">Support</Link>.
+				<Link to="/support" className="text-decoration-underline">Support</Link>.
 			</p>
 			<Divider />
 
@@ -51,7 +51,7 @@ export default function CreditsPage() {
 				<h1 className="user-select-none">
 					De
 					<span
-						className="text-white credits-easter-egg"
+						className="credits-easter-egg"
 						onClick={() => {
 							if (alt) {
 								// Force a different RFA

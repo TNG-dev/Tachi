@@ -158,7 +158,7 @@ export default function TachiTable<D>({
 					</InputGroup>
 				)}
 			</div>
-			<div className="col-12 px-0 mt-4 mb-4 overflow-x-auto overflow-x-lg-hidden">
+			<div className="px-0 mt-4 mb-4 overflow-x-auto overflow-x-lg-hidden">
 				<table className="table table-striped table-hover table-vertical-center text-center">
 					<thead>{headersRow}</thead>
 					<tbody>
@@ -166,56 +166,55 @@ export default function TachiTable<D>({
 					</tbody>
 				</table>
 			</div>
-			<div className="col-12 px-0">
-				<div className="row">
-					<div className="col-lg-4 align-self-center">
-						<Select
-							name={`Show this many ${entryName}:`}
-							value={ztable.pageLen.toString()}
-							setValue={(e) => ztable.setPageLen(Number(e))}
-						>
-							<option value="10">10</option>
-							<option value="25">25</option>
-							<option value="50">50</option>
-							<option value="100">100</option>
-						</Select>
-					</div>
-					<div className="d-none d-lg-flex col-lg-4 justify-content-center align-items-center">
-						{settings?.preferences.developerMode && (
-							<Button
-								onClick={() => {
-									let data = dataset;
-									if (search !== "") {
-										data = filteredDataset;
-									}
+			<div className="row row-gap-4">
+				<div className="col-lg-4 d-flex justify-content-center justify-content-lg-start">
+					<Select
+						name={`Show this many ${entryName}:`}
+						value={ztable.pageLen.toString()}
+						setValue={(e) => ztable.setPageLen(Number(e))}
+					>
+						<option value="10">10</option>
+						<option value="25">25</option>
+						<option value="50">50</option>
+						<option value="100">100</option>
+					</Select>
+				</div>
+				<div className="d-none d-lg-flex col-lg-4 justify-content-center align-items-center">
+					{settings?.preferences.developerMode && (
+						<Button
+							className="ms-4 w-50"
+							onClick={() => {
+								let data = dataset;
+								if (search !== "") {
+									data = filteredDataset;
+								}
 
-									CopyToClipboard(data);
-								}}
-								variant="outline-info"
-							>
-								<Icon type="table" /> Export{" "}
-								{search !== "" ? "Filtered Data" : "Table"} (JSON)
-							</Button>
-						)}
-					</div>
-					<div className="col-lg-4 ms-auto text-end">
-						<div className="btn-group">
-							<Button
-								variant="base"
-								disabled={pageState === "start" || pageState === "start-end"}
-								onClick={decrementPage}
-							>
-								<SmallText small="<" large="Previous" />
-							</Button>
-							<PageSelector currentPage={page} maxPage={maxPage} setPage={setPage} />
-							<Button
-								variant="base"
-								disabled={pageState === "end" || pageState === "start-end"}
-								onClick={incrementPage}
-							>
-								<SmallText small=">" large="Next" />
-							</Button>
-						</div>
+								CopyToClipboard(data);
+							}}
+							variant="outline-info"
+						>
+							<Icon type="table" /> Export {search !== "" ? "Filtered Data" : "Table"}{" "}
+							(JSON)
+						</Button>
+					)}
+				</div>
+				<div className="col-lg-4 ms-auto d-flex justify-content-center justify-content-lg-end">
+					<div className="btn-group">
+						<Button
+							variant="secondary"
+							disabled={pageState === "start" || pageState === "start-end"}
+							onClick={decrementPage}
+						>
+							<SmallText small="<" large="Previous" />
+						</Button>
+						<PageSelector currentPage={page} maxPage={maxPage} setPage={setPage} />
+						<Button
+							variant="secondary"
+							disabled={pageState === "end" || pageState === "start-end"}
+							onClick={incrementPage}
+						>
+							<SmallText small=">" large="Next" />
+						</Button>
 					</div>
 				</div>
 			</div>

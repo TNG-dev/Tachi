@@ -209,39 +209,32 @@ function TimelineView({ game, playtype, reqUser, folderID }: Props & { folderID:
 
 	return (
 		<>
-			<Card header="Timeline View">
-				<div className="row">
-					<div className="col-12">
-						<h5 className="text-center">
-							The timeline view shows the order in which you achieved something in a
-							folder! You can choose the criteria up here.
-						</h5>
-						<Divider />
-					</div>
-					<div className="col-12 col-lg-6">
-						<Form.Select
-							value={selectedEnum}
-							onChange={(e) => setSelectedEnum(e.target.value)}
-						>
-							{Object.keys(enumConfs).map((e) => (
-								<option key={e} value={e}>
-									{UppercaseFirst(e)}
-								</option>
+			<Card header="Timeline View" cardBodyClassName="vstack gap-4">
+				<h5 className="text-center">
+					The timeline view shows the order in which you achieved something in a folder!
+					You can choose the criteria up here.
+				</h5>
+				<div className="d-flex flex-column flex-lg-row gap-4">
+					<Form.Select
+						value={selectedEnum}
+						onChange={(e) => setSelectedEnum(e.target.value)}
+					>
+						{Object.keys(enumConfs).map((e) => (
+							<option key={e} value={e}>
+								{UppercaseFirst(e)}
+							</option>
+						))}
+					</Form.Select>
+					<Form.Select value={value} onChange={(e) => setValue(e.target.value)}>
+						{enumConf.values
+							.slice(enumConf.values.indexOf(enumConf.minimumRelevantValue))
+							.map((e) => (
+								<option key={e}>{e}</option>
 							))}
-						</Form.Select>
-					</div>
-					<div className="col-12 col-lg-6">
-						<Form.Select value={value} onChange={(e) => setValue(e.target.value)}>
-							{enumConf.values
-								.slice(enumConf.values.indexOf(enumConf.minimumRelevantValue))
-								.map((e) => (
-									<option key={e}>{e}</option>
-								))}
-						</Form.Select>
-					</div>
+					</Form.Select>
 				</div>
 			</Card>
-			<Divider />
+			<hr />
 			<TimelineMain
 				{...{ reqUser, game, playtype, folderID, enumMetric: selectedEnum, value }}
 			/>
@@ -380,7 +373,7 @@ function TimelineElement({
 	return (
 		<div className="timeline-item">
 			<span className="timeline-badge bg-primary"></span>
-			<div className="timeline-content d-flex align-items-center justify-content-between">
+			<div className="timeline-content d-flex align-items-center justify-content-between overflow-x-auto overflow-x-md-visible">
 				<span className="me-3 w-100" style={{ fontSize: "1.15rem" }}>
 					<MiniTable>
 						<tr>
