@@ -8,10 +8,17 @@ on:
     paths:
       - "client/**"
       - "common/**"
+  pull_request:
+    branches:
+      - "staging"
+      - "release/*"
+    paths:
+      - "client/**"
+      - "common/**"
   workflow_dispatch:
 
 jobs:
-  deploy:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -30,7 +37,9 @@ jobs:
 
       - name: Typecheck
         run: pnpm --filter tachi-client typecheck
-
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to staging
         if: github.ref == 'refs/heads/staging'
         uses: appleboy/ssh-action@1a8b3784eaa665f677fa114edd5683bb6a6bfaa8
