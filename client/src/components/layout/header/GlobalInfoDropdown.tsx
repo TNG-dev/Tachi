@@ -5,7 +5,7 @@ import QuickDropdown from "components/ui/QuickDropdown";
 import DropdownNavLink from "components/ui/DropdownNavLink";
 import { SetState } from "types/react";
 
-export default function AllGames({
+export default function GlobalInfoDropdown({
 	className,
 	menuClassName,
 	style,

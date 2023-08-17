@@ -22,6 +22,7 @@ import {
 	integer,
 	UserDocument,
 } from "tachi-common";
+import Col from "react-bootstrap/Col";
 
 export default function ImportPage({ user }: { user: UserDocument }) {
 	useSetSubheader(["Import Scores"]);
@@ -37,7 +38,7 @@ export default function ImportPage({ user }: { user: UserDocument }) {
 	}, [queryGame]);
 
 	return (
-		<div>
+		<>
 			<div>
 				<h4>
 					Here, you can import score files, Synchronise with existing services, or set up
@@ -47,15 +48,21 @@ export default function ImportPage({ user }: { user: UserDocument }) {
 				<DiscordLink>Discord</DiscordLink>.
 				<br />
 				Know how to program, and want to write a script yourself? Check out{" "}
-				<ExternalLink href="https://docs.bokutachi.xyz/codebase/batch-manual">
+				<ExternalLink
+					className="text-decoration-underline"
+					href="https://docs.bokutachi.xyz/codebase/batch-manual"
+				>
 					Batch Manual
 				</ExternalLink>
 				.
 				<br />
 				Want to manage or revert an import? Go to{" "}
-				<Link to={`/u/${user.username}/imports`}>Import Management</Link>.
+				<Link className="text-decoration-underline" to={`/u/${user.username}/imports`}>
+					Import Management
+				</Link>
+				.
 			</div>
-			<Divider />
+			<hr />
 			<Form.Select
 				onChange={(e) => setGame(e.target.value === "" ? null : (e.target.value as Game))}
 				value={game ?? ""}
@@ -67,10 +74,10 @@ export default function ImportPage({ user }: { user: UserDocument }) {
 					</option>
 				))}
 			</Form.Select>
-			<Divider />
+			<hr />
 
 			{game ? <ImportInfoDisplayer game={game} /> : <ShowRecentImports />}
-		</div>
+		</>
 	);
 }
 
@@ -306,7 +313,9 @@ function ImportInfoDisplayer({ game }: { game: Game }) {
 			<div className="text-center mb-4">
 				<h1>{gameConfig.name}</h1>
 			</div>
-			<div className="row justify-content-center">{Content}</div>
+			<Row xs={{ cols: 1 }} lg={{ cols: 2 }}>
+				{Content}
+			</Row>
 		</>
 	);
 }
@@ -565,8 +574,9 @@ function ImportInfoCard({
 	moreInfo?: React.ReactChild;
 }) {
 	return (
-		<div className="col-12 col-lg-6 mb-6 d-grid">
+		<Col className="p-2 flex-grow-1">
 			<Card
+				className="h-100"
 				header={name}
 				footer={
 					<LinkButton className="float-end" to={`/import/${href}`}>
@@ -582,6 +592,6 @@ function ImportInfoCard({
 					</>
 				)}
 			</Card>
-		</div>
+		</Col>
 	);
 }

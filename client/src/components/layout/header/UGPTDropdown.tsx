@@ -5,7 +5,7 @@ import React from "react";
 import { FormatGame, GetGameConfig, UserDocument, UserGameStats } from "tachi-common";
 import { SetState } from "types/react";
 
-export default function UserProfileLinks({
+export default function UGPTDropdown({
 	user,
 	ugs,
 	className,

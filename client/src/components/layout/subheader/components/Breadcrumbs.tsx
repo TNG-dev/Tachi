@@ -11,8 +11,9 @@ export function Breadcrumbs({ items }: { items: string[] }) {
 	return (
 		<div className="d-none d-lg-flex align-items-center fw-semibold">
 			<Link
-				className="link-body-emphasis link-opacity-75 link-opacity-100-hover transition-color"
+				className="p-1 rounded link-body-emphasis link-opacity-75 link-opacity-100-hover focus-visible-ring transition-color"
 				to="/"
+				aria-label="Home"
 			>
 				<Icon type="home" />
 			</Link>
@@ -33,7 +34,7 @@ export function Breadcrumbs({ items }: { items: string[] }) {
 							className="h-2 w-2 d-block bg-body-emphasis rounded-circle bg-opacity-75 mx-3"
 						/>
 						<Link
-							className="link-body-emphasis link-opacity-75 link-opacity-100-hover transition-color"
+							className="p-1 rounded link-body-emphasis link-opacity-75 link-opacity-100-hover focus-visible-ring transition-color"
 							to={`/${parts.slice(0, index + 1).join("/")}`}
 						>
 							{name}

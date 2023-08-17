@@ -183,7 +183,6 @@ export default function TachiTable<D>({
 					<div className="d-none d-lg-flex col-lg-4 justify-content-center align-items-center">
 						{settings?.preferences.developerMode && (
 							<Button
-								className="ms-4 w-50"
 								onClick={() => {
 									let data = dataset;
 									if (search !== "") {
@@ -202,7 +201,7 @@ export default function TachiTable<D>({
 					<div className="col-lg-4 ms-auto text-end">
 						<div className="btn-group">
 							<Button
-								variant="secondary"
+								variant="base"
 								disabled={pageState === "start" || pageState === "start-end"}
 								onClick={decrementPage}
 							>
@@ -210,7 +209,7 @@ export default function TachiTable<D>({
 							</Button>
 							<PageSelector currentPage={page} maxPage={maxPage} setPage={setPage} />
 							<Button
-								variant="secondary"
+								variant="base"
 								disabled={pageState === "end" || pageState === "start-end"}
 								onClick={incrementPage}
 							>

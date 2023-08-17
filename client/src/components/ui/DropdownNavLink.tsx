@@ -9,7 +9,12 @@ export default function DropdownNavLink({
 	...props
 }: { to: string; children: React.ReactNode } & NavLinkProps) {
 	return (
-		<DropdownItem as={NavLink} to={to} className={`rounded ${className}`} {...props}>
+		<DropdownItem
+			as={NavLink}
+			to={to}
+			className={`rounded focus-visible-ring ${className}`}
+			{...props}
+		>
 			{children}
 		</DropdownItem>
 	);

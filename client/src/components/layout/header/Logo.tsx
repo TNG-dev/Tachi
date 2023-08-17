@@ -6,9 +6,9 @@ import { TachiConfig } from "lib/config";
 export default function Logo() {
 	return (
 		<Link
-			id="home"
+			id="top"
 			to="/"
-			className="p-2 d-none d-lg-block focus-ring focus-ring-primary transition-color transition-box-shadow rounded"
+			className="p-2 d-none d-lg-block focus-visible-ring focus-ring-primary transition-color transition-box-shadow rounded"
 		>
 			<img
 				id="logo"

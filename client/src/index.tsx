@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "app/App";
-import "./styles/index.scss";
+import "styles/main.scss";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const { PUBLIC_URL } = process.env;

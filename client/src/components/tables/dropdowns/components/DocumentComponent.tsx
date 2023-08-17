@@ -3,10 +3,11 @@ import { UppercaseFirst } from "util/misc";
 import TimestampCell from "components/tables/cells/TimestampCell";
 import ScoreCoreCells from "components/tables/game-core-cells/ScoreCoreCells";
 import useScoreRatingAlg from "components/util/useScoreRatingAlg";
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { ChartDocument, PBScoreDocument, ScoreDocument } from "tachi-common";
 import { UGPTChartPBComposition } from "types/api-returns";
 import { SetState } from "types/react";
+import { UserContext } from "context/UserContext";
 import CommentContainer from "./CommentContainer";
 import JudgementTable from "./JudgementTable";
 import PBNote from "./PBNote";
@@ -100,6 +101,9 @@ export default function DocumentComponent({
 		scoreState.setComment?.(comment);
 	}, [comment]);
 
+	const { user } = useContext(UserContext);
+	const isAuthorised = user && (user.id === score.userID || user.authLevel === 3);
+
 	return (
 		<div className="w-100 h-100 mb-0 d-flex" style={{ gap: "10px" }}>
 			<div style={{ flex: 9 }}>
@@ -162,7 +166,7 @@ export default function DocumentComponent({
 						<JudgementTable score={score} />
 					</div>
 
-					{IsScore(score) && (
+					{IsScore(score) && isAuthorised && (
 						<div>
 							<DeleteScoreBtn score={score} />
 						</div>

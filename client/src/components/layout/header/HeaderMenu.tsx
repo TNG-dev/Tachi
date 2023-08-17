@@ -5,13 +5,13 @@ import { UserDocument, UserGameStats } from "tachi-common";
 import useApiQuery from "components/util/query/useApiQuery";
 import Nav from "react-bootstrap/Nav";
 import { SetState } from "types/react";
-import AllGames from "./AllGames";
-import ImportScoresLink from "./ImportScoresLink";
+import GlobalInfoDropdown from "./GlobalInfoDropdown";
+import ImportScoresDropdown from "./ImportScoresDropdown";
 import UtilsDropdown from "./UtilsDropdown";
-import UserProfileLinks from "./UserProfileLinks";
+import UGPTDropdown from "./UGPTDropdown";
 
 const toggleClassNames = "w-100 justify-content-between";
-const menuClassNames = "shadow-none shadow-lg-md";
+const menuClassNames = "shadow-none shadow-lg-lg";
 
 export function HeaderMenu({
 	user,
@@ -41,9 +41,9 @@ export function HeaderMenu({
 	}, [error, data]);
 
 	return (
-		<Nav className="p-4 d-flex flex-column flex-lg-row align-content-between gap-2 gap-lg-4 overflow-y-auto overflow-y-lg-visible scrollbar-hide h-100">
+		<Nav as="nav" className="p-4 d-flex align-content-between gap-4 h-100">
 			{user && ugs && ugs.length !== 0 && (
-				<UserProfileLinks
+				<UGPTDropdown
 					user={user}
 					ugs={ugs}
 					className={toggleClassNames}
@@ -52,14 +52,14 @@ export function HeaderMenu({
 					setState={setState}
 				/>
 			)}
-			<AllGames
+			<GlobalInfoDropdown
 				className={toggleClassNames}
 				menuClassName={menuClassNames}
 				style={dropdownMenuStyle}
 				setState={setState}
 			/>
 			{user && (
-				<ImportScoresLink
+				<ImportScoresDropdown
 					className={toggleClassNames}
 					menuClassName={menuClassNames}
 					style={dropdownMenuStyle}

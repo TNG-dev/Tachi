@@ -20,10 +20,6 @@
 	}
 }
 
-.topbar {
-	justify-content: end;
-}
-
 @include media-breakpoint-up(lg) {
 	.session-raise-container {
 		width: 100%;
@@ -42,4 +38,4 @@
 	opacity: 0.3;
 }
 
-@import "tachi-custom/custom", "tachi-custom/hero", "tachi-custom/splash-screen", "tachi-custom/timeline.scss";
+@import "tachi-custom/custom", "tachi-custom/hero", "tachi-custom/splash-screen";

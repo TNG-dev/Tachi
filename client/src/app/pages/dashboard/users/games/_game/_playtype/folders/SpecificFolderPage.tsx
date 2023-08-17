@@ -610,7 +610,7 @@ function TierlistBucket({
 	}
 
 	return (
-		<div className="grid text-center gap-2 g-columns-md-4 g-columns-lg-5 g-columns-xl-6">
+		<div className="grid text-center gap-2 grid-cols-md-4 grid-cols-lg-5 grid-cols-xl-6">
 			{bucket.map((tierlistInfo, i) => (
 				<TierlistInfoBucketValues
 					tierlistInfo={tierlistInfo}

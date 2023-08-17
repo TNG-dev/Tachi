@@ -11,6 +11,8 @@ import ReferToUser from "components/util/ReferToUser";
 import React from "react";
 import { FormatGame, UserDocument, UserGameStats } from "tachi-common";
 import { UGSWithRankingData } from "types/api-returns";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 interface Props {
 	reqUser: UserDocument;
@@ -24,7 +26,7 @@ export default function UserGamesPage({ reqUser }: Props) {
 	);
 
 	return (
-		<div className="row">
+		<Row xs={{ cols: 1 }} lg={{ cols: 2 }}>
 			<AsyncLoader
 				promiseFn={async () => {
 					const res = await APIFetchV1<UGSWithRankingData[]>(
@@ -50,7 +52,7 @@ export default function UserGamesPage({ reqUser }: Props) {
 					)
 				}
 			</AsyncLoader>
-		</div>
+		</Row>
 	);
 }
 
@@ -80,9 +82,9 @@ function GamesInfo({ ugs, reqUser }: { ugs: UserGameStats[]; reqUser: UserDocume
 
 export function GameStatContainer({ ugs, reqUser }: { ugs: UGSWithRankingData } & Props) {
 	return (
-		<div className="col-12 col-lg-6 d-grid">
+		<Col className="p-2 flex-grow-1">
 			<Card
-				className="mb-4"
+				className="h-100"
 				footer={
 					<div className="d-flex justify-content-end">
 						<LinkButton to={`/u/${reqUser.username}/games/${ugs.game}/${ugs.playtype}`}>
@@ -100,6 +102,6 @@ export function GameStatContainer({ ugs, reqUser }: { ugs: UGSWithRankingData } 
 					userID={ugs.userID}
 				/>
 			</Card>
-		</div>
+		</Col>
 	);
 }

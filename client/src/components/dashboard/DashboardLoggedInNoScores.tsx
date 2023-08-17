@@ -17,7 +17,7 @@ export function DashboardLoggedInNoScores({ user }: { user: UserDocument }) {
 				<br />
 				You'll get a profile for that game, and a position on the leaderboards!
 			</h4>
-			<LinkButton className="btn-outline-primary" to="/import">
+			<LinkButton variant="outline-primary" to="/import">
 				Import some scores!
 			</LinkButton>
 		</div>

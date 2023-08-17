@@ -39,8 +39,8 @@ export default function Header({ styles }: { styles: LayoutStyles }) {
 					<Logo />
 					<MobileMenuToggle state={showMobileMenu} setState={setShowMobileMenu} />
 					<Navbar.Offcanvas
-						id="mobile-menu"
-						aria-labelledby="mobile-menu-label"
+						id="navbar"
+						aria-labelledby="navbar-label"
 						show={showMobileMenu}
 						onHide={() => setShowMobileMenu(false)}
 					>
@@ -50,7 +50,7 @@ export default function Header({ styles }: { styles: LayoutStyles }) {
 								to="/"
 								className="mx-auto p-2 focus-ring focus-ring-light"
 							>
-								<SiteWordmark id="mobile-menu-label" width="192px" />
+								<SiteWordmark id="navbar-label" width="192px" />
 							</Link>
 						</OffcanvasHeader>
 						<Offcanvas.Body className="position-relative">

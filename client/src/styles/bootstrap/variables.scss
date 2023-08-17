@@ -552,7 +552,7 @@ $border-radius-pill: 50rem !default;
 // scss-docs-start box-shadow-variables
 $box-shadow-sm:               0 .025rem 0.175rem rgba($black, .1);
 $box-shadow:                  0 .05rem .45rem rgba($black, .075);
-$box-shadow-lg:               0 .1rem 1.25rem rgba($black, .125);
+$box-shadow-lg:               0 .075rem .9rem rgba($black, .1);
 $box-shadow-inset:            inset 0 0 6px rgba($body-bg, .15);
 // scss-docs-end box-shadow-variables
 
@@ -749,7 +749,7 @@ $table-accent-bg: transparent;
 $table-th-font-weight: null !default;
 
 $table-striped-color: $table-color;
-$table-striped-bg-factor: 0.075;
+$table-striped-bg-factor: 0.05;
 $table-striped-bg: rgba($black, $table-striped-bg-factor);
 
 $table-active-color: $table-color;
@@ -757,7 +757,7 @@ $table-active-bg-factor: 0.0125;
 $table-active-bg: rgba($black, $table-active-bg-factor);
 
 $table-hover-color: $table-color;
-$table-hover-bg-factor: 0.125;
+$table-hover-bg-factor: 0.075;
 $table-hover-bg: rgba($black, $table-hover-bg-factor);
 
 $table-border-factor: 1;

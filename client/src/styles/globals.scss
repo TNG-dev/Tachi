@@ -14,10 +14,10 @@
 body,
 header {
     @extend .transition-bg;
+    @extend .transition-color;
 }
 
-/* debug
-.undefined, .false, .true, .null {
-    color: yellow;
-    background-color: magenta;
-}*/
+code {
+    padding: #{$kbd-padding-y} #{$kbd-padding-x};
+    border-radius: var(--#{$prefix}border-radius-sm);
+}

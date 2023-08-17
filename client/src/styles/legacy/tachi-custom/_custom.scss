@@ -11,90 +11,12 @@
 	box-shadow: black 0px 0px 2px 1px !important;
 }
 
-.card-dark {
-	background-color: #1c1c1c !important;
-
-	> .card-header {
-		background-color: #1c1c1c !important;
-	}
-	> .card-footer {
-		background-color: #1c1c1c !important;
-	}
-}
-
 .gentle-link {
 	color: var(--bs-body-color);
 
 	&:hover {
 		color: var(--bs-primary);
 	}
-}
-
-@include media-breakpoint-down(sm) {
-	#kt_content {
-		padding-top: 55px;
-	}
-
-	.background-image {
-		top: 55px;
-	}
-}
-
-@include media-breakpoint-up(md) {
-	#kt_content {
-		padding-top: 80px;
-	}
-
-	.background-image {
-		top: 80px;
-	}
-}
-
-.highlighted-row {
-	td {
-		background-color: rgba($color: $primary, $alpha: 0.1);
-	}
-}
-
-.nav-link {
-	&:hover {
-		background-color: unset !important;
-	}
-}
-
-.text-monospace {
-	font-family: monospace;
-}
-
-.ladder-header {
-	background-color: #2b292b;
-	font-size: x-large;
-	vertical-align: middle;
-	padding-top: 0.25rem;
-	padding-bottom: 0.5rem;
-	font-weight: bold;
-	outline: solid 1px black;
-	margin-top: 2rem;
-}
-
-.ladder-element {
-	background-color: #1c1c1c;
-	vertical-align: middle;
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	outline: solid 1px black;
-}
-
-.ladder-element-dark {
-	background-color: #131313;
-}
-
-.ladder-element-achieved {
-	background-color: rgba(50, 205, 50, 0.2);
-}
-
-.ladder-element-unachieved {
-	background-color: rgba(170, 85, 85, 0.2);
 }
 
 .instructions-list {
@@ -104,30 +26,6 @@
 .instructions-list > li {
 	padding-top: 0.25rem;
 	padding-bottom: 0.25rem;
-}
-
-.scoreinfo-grid-minimap {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, 30px);
-	row-gap: 5px;
-	column-gap: 2px;
-	justify-items: center;
-}
-
-.scoreinfo-grid-minimap-element {
-	width: 20px;
-	height: 20px;
-	outline: 1px black solid;
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	text-align: center;
-	color: white;
-	font-weight: 900;
-}
-
-.scoreinfo-grid-minimap-element-recent {
-	box-shadow: inset 0px 0px 5px goldenrod;
 }
 
 .privacy-policy > h2 {
@@ -141,15 +39,6 @@
 .breakdown-hover-highlight-button {
 	transition: opacity 0.3s;
 	opacity: 0;
-}
-
-table {
-	border-width: $table-border-width;
-	border-style: solid;
-}
-
-.table.table-vertical-center th, .table.table-vertical-center td {
-	vertical-align: middle;
 }
 
 a:where(.MuiTab-root) {

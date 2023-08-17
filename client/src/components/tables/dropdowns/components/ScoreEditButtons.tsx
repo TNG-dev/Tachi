@@ -36,18 +36,18 @@ export default function ScoreEditButtons({
 							<>
 								<QuickTooltip tooltipContent="Edit your comment on this score.">
 									<Button
-										variant="outline-secondary"
+										variant="outline-secondary text-light-hover"
 										className="text-body"
 										onClick={() => setShow(true)}
 									>
-										<Icon type="file-signature" /> Comment
+										<Icon type="file-signature" /> Edit Comment
 									</Button>
 								</QuickTooltip>
 							</>
 						) : (
 							<QuickTooltip tooltipContent="Comment on this score.">
 								<Button
-									variant="outline-secondary"
+									variant="outline-secondary text-light-hover"
 									className="text-body"
 									onClick={() => setShow(true)}
 								>
@@ -59,7 +59,7 @@ export default function ScoreEditButtons({
 						{highlight ? (
 							<QuickTooltip tooltipContent="Unhighlight this score.">
 								<Button
-									variant="success"
+									variant="outline-danger"
 									onClick={() =>
 										ModifyScore(score.scoreID, { highlight: false }).then(
 											(r) => {
@@ -79,7 +79,7 @@ export default function ScoreEditButtons({
 							<QuickTooltip tooltipContent="Highlight this score.">
 								<Button
 									variant="outline-secondary"
-									className="text-body"
+									className="text-body text-light-hover"
 									onClick={() =>
 										ModifyScore(score.scoreID, { highlight: true }).then(
 											(r) => {

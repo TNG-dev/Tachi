@@ -1,8 +1,3 @@
-code {
-    padding: #{$kbd-padding-y} #{$kbd-padding-x};
-    border-radius: var(--#{$prefix}border-radius-sm);
-}
-
 [data-bs-theme="light"] {
     code {
         background-color: $body-tertiary-bg;

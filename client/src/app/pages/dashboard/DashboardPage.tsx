@@ -1,5 +1,4 @@
 import { APIFetchV1 } from "util/api";
-import { ChangeOpacity } from "util/color-opacity";
 import { CreateGoalMap } from "util/data";
 import { RFA } from "util/misc";
 import { NumericSOV } from "util/sorts";
@@ -18,11 +17,13 @@ import Loading from "components/util/Loading";
 import useApiQuery from "components/util/query/useApiQuery";
 import { UserContext } from "context/UserContext";
 import { UserSettingsContext } from "context/UserSettingsContext";
-import { ColourConfig, TachiConfig } from "lib/config";
+import { TachiConfig } from "lib/config";
 import React, { useContext, useMemo } from "react";
-import { Alert, Stack } from "react-bootstrap";
+import Alert from "react-bootstrap/Alert";
+import Stack from "react-bootstrap/Stack";
+import Row from "react-bootstrap/Row";
 import { Link, Route, Switch } from "react-router-dom";
-import { COLOUR_SET, GetGameConfig, UserDocument } from "tachi-common";
+import { GetGameConfig, UserDocument } from "tachi-common";
 import { UGSWithRankingData, UserRecentSummary } from "types/api-returns";
 import SessionCalendar from "components/sessions/SessionCalendar";
 import { WindowContext } from "context/WindowContext";
@@ -101,39 +102,32 @@ function RecentInfo({ user }: { user: UserDocument }) {
 		<>
 			{data.recentSessions.length !== 0 && (
 				<>
-					<Alert
-						style={{
-							backgroundColor: `${ColourConfig.primary}44`,
-							color: "white",
-						}}
-					>
+					<Alert variant="primary">
 						<div className="text-center">
 							<h1>Today's Summary</h1>
 							You've gotten <b>{data.recentPlaycount}</b> new score
 							{data.recentPlaycount !== 1 ? "s" : ""} today!
 						</div>
 					</Alert>
-					<Divider />
-					<h1>New Sessions</h1>
-					You've had <b>{data.recentSessions.length}</b> session
-					{data.recentSessions.length !== 1 ? "s" : ""} today!
-					<Divider />
+					<hr />
+					<div className="text-center">
+						<h1>New Sessions</h1>
+						You've had <b>{data.recentSessions.length}</b> session
+						{data.recentSessions.length !== 1 ? "s" : ""} today!
+					</div>
+					<hr />
 					{data.recentSessions.sort(NumericSOV((x) => x.timeEnded, true)).map((e) => (
 						<>
 							<SessionCard sessionID={e.sessionID} key={e.sessionID} />
-							<Divider />
+							<hr />
 						</>
 					))}
 				</>
 			)}
 			{data.recentAchievedGoals.length !== 0 && (
 				<>
-					<Alert
-						style={{
-							backgroundColor: ChangeOpacity(COLOUR_SET.gold, 0.2),
-						}}
-					>
-						<div className="text-center text-white">
+					<Alert variant="warning">
+						<div className="text-center">
 							<h1>
 								{RFA([
 									"Sweet!",
@@ -149,8 +143,8 @@ function RecentInfo({ user }: { user: UserDocument }) {
 							You've achieved <b>{data.recentAchievedGoals.length}</b> new goal
 							{data.recentAchievedGoals.length !== 1 ? "s" : ""} today!
 						</div>
-						<Divider />
-						<div className="text-white">
+						<hr />
+						<div>
 							<ul>
 								{data.recentAchievedGoals.map((e) => {
 									const goal = goalMap.get(e.goalID);
@@ -196,7 +190,7 @@ function RecentInfo({ user }: { user: UserDocument }) {
 
 function UserGameStatsInfo({ user }: { user: UserDocument }) {
 	return (
-		<div className="row">
+		<Row xs={{ cols: 1 }} lg={{ cols: 2 }}>
 			<AsyncLoader
 				promiseFn={async () => {
 					const res = await APIFetchV1<UGSWithRankingData[]>(
@@ -230,7 +224,7 @@ function UserGameStatsInfo({ user }: { user: UserDocument }) {
 					))
 				}
 			</AsyncLoader>
-		</div>
+		</Row>
 	);
 }
 

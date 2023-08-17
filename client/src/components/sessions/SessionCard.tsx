@@ -13,7 +13,8 @@ import Muted from "components/util/Muted";
 import useApiQuery from "components/util/query/useApiQuery";
 import { UserContext } from "context/UserContext";
 import React, { useContext, useMemo, useState } from "react";
-import { Button } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Row from "react-bootstrap/Row";
 import toast from "react-hot-toast";
 import { SessionDocument } from "tachi-common";
 import { SessionReturns } from "types/api-returns";
@@ -71,7 +72,7 @@ export default function SessionCard({ sessionID }: { sessionID: string }) {
 			/>
 			<Divider />
 			{sessionUser.id === user?.id && (
-				<div className="d-flex w-100 justify-content-center">
+				<div className="d-flex w-100 gap-4 justify-content-center">
 					<Button
 						onClick={async () => {
 							const res = await APIFetchV1(
@@ -101,12 +102,12 @@ export default function SessionCard({ sessionID }: { sessionID: string }) {
 						}}
 						variant={highlight ? "outline-danger" : "outline-warning"}
 					>
-						<Icon type="star" />
+						<Icon type="star" regular={!highlight} />{" "}
 						{highlight ? "Remove as Highlight" : "Highlight this session!"}
 					</Button>
 					<LinkButton
 						to={`/u/${sessionUser.username}/games/${session.game}/${session.playtype}/sessions/${session.sessionID}`}
-						className="ms-4 btn-primary"
+						className="btn-primary"
 					>
 						View Session
 					</LinkButton>
@@ -118,31 +119,19 @@ export default function SessionCard({ sessionID }: { sessionID: string }) {
 
 function SessionOverview({ session, username }: { session: SessionDocument; username: string }) {
 	return (
-		<div className="row">
+		<Row xs={{ cols: 1 }} lg={{ cols: 2 }}>
 			<StatIcon name="Scores" value={session.scoreIDs.length} />
-
-			<div className="col-12 col-lg-4">
-				<div className="d-flex justify-content-center align-self-center">
-					<LinkButton
-						to={`/u/${username}/games/${session.game}/${session.playtype}/sessions/${session.sessionID}`}
-						className="btn-primary"
-					>
-						View Session
-					</LinkButton>
-				</div>
-			</div>
-
 			<StatIcon
 				name="Duration"
 				value={FormatDuration(session.timeEnded - session.timeStarted)}
 			/>
-		</div>
+		</Row>
 	);
 }
 
 function StatIcon({ name, value }: { name: string; value: React.ReactChild }) {
 	return (
-		<div className="col-12 col-lg-4 text-center">
+		<div className="col text-center">
 			<h4>
 				<Muted>{name}</Muted>
 			</h4>
