@@ -57,6 +57,9 @@ function pnpmInstall {
 
 	pnpm install
 
+	# install ts-node aswell so people can use that inside enter-seeds.
+	pnpm install ts-node -g
+
 	echo "Installed dependencies."
 }
 
