@@ -1,6 +1,5 @@
 import { APIFetchV1 } from "util/api";
 import { SendErrorToast } from "util/toaster";
-import { ChangeOpacity } from "util/color-opacity";
 import Card from "components/layout/page/Card";
 import ApiError from "components/util/ApiError";
 import Divider from "components/util/Divider";
@@ -13,17 +12,10 @@ import UserIcon from "components/util/UserIcon";
 import { UserContext } from "context/UserContext";
 import React, { useContext, useState } from "react";
 import { Alert, Button, Col } from "react-bootstrap";
-import {
-	COLOUR_SET,
-	FormatGame,
-	Game,
-	GetGameConfig,
-	Playtype,
-	UserDocument,
-	integer,
-} from "tachi-common";
+import { FormatGame, Game, GetGameConfig, Playtype, UserDocument, integer } from "tachi-common";
 import useLUGPTSettings from "components/util/useLUGPTSettings";
 import useSetSubheader from "components/layout/header/useSetSubheader";
+import { Prompt } from "react-router-dom";
 
 export default function RivalsManagePage({
 	reqUser,
@@ -124,56 +116,47 @@ function RivalsOverviewPage({
 
 	return (
 		<>
+			{/* kind of a stupid way to check whether the array has changed or not, but who cares. */}
 			{isRequestingUser && currentRivals.toString() !== rivals.toString() && (
-				<>
-					{/* kind of a stupid way to check whether the array has changed or not, but who cares. */}
-					<Col xs={12}>
-						<Divider />
-					</Col>
-					<Col xs={12}>
-						<Alert
-							className="w-100 d-flex justify-content-center"
-							style={{
-								backgroundColor: ChangeOpacity(COLOUR_SET.vibrantYellow, 0.2),
-								flexDirection: "column",
-								flexWrap: "wrap",
-							}}
-						>
-							<div style={{ color: "white" }}>You have unsaved changes!</div>
-							<Divider />
-							<Button
-								size="lg"
-								onClick={async () => {
-									const res = await APIFetchV1(
-										`/users/${reqUser.id}/games/${game}/${playtype}/rivals`,
-										{
-											method: "PUT",
-											body: JSON.stringify({
-												rivalIDs: rivals.map((e) => e.id),
-											}),
-											headers: {
-												"Content-Type": "application/json",
-											},
-										},
-										true,
-										true
-									);
+				<Alert className="vstack" variant="warning">
+					<Prompt
+						message={
+							"You have unsaved changes, are you sure you want to leave this page?"
+						}
+					/>
+					<p className="text-center fs-3">You have unsaved changes!</p>
+					<hr />
+					<Button
+						size="lg"
+						onClick={async () => {
+							const res = await APIFetchV1(
+								`/users/${reqUser.id}/games/${game}/${playtype}/rivals`,
+								{
+									method: "PUT",
+									body: JSON.stringify({
+										rivalIDs: rivals.map((e) => e.id),
+									}),
+									headers: {
+										"Content-Type": "application/json",
+									},
+								},
+								true,
+								true
+							);
 
-									if (res.success) {
-										setCurrentRivals(rivals);
-										setSettings({
-											...settings,
-											rivals: rivals.map((e) => e.id),
-										});
-									}
-								}}
-								variant="primary"
-							>
-								Save Changes
-							</Button>
-						</Alert>
-					</Col>
-				</>
+							if (res.success) {
+								setCurrentRivals(rivals);
+								setSettings({
+									...settings,
+									rivals: rivals.map((e) => e.id),
+								});
+							}
+						}}
+						variant="primary"
+					>
+						Save Changes
+					</Button>
+				</Alert>
 			)}
 			<Card header={`${isRequestingUser ? "Your" : `${reqUser.username}'s`} Rivals`}>
 				<Col xs={12} className="d-flex justify-content-center flex-wrap">
