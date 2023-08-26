@@ -21999,6 +21999,26 @@
 				]
 			},
 			"level": "1",
+			"versions": "ave"
+		},
+		"folderID": "F4b9110f2e0428df39a2b3e4fec6a3ac2b658b3dc7d11b892ca41da657f820b6b",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 1 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "1",
 			"versions": "copious"
 		},
 		"folderID": "Fc0784a113cc997075ea210d7ce090a1dfab3f4b2b2a372a5f2450047a696b351",
@@ -22047,6 +22067,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 1 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "1",
+			"versions": "ave"
+		},
+		"folderID": "F154fea3c2a743e07e41e3e677731c5d166fae7fad318b223705c276bffcd643a",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 1 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -22359,6 +22399,26 @@
 				]
 			},
 			"level": "10.0",
+			"versions": "ave"
+		},
+		"folderID": "F0f5c219ac17133a199181def798cd1d676f0ed9b2d1641c00f26cab390521d5b",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.0 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "10.0",
 			"versions": "festo-omni"
 		},
 		"folderID": "Ff1b3d62d8857cebdca0425f71f6e0dc7dd3ad16a461085c37c283e91e93d5e21",
@@ -22387,6 +22447,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 10.0 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "10.0",
+			"versions": "ave"
+		},
+		"folderID": "F667c83689ef39e66000a1c418093df8049e6d4497b0f58670f25749a98a36971",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.0 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -22482,6 +22562,29 @@
 				"~gte": 10,
 				"~lt": 11
 			},
+			"versions": "ave"
+		},
+		"folderID": "Fa402abf77d196f97c3dc2bca5df67e4926edc7626819eb0ab77330640c08ada1",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.0-10.9 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"levelNum": {
+				"~gte": 10,
+				"~lt": 11
+			},
 			"versions": "copious"
 		},
 		"folderID": "Fa586873ded00c8ccd79df99c6f257cfb42e349712ff51d7a829ea48e3dadc8d8",
@@ -22536,6 +22639,29 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 10.0-10.9 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"levelNum": {
+				"~gte": 10,
+				"~lt": 11
+			},
+			"versions": "ave"
+		},
+		"folderID": "F1303c1914ecacdef338781ffe219b7282a63b4db638cdc3ec1fe7827a8d4b9b3",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.0-10.9 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -22893,6 +23019,26 @@
 				]
 			},
 			"level": "10.1",
+			"versions": "ave"
+		},
+		"folderID": "F1fc8f2c606debab8bd3c131fc73649b73749858c565aac40dae9e756f9703728",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.1 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "10.1",
 			"versions": "festo-omni"
 		},
 		"folderID": "F7a695c59902ac85ce13eda734fd56c24e3fa037f94a6a1dcdc052d941f4094bf",
@@ -22921,6 +23067,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 10.1 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "10.1",
+			"versions": "ave"
+		},
+		"folderID": "F79328026cfc908a635c3ef84f27923c4cb79e6a63166cc8b79127b6578c131c9",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.1 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -23013,6 +23179,26 @@
 				]
 			},
 			"level": "10.2",
+			"versions": "ave"
+		},
+		"folderID": "Fbdd5e0afb58326019eb9a9b7a368d2edd81d3a60a0e6e4597ef61f7e7b3c19ba",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.2 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "10.2",
 			"versions": "festo-omni"
 		},
 		"folderID": "Fb5a46b2bad5f313f269858bd970a98f71320b5ffe6e505fd1202bce81336b90c",
@@ -23041,6 +23227,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 10.2 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "10.2",
+			"versions": "ave"
+		},
+		"folderID": "F97597f9efc9b391db950c9e27c6b111096c0b5dd9be57ee32d8bcc92f720e9df",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.2 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -23133,6 +23339,26 @@
 				]
 			},
 			"level": "10.3",
+			"versions": "ave"
+		},
+		"folderID": "F16679a04836a63401ae62b8b5976c69c3d91e0c32e3235657a6b49290a64ad26",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.3 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "10.3",
 			"versions": "festo-omni"
 		},
 		"folderID": "F0be80ccd99a5cfdc8418b99432ba3cb6f07cae3ecc6011c448841db34948f3c9",
@@ -23161,6 +23387,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 10.3 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "10.3",
+			"versions": "ave"
+		},
+		"folderID": "Fb7755a0e963eacc5b6ff0a52268880ab5c72a6155cb2cbfeca7946db18245481",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.3 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -23253,6 +23499,26 @@
 				]
 			},
 			"level": "10.4",
+			"versions": "ave"
+		},
+		"folderID": "Fb9065a0763b7e59f1167a88c0636f5f60b5d5984022ce37fa5b757f73407c2eb",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.4 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "10.4",
 			"versions": "festo-omni"
 		},
 		"folderID": "Ffd5f22143b82953f3f915127cb6dee37bd87c2c805b20cedde5988582b774867",
@@ -23281,6 +23547,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 10.4 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "10.4",
+			"versions": "ave"
+		},
+		"folderID": "F4c2f4751732b432808067d5ae35a865560c670906a8b881c24166115589b820c",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.4 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -23373,6 +23659,26 @@
 				]
 			},
 			"level": "10.5",
+			"versions": "ave"
+		},
+		"folderID": "F35d61bd1fad337b7b314ab0a38babffe990ffdedeb4de88f8d464695cf9a2d24",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.5 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "10.5",
 			"versions": "festo-omni"
 		},
 		"folderID": "Fca4aa6df9c482137d4c799ddca23a0cc922e9824d73d83c06533eec91866a14c",
@@ -23401,6 +23707,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 10.5 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "10.5",
+			"versions": "ave"
+		},
+		"folderID": "Fbc728347fe6f4bb6993ce96b7208136131602d5a8ada25922cfc4f6645f5ff12",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.5 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -23493,6 +23819,26 @@
 				]
 			},
 			"level": "10.6",
+			"versions": "ave"
+		},
+		"folderID": "Fc7c411dd589b46b06223e3c9e2f587372b61f14a780934d7b453b066e8a72e23",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.6 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "10.6",
 			"versions": "festo-omni"
 		},
 		"folderID": "Fb6a942be115ae75a1780093a02f48776e87a4ceede66343d8dca4973bf1a273e",
@@ -23521,6 +23867,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 10.6 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "10.6",
+			"versions": "ave"
+		},
+		"folderID": "Fb76d7dc99cf6f7513fa5c9b9c3cb186e711f453b23adc70bde1d8d2cf62d320e",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.6 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -23613,6 +23979,26 @@
 				]
 			},
 			"level": "10.7",
+			"versions": "ave"
+		},
+		"folderID": "F7865a5a0166d001637ec520d42efa7d6a34acf217bed1c864dec90fdc3a9d812",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.7 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "10.7",
 			"versions": "festo-omni"
 		},
 		"folderID": "F49b89289b8459c957ddf148ccece4339886236308120b9eb6378acc997eacd79",
@@ -23641,6 +24027,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 10.7 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "10.7",
+			"versions": "ave"
+		},
+		"folderID": "F5c6f703237a660d6f9da112c77cdad3613bb2c8a8068a777f4a865db13d3e88a",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.7 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -23733,6 +24139,26 @@
 				]
 			},
 			"level": "10.8",
+			"versions": "ave"
+		},
+		"folderID": "F34d1e793073285fc732cab930890b90bd7c0371b751d66121c1e02a74ada5a08",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.8 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "10.8",
 			"versions": "festo-omni"
 		},
 		"folderID": "F39b77f2b560c7555e3458157654e94ea65e6156adee5fba4a928a53b836e5b42",
@@ -23761,6 +24187,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 10.8 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "10.8",
+			"versions": "ave"
+		},
+		"folderID": "Fc4d864cd89a589851ae7d4969e481ec7c4c591a5e2096cefff7859a78f9a9461",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.8 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -23853,6 +24299,26 @@
 				]
 			},
 			"level": "10.9",
+			"versions": "ave"
+		},
+		"folderID": "Fdded36d67ef8148973896fe1f448324bec8f5d77556b6dca251ceb2507512070",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.9 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "10.9",
 			"versions": "festo-omni"
 		},
 		"folderID": "F3eb9acf9a41c52ccb096b4125034d5d9fa9977714eacfccdbd7fb43f5c6a7331",
@@ -23881,6 +24347,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 10.9 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "10.9",
+			"versions": "ave"
+		},
+		"folderID": "F86cd55d7168a736a5faf7e5e3bc5c10248597e41a26f581561341031b8f9e05e",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10.9 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -23973,6 +24459,26 @@
 				]
 			},
 			"level": "2",
+			"versions": "ave"
+		},
+		"folderID": "Ff05242271734c3e72d72ec55602882d4aca14efc977f6b33ce758e382e311637",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 2 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "2",
 			"versions": "copious"
 		},
 		"folderID": "F77dff203be337b9d0103b1f895f135e8f68b44fd5541159daddbb1edcb2bc860",
@@ -24021,6 +24527,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 2 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "2",
+			"versions": "ave"
+		},
+		"folderID": "F743cee90cf440fe21cab460904c1fc759e749c750eafc16d8e2c914838a71841",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 2 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -24333,6 +24859,26 @@
 				]
 			},
 			"level": "3",
+			"versions": "ave"
+		},
+		"folderID": "Ff98e66969040a6c2ece0074ca6ee51752020574b242ad1135f5da40963e8f80d",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 3 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "3",
 			"versions": "copious"
 		},
 		"folderID": "F8871234eb8e1739af3ee0b241fb0a2f409589f8407944dac86222a3c6a2664fa",
@@ -24381,6 +24927,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 3 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "3",
+			"versions": "ave"
+		},
+		"folderID": "F6842849112baa2fd007a759208336c3bbffa618f13be41014d9ac584925cbd49",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 3 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -24693,6 +25259,26 @@
 				]
 			},
 			"level": "4",
+			"versions": "ave"
+		},
+		"folderID": "F6316427346c8fc003b444f48cfa5f46d026b8dacdedd2fec076d5a2bbc227ac1",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 4 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "4",
 			"versions": "copious"
 		},
 		"folderID": "F9c927d54289dea04203760544b75698c4270bbc89ee516eebccfbae22680a79b",
@@ -24741,6 +25327,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 4 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "4",
+			"versions": "ave"
+		},
+		"folderID": "F27de38b5ff3660d3bd4c471e4aa1e9f88391ea24038e08d30bf809e350b0057f",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 4 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -25053,6 +25659,26 @@
 				]
 			},
 			"level": "5",
+			"versions": "ave"
+		},
+		"folderID": "Ff6e5d18a181d75e920117430e100f8d4c22fb20eacdbc359660399d3b4459951",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 5 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "5",
 			"versions": "copious"
 		},
 		"folderID": "Fc83b91978840957b65d377b2053fd277a8bec14a8f23fd7c4fdc992b2cd81cbd",
@@ -25101,6 +25727,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 5 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "5",
+			"versions": "ave"
+		},
+		"folderID": "F2c916dfe832c4cbf67a12cd4d6d5f3a49d37a6b6688994937e9e72bbd3ba493d",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 5 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -25413,6 +26059,26 @@
 				]
 			},
 			"level": "6",
+			"versions": "ave"
+		},
+		"folderID": "F19d0429ceb0753246557b359f9423ff29e7419f2bc2a4cdbbd1c69e13668a735",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 6 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "6",
 			"versions": "copious"
 		},
 		"folderID": "Fe203c8bbdc9549043ae68805f9d112695cdf8e9231e4f7a21b16bd53cce9d63f",
@@ -25461,6 +26127,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 6 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "6",
+			"versions": "ave"
+		},
+		"folderID": "F65b124540257cb2f20f3acfbf2ca953f46f2e2e97bfc666bf8d1323ae0975e59",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 6 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -25773,6 +26459,26 @@
 				]
 			},
 			"level": "7",
+			"versions": "ave"
+		},
+		"folderID": "F69884f796e3dec8dff7332a00e3e7d4b81dfcaa3951713a55001dbb7b9ae390f",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 7 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "7",
 			"versions": "copious"
 		},
 		"folderID": "Ff50b97390b0121e9ba355873caf43b45a82a03d635371e921f6a51ae19f8fe1e",
@@ -25821,6 +26527,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 7 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "7",
+			"versions": "ave"
+		},
+		"folderID": "Ff624fb527c0b57a2149aaf0e89e22d45e754683f342fbc7d13a33da77260cb0f",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 7 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -26133,6 +26859,26 @@
 				]
 			},
 			"level": "8",
+			"versions": "ave"
+		},
+		"folderID": "Fc40aa3efbcbb9db673ce785a2ecb6daec83678cceabe7631ad07cf7561a3425f",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 8 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "8",
 			"versions": "copious"
 		},
 		"folderID": "Fa2b74d5fada19308eb33450c20f696a44957505041fbd4aef4b06b481b8c751f",
@@ -26181,6 +26927,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 8 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "8",
+			"versions": "ave"
+		},
+		"folderID": "Fd3e2031f23c8459e85aa7cfbd95db9963b344ff33faf3f06565e06ab0a3c7a16",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 8 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -26493,6 +27259,26 @@
 				]
 			},
 			"level": "9.0",
+			"versions": "ave"
+		},
+		"folderID": "Fc3686f647d38acd150c719cc7aca8e013bd50486ae82247087063afc1caaf742",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.0 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "9.0",
 			"versions": "festo-omni"
 		},
 		"folderID": "Fd5bb624ce939d93dbefda85a5d49e702b6a905744755122ff2a7626cd4bd5e23",
@@ -26521,6 +27307,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 9.0 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "9.0",
+			"versions": "ave"
+		},
+		"folderID": "F2811a466ee6657e2a2fb2b77423ba489e99207b5115e8656d0a91ef12b4883aa",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.0 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -26616,6 +27422,29 @@
 				"~gte": 9,
 				"~lt": 10
 			},
+			"versions": "ave"
+		},
+		"folderID": "F19730e31bb2f7b380e4445529a7d2b7011e26eb9fa87f354ad1dfc354ce833aa",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.0-9.9 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"levelNum": {
+				"~gte": 9,
+				"~lt": 10
+			},
 			"versions": "copious"
 		},
 		"folderID": "Fdbb7928cf96fcb982133edcdc0d2903a36f36684ff6a6e5baa0a6af683409598",
@@ -26670,6 +27499,29 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 9.0-9.9 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"levelNum": {
+				"~gte": 9,
+				"~lt": 10
+			},
+			"versions": "ave"
+		},
+		"folderID": "Fb7866cf52657e9d63d4fef365b27a568ae4d082e1e9a7dc4746c73892e16e758",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.0-9.9 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -27027,6 +27879,26 @@
 				]
 			},
 			"level": "9.1",
+			"versions": "ave"
+		},
+		"folderID": "Ffee060997fe1d7f9a2a04adc5125d73f440ef18726d02c9f1997956ccc2ef5f8",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.1 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "9.1",
 			"versions": "festo-omni"
 		},
 		"folderID": "F1d92d7f0b7495f853ecc6a59477f554ed5c1071384f8dc4751153c5cc6d7451f",
@@ -27055,6 +27927,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 9.1 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "9.1",
+			"versions": "ave"
+		},
+		"folderID": "F22d6f27ed7134da3d2f6918dd4028455d9f86d08184c2eeeb319a071ca18f8e2",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.1 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -27147,6 +28039,26 @@
 				]
 			},
 			"level": "9.2",
+			"versions": "ave"
+		},
+		"folderID": "F2b50a4fbd7b239951daa3e233cb26ee18b40d6950f0f0c1875344be3baaf4724",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.2 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "9.2",
 			"versions": "festo-omni"
 		},
 		"folderID": "F8a1b1132e5f14ea1c08f89aebb65c00713265f87b1cc8f3d4a73b836360b4886",
@@ -27175,6 +28087,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 9.2 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "9.2",
+			"versions": "ave"
+		},
+		"folderID": "F9be09493fc662017d5a329f2d00c27b7cb052f75b0fd2926bd0631a56b17e5fc",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.2 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -27267,6 +28199,26 @@
 				]
 			},
 			"level": "9.3",
+			"versions": "ave"
+		},
+		"folderID": "F7bf09f03d4dad80b5f8b9f3b34b01fe71410d65a61316efce467a51c4a747da9",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.3 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "9.3",
 			"versions": "festo-omni"
 		},
 		"folderID": "F9acea0b278b8448062157f994fde89438ae22b0f01b3cde87d3611de0f043132",
@@ -27295,6 +28247,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 9.3 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "9.3",
+			"versions": "ave"
+		},
+		"folderID": "F33fd107808bbf502f8f2584d69ac29c7b187f622baa1476e0bbab70272c360a9",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.3 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -27387,6 +28359,26 @@
 				]
 			},
 			"level": "9.4",
+			"versions": "ave"
+		},
+		"folderID": "Fffa89bcc26d4f004bb1c59eed0c61c7609633f82447559f2788a7b9024e21b91",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.4 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "9.4",
 			"versions": "festo-omni"
 		},
 		"folderID": "Fd20dc5655f5a368096614f7093d1d9a2a44dcec03a6a519dc51bbda1326e28f3",
@@ -27415,6 +28407,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 9.4 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "9.4",
+			"versions": "ave"
+		},
+		"folderID": "F7a69419fd3c20c324d2817250c2abb14b9d0cd16ad06a7bb7dd505def74f9039",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.4 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -27507,6 +28519,26 @@
 				]
 			},
 			"level": "9.5",
+			"versions": "ave"
+		},
+		"folderID": "Fc80f1fc48ccca8e5e44307dcc95ebe56aeadceece5d032905ebd9b72b80513e7",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.5 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "9.5",
 			"versions": "festo-omni"
 		},
 		"folderID": "Fcbabc5acc06a36077396ae670c02d5477a367438777188c0c780222a656af438",
@@ -27535,6 +28567,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 9.5 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "9.5",
+			"versions": "ave"
+		},
+		"folderID": "F3f8020a83ff5b717ce48f10f6f4acb44dde391e12c01726995e1d6ea777e1a0c",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.5 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -27627,6 +28679,26 @@
 				]
 			},
 			"level": "9.6",
+			"versions": "ave"
+		},
+		"folderID": "Fc64de863cbf48a31a0aa3139f4e43f9ebe2677fa2e0a39b677b3a7c526c1a0db",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.6 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "9.6",
 			"versions": "festo-omni"
 		},
 		"folderID": "F2fc642977bad848ff05d9cc97af2efd48e7493eea0dd5d707361184f397b6a68",
@@ -27655,6 +28727,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 9.6 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "9.6",
+			"versions": "ave"
+		},
+		"folderID": "F34aae5f0b86bef40e0ed2c6d78c2c6107be09632abfffbd4f43df79a53c2d4dd",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.6 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -27747,6 +28839,26 @@
 				]
 			},
 			"level": "9.7",
+			"versions": "ave"
+		},
+		"folderID": "F10a2ff0390e2d00e152f927501b520afbca7cece87668a26abe87538331b7d7a",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.7 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "9.7",
 			"versions": "festo-omni"
 		},
 		"folderID": "F965c297f454c3e2cdc04e66f366af65543bd320358284a71c321f69d9fdfdb1b",
@@ -27775,6 +28887,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 9.7 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "9.7",
+			"versions": "ave"
+		},
+		"folderID": "Fab5781695a5aba18b93d0fdd743dec108375646e876542a376f89da3f29670c4",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.7 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -27867,6 +28999,26 @@
 				]
 			},
 			"level": "9.8",
+			"versions": "ave"
+		},
+		"folderID": "F7e549e00562f728a186ef657bf757bd5dd3b54e5beeae9e641629c6d6e7f9f7a",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.8 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "9.8",
 			"versions": "festo-omni"
 		},
 		"folderID": "F87be14fff303494eb598aa99d6b3a54daee9a17f8527d1fded709fdffb74a788",
@@ -27895,6 +29047,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 9.8 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "9.8",
+			"versions": "ave"
+		},
+		"folderID": "Fec7a8781afb1cbaf19981c057ae0ad7440334987f7af7a39f725da5684cd6ef9",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.8 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{
@@ -27987,6 +29159,26 @@
 				]
 			},
 			"level": "9.9",
+			"versions": "ave"
+		},
+		"folderID": "F38b28556d70793b5137c3ace3d4b11d6a4a827e284a30f6c268eb08824c5e490",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.9 (Ave.)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"BSC",
+					"ADV",
+					"EXT"
+				]
+			},
+			"level": "9.9",
 			"versions": "festo-omni"
 		},
 		"folderID": "Fc14a2034372aa3d90253ef8bf09afd01873c23f9f58e4874d833ff1b15a2ae3f",
@@ -28015,6 +29207,26 @@
 		"playtype": "Single",
 		"searchTerms": [],
 		"title": "Level 9.9 (festo)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": {
+				"~in": [
+					"HARD BSC",
+					"HARD ADV",
+					"HARD EXT"
+				]
+			},
+			"level": "9.9",
+			"versions": "ave"
+		},
+		"folderID": "Fdc4ae8fe84ab78fb5a05a2040a368fccd2c19b7a3081e8916a94dfce74989c2a",
+		"game": "jubeat",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9.9 (Hard Mode) (Ave.)",
 		"type": "charts"
 	},
 	{

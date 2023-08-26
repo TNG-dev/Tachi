@@ -34,8 +34,8 @@ export function JubeatGraphsComponent({
 		const size = 5;
 		const space = 2;
 
-		context.canvas.height = 65;
-		context.canvas.width = 820;
+		context.canvas.height = 60;
+		context.canvas.width = 840;
 
 		const colors = [];
 		colors[0] = COLOUR_SET.white;
@@ -63,14 +63,7 @@ export function JubeatGraphsComponent({
 	if (score.scoreData.optional.musicBar) {
 		return (
 			<>
-				<div className="col-12 d-flex justify-content-center">
-					<Nav variant="pills">
-						<SelectNav id="DENSITY" value={graph} setValue={setGraph}>
-							Music Bar
-						</SelectNav>
-					</Nav>
-				</div>
-				<div className="col-12 ">
+				<div className="d-flex align-items-center justify-content-center">
 					<canvas ref={canvasRef} />
 				</div>
 			</>

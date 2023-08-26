@@ -21,7 +21,7 @@ function CreateFolder(criteria, title) {
 	return f;
 }
 
-const versions = ["festo-omni"];
+const versions = ["ave"];
 
 for (const version of versions) {
 	const shouldAddDecimals = true;

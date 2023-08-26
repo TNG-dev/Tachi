@@ -92,6 +92,7 @@ The default rating algorithm is `jubility`.
 | `qubell` | Qubell |
 | `clan` | clan |
 | `festo` | festo |
+| `ave` | Ave. |
 
 ## Supported Match Types
 
