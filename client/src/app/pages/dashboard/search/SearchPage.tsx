@@ -237,7 +237,10 @@ function UsersView({ users }: { users: Array<UserDocument> }) {
 							>
 								<div>
 									<h4>
-										<Link className="gentle-link" to={`/u/${user.username}`}>
+										<Link
+											className="text-decoration-none"
+											to={`/u/${user.username}`}
+										>
 											{user.username}
 										</Link>
 									</h4>

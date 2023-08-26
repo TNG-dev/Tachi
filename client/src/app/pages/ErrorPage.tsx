@@ -75,7 +75,6 @@ export function ErrorPage({
 			<p className="fs-3">{message}</p>
 			<a
 				href="#"
-				className="text-decoration-underline"
 				style={{ color: "inherit" }}
 				onClick={(e) => {
 					e.preventDefault();

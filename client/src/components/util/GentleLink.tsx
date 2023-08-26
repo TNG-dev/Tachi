@@ -10,7 +10,7 @@ export default function GentleLink({
 	className?: string;
 } & JustChildren) {
 	return (
-		<Link to={to} className="gentle-link">
+		<Link to={to} className="text-decoration-none">
 			{children}
 		</Link>
 	);

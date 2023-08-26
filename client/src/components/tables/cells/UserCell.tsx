@@ -17,10 +17,7 @@ export default function UserCell({ user, game, playtype }: { user: UserDocument 
 			className="fading-image-td-right"
 		>
 			<Link
-				style={{
-					maskImage: "unset",
-				}}
-				className="gentle-link"
+				className="text-decoration-none"
 				to={`/u/${user.username}/games/${game}/${playtype}`}
 			>
 				{user.username}

@@ -23,18 +23,12 @@ export default function BarbatosPage() {
 					Download <code>barbatos.dll</code>.{" "}
 					<ul>
 						<li>
-							<ExternalLink
-								className="text-decoration-underline"
-								href="https://f.wcal.xyz/2W9K7kXl"
-							>
+							<ExternalLink href="https://f.wcal.xyz/2W9K7kXl">
 								VIVID WAVE
 							</ExternalLink>
 						</li>
 						<li>
-							<ExternalLink
-								className="text-decoration-underline"
-								href="https://f.wcal.xyz/3VqnDgcC"
-							>
+							<ExternalLink href="https://f.wcal.xyz/3VqnDgcC">
 								EXCEED GEAR
 							</ExternalLink>
 							.
@@ -43,12 +37,7 @@ export default function BarbatosPage() {
 				</li>
 				<li>
 					Download your config file{" "}
-					<ExternalLink
-						className="text-decoration-underline"
-						href="/client-file-flow/CXBarbatos"
-					>
-						here
-					</ExternalLink>
+					<ExternalLink href="/client-file-flow/CXBarbatos">here</ExternalLink>
 					. <br />
 					<Alert variant="warning" className="mt-2">
 						This file contains an API Key, which is meant to be kept secret!

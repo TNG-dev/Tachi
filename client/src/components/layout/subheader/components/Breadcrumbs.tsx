@@ -34,7 +34,7 @@ export function Breadcrumbs({ items }: { items: string[] }) {
 							className="h-2 w-2 d-block bg-body-emphasis rounded-circle bg-opacity-75 mx-3"
 						/>
 						<Link
-							className="p-1 rounded link-body-emphasis link-opacity-75 link-opacity-100-hover focus-visible-ring transition-color"
+							className="p-1 rounded text-decoration-none link-body-emphasis link-opacity-75 link-opacity-100-hover focus-visible-ring transition-color"
 							to={`/${parts.slice(0, index + 1).join("/")}`}
 						>
 							{name}

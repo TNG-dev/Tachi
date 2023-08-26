@@ -41,7 +41,7 @@ function Row({ data }: { data: ImportDataset[0] }) {
 	return (
 		<DropdownRow dropdown={<ImportDropdown data={data} />}>
 			<td>
-				<Link className="gentle-link" to={`/u/${data.__related.user.username}`}>
+				<Link className="text-decoration-none" to={`/u/${data.__related.user.username}`}>
 					{data.__related.user.username}
 				</Link>
 			</td>

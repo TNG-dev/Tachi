@@ -61,10 +61,7 @@ export default function UGPTGoalsPage({ reqUser, game, playtype }: UGPT) {
 				</Button>
 				<div>
 					Looking for goal recommendations?{" "}
-					<Link
-						className="text-decoration-underline"
-						to={`/games/${game}/${playtype}/quests`}
-					>
+					<Link to={`/games/${game}/${playtype}/quests`}>
 						Check out {FormatGame(game, playtype)}'s Quests
 					</Link>
 					.

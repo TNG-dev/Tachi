@@ -26,6 +26,7 @@ import {
 } from "tachi-common";
 import { GPTLeaderboard, UGPTLeaderboardAdjacent } from "types/api-returns";
 import { GamePT, SetState, UGPT } from "types/react";
+import LinkButton from "components/util/LinkButton";
 
 interface LeaderboardsData {
 	stats: UGPTLeaderboardAdjacent;
@@ -163,10 +164,11 @@ function LeaderboardsPageContent({
 		<Card
 			header={"Leaderboard"}
 			footer={
-				<Link to={`/games/${game}/${playtype}/leaderboards`} className="float-end">
+				<LinkButton to={`/games/${game}/${playtype}/leaderboards`} className="float-end">
 					View Global Leaderboards
-				</Link>
+				</LinkButton>
 			}
+			cardBodyClassName="overflow-x-auto d-flex flex-column justify-content-center p-4"
 		>
 			<MiniTable
 				className="text-center"

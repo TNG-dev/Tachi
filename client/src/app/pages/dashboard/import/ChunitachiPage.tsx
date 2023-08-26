@@ -21,22 +21,14 @@ export default function ChunitachiPage() {
 			<ol className="instructions-list">
 				<li>
 					Download <code>chunitachi.dll</code> from{" "}
-					<ExternalLink
-						className="text-decoration-underline"
-						href="https://github.com/tomatosoupcan/ChunItachi/releases"
-					>
+					<ExternalLink href="https://github.com/tomatosoupcan/ChunItachi/releases">
 						here
 					</ExternalLink>
 					.
 				</li>
 				<li>
 					Download your <code>ChunItachi.ini</code> config file{" "}
-					<ExternalLink
-						className="text-decoration-underline"
-						href="/client-file-flow/CXChunitachi"
-					>
-						here
-					</ExternalLink>
+					<ExternalLink href="/client-file-flow/CXChunitachi">here</ExternalLink>
 					. <br />
 					<Alert variant="warning" className="mt-2">
 						This config file contains an API Key, which should be kept secret!
@@ -44,10 +36,7 @@ export default function ChunitachiPage() {
 				</li>
 				<li>
 					Follow the remaining install instructions on{" "}
-					<ExternalLink
-						className="text-decoration-underline"
-						href="https://github.com/tomatosoupcan/ChunItachi/blob/main/README.md"
-					>
+					<ExternalLink href="https://github.com/tomatosoupcan/ChunItachi/blob/main/README.md">
 						GitHub
 					</ExternalLink>
 					.

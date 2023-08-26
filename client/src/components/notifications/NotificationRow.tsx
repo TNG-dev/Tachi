@@ -19,7 +19,7 @@ export default function NotificationRow({ notif }: { notif: NotificationDocument
 			<td>
 				<strong>
 					{url ? (
-						<Link className="gentle-link" to={url}>
+						<Link className="text-decoration-none" to={url}>
 							{notif.title}
 						</Link>
 					) : (

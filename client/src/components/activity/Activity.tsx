@@ -288,7 +288,7 @@ function ScoresActivity({
 	return (
 		<div className="timeline-item timeline-hover my-4">
 			<div className="timeline-badge bg-warning"></div>
-			<div className="timeline-content">
+			<div className="timeline-content flex-nowrap">
 				<div className="timeline-content-inner" onClick={() => setShow(!show)}>
 					<div className="timeline-content-title">
 						<span className="me-2">
@@ -452,7 +452,7 @@ function QuestActivity({
 							<UGPTLink reqUser={user} game={game} playtype={playtype} /> completed
 							the{" "}
 							<Link
-								className="gentle-link"
+								className="text-decoration-none"
 								to={`/games/${game}/${playtype}/quests/${data.quest.questID}`}
 							>
 								{data.quest.name}
@@ -695,10 +695,7 @@ function UGPTLink({ reqUser, game, playtype }: UGPT) {
 	return (
 		<Link
 			to={`/u/${reqUser.username}/games/${game}/${playtype}`}
-			className="gentle-link"
-			style={{
-				fontWeight: "bold",
-			}}
+			className="text-decoration-none fw-bold"
 		>
 			{user?.id === reqUser.id ? "You" : reqUser.username}
 			{reqUser?.isSupporter ? (

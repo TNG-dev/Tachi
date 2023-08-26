@@ -94,12 +94,7 @@ export default function UGPTQuestsPage({ reqUser, game, playtype }: UGPT) {
 					<div className="text-center">
 						Looks like you have no quests set.
 						<br />
-						<Link
-							className="text-decoration-underline"
-							to={`/games/${game}/${playtype}/quests`}
-						>
-							Go set some!
-						</Link>
+						<Link to={`/games/${game}/${playtype}/quests`}>Go set some!</Link>
 					</div>
 				</Col>
 			)}

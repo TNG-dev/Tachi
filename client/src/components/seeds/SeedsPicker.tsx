@@ -424,7 +424,10 @@ function RevisionComponent({
 				<div className="me-3" style={{ width: "70%", textAlign: "left" }}>
 					<span style={{ fontSize: "1.15rem" }}>
 						<code>{TruncateString(rev.sha, 9)}</code>:{" "}
-						<a className="gentle-link" onClick={() => onSelect(rev)}>
+						<a
+							className="text-decoration-none cursor-pointer"
+							onClick={() => onSelect(rev)}
+						>
 							{subject}
 						</a>
 					</span>

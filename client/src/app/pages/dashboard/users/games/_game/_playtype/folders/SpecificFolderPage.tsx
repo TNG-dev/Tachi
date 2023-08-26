@@ -646,7 +646,7 @@ function TierlistInfoBucketValues({
 			<tr>
 				<DifficultyCell game={game} chart={tierlistInfo.chart} alwaysShort noTierlist />
 				<td className="text-start">
-					<Link className="gentle-link" to={CreateChartLink(data, game)}>
+					<Link className="text-decoration-none" to={CreateChartLink(data, game)}>
 						{tierlistInfo.chart.__related.song.title}
 					</Link>{" "}
 					<br />
@@ -678,7 +678,7 @@ function TierlistInfoBucketValues({
 			}
 		>
 			<div className={`${statusClasses[tierlistInfo.status]} bg-opacity-50 rounded p-2`}>
-				<Link className="gentle-link" to={CreateChartLink(data, game)}>
+				<Link className="text-decoration-none" to={CreateChartLink(data, game)}>
 					{data.__related.song.title}
 				</Link>{" "}
 				{FormatDifficultyShort(data, game)}

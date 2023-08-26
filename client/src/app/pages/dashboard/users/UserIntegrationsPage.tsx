@@ -84,10 +84,7 @@ function OAuthClientPage() {
 					with {TachiConfig.name}.
 					<br />
 					You can read the documentation{" "}
-					<ExternalLink
-						className="text-decoration-underline"
-						href="https://docs.bokutachi.xyz/tachi-server/infrastructure/api-clients/"
-					>
+					<ExternalLink href="https://docs.bokutachi.xyz/tachi-server/infrastructure/api-clients/">
 						here
 					</ExternalLink>
 					!

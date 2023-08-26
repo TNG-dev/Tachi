@@ -22,22 +22,11 @@ export default function FervidexPage() {
 			<ol className="instructions-list">
 				<li>
 					Download <code>fervidex.dll</code> from{" "}
-					<ExternalLink
-						className="text-decoration-underline"
-						href="https://client.fervidex.net/latest.zip"
-					>
-						here
-					</ExternalLink>
-					.
+					<ExternalLink href="https://client.fervidex.net/latest.zip">here</ExternalLink>.
 				</li>
 				<li>
 					Download your <code>fervidex.json</code> config file{" "}
-					<ExternalLink
-						className="text-decoration-underline"
-						href="/client-file-flow/CXFervidex"
-					>
-						here
-					</ExternalLink>
+					<ExternalLink href="/client-file-flow/CXFervidex">here</ExternalLink>
 					. <br />
 					<Alert variant="warning" className="mt-2">
 						This config file contains an API Key, which should be kept secret!
@@ -50,10 +39,7 @@ export default function FervidexPage() {
 				<ul className="instructions-list">
 					<li>
 						You'll also need to download{" "}
-						<ExternalLink
-							className="text-decoration-underline"
-							href="https://client.fervidex.net/latest-chainloader.zip"
-						>
+						<ExternalLink href="https://client.fervidex.net/latest-chainloader.zip">
 							this
 						</ExternalLink>
 						, and extract it to the same folder.
@@ -74,10 +60,7 @@ export default function FervidexPage() {
 			<Alert variant="warning">
 				Looking to import existing scores? Import from your network first. If that's not
 				possible, enable "Sync Existing Scores" in{" "}
-				<Link
-					className="text-decoration-underline"
-					to={"/u/me/integrations/services/fervidex"}
-				>
+				<Link to={"/u/me/integrations/services/fervidex"}>
 					<b>your settings.</b>
 				</Link>
 			</Alert>

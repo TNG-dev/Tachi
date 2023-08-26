@@ -187,7 +187,7 @@ function SessionTab({ data }: { data: Data }) {
 					<td>
 						<Link
 							to={`/u/${r.session.userID}/games/${r.session.game}/${r.session.playtype}/sessions/${r.session.sessionID}`}
-							className="gentle-link"
+							className="text-decoration-none"
 						>
 							{r.session.name}
 						</Link>

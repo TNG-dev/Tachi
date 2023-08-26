@@ -238,7 +238,7 @@ function DashboardNotLoggedIn() {
 				<h1 className="fw-bold">Welcome to {TachiConfig.name}!</h1>
 				<h4 className="fs-3">
 					Looks like you're not logged in. If you've got an account,{" "}
-					<Link className="link-primary text-decoration-underline" to="/login">
+					<Link className="link-primary" to="/login">
 						Login!
 					</Link>
 				</h4>

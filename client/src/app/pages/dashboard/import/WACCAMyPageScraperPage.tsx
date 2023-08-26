@@ -50,10 +50,7 @@ export default function WACCASiteImportPage() {
 		<div>
 			<h1 className="text-center mb-4">What Is WaccaMyPageScraper?</h1>
 			<div>
-				<ExternalLink
-					className="text-decoration-underline"
-					href="https://github.com/XezolesS/WaccaMyPageScraper/"
-				>
+				<ExternalLink href="https://github.com/XezolesS/WaccaMyPageScraper/">
 					WaccaMyPageScraper
 				</ExternalLink>{" "}
 				is a scraper for the official WACCA MyPage service site. Since the site is offline

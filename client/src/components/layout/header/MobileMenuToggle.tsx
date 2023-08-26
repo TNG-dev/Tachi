@@ -15,7 +15,7 @@ export default function MobileMenuToggle({
 			aria-label="Toggle Navigation"
 			aria-expanded={state}
 			onClick={() => setState((prevState) => !prevState)}
-			className="d-block d-lg-none h-14 w-14 pt-1 rounded border-0 bg-transparent text-body display-6 focus-ring focus-ring-secondary"
+			className="d-block d-lg-none h-14 w-14 pt-1 rounded border-0 bg-transparent text-body display-6 focus-visible-ring "
 		>
 			<Icon type="bars" />
 		</button>

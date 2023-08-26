@@ -139,7 +139,6 @@ export default function RegisterPage() {
 						<h4>
 							Hey! Before you make an account, please read the{" "}
 							<a
-								className="text-decoration-underline"
 								href="https://docs.bokutachi.xyz/wiki/rules/"
 								target="_blank"
 								rel="noopener noreferrer"

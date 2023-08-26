@@ -93,7 +93,7 @@ export function InnerQuestInfo({ quest }: { quest: QuestDocument }) {
 						/>
 					</div>
 
-					<a className="quest-link gentle-link ms-2" href={`#${quest.questID}`}>
+					<a className="text-decoration-none ms-2" href={`#${quest.questID}`}>
 						{quest.name}
 					</a>
 
@@ -152,7 +152,7 @@ export function InnerQuestInfo({ quest }: { quest: QuestDocument }) {
 					</div>
 				</QuickTooltip>
 
-				<a className="quest-link gentle-link ms-2" href={`#${quest.questID}`}>
+				<a className="text-decoration-none ms-2" href={`#${quest.questID}`}>
 					{quest.name}
 				</a>
 

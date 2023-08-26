@@ -48,19 +48,13 @@ export default function ImportPage({ user }: { user: UserDocument }) {
 				<DiscordLink>Discord</DiscordLink>.
 				<br />
 				Know how to program, and want to write a script yourself? Check out{" "}
-				<ExternalLink
-					className="text-decoration-underline"
-					href="https://docs.bokutachi.xyz/codebase/batch-manual"
-				>
+				<ExternalLink href="https://docs.bokutachi.xyz/codebase/batch-manual">
 					Batch Manual
 				</ExternalLink>
 				.
 				<br />
 				Want to manage or revert an import? Go to{" "}
-				<Link className="text-decoration-underline" to={`/u/${user.username}/imports`}>
-					Import Management
-				</Link>
-				.
+				<Link to={`/u/${user.username}/imports`}>Import Management</Link>.
 			</div>
 			<hr />
 			<Form.Select

@@ -1,5 +1,6 @@
 import { APIFetchV1, ToAPIURL } from "util/api";
 import { DelayedPageReload, FetchJSONBody, UppercaseFirst } from "util/misc";
+import { Themes, getStoredTheme, mediaQueryPrefers, setTheme } from "util/themeUtils";
 import useSetSubheader from "components/layout/header/useSetSubheader";
 import Card from "components/layout/page/Card";
 import ProfilePicture from "components/user/ProfilePicture";
@@ -16,7 +17,6 @@ import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Stack from "react-bootstrap/Stack";
 import { UserDocument, UserSettingsDocument } from "tachi-common";
-import { Themes, WindowContext } from "context/WindowContext";
 import toast from "react-hot-toast";
 import { SetState } from "types/react";
 
@@ -272,8 +272,8 @@ export function AccountSettings({ reqUser }: { reqUser: UserDocument }) {
 
 function PreferencesForm({ reqUser }: { reqUser: UserDocument }) {
 	const { settings, setSettings } = useContext(UserSettingsContext);
-	const { theme, setTheme } = useContext(WindowContext);
-	const [themeSetting, setThemeSetting] = useState<Themes>(theme);
+	const theme = getStoredTheme() || "system";
+	const [themeSetting, setThemeSetting] = useState<Themes | "system">(theme);
 
 	const formik = useFormik({
 		initialValues: {
@@ -302,10 +302,14 @@ function PreferencesForm({ reqUser }: { reqUser: UserDocument }) {
 
 	const handleThemeSubmit = (event: React.FormEvent<HTMLFormElement>) => {
 		event.preventDefault();
-		if (theme !== themeSetting) {
+		if (themeSetting === "system") {
+			setTheme(mediaQueryPrefers());
+			localStorage.removeItem("theme");
+			toast.success("Following system preference!");
+		} else {
 			setTheme(themeSetting);
 			localStorage.setItem("theme", themeSetting);
-			toast.success(`Applied ${themeSetting} theme!`);
+			toast.success(`Applied ${UppercaseFirst(themeSetting)} theme!`);
 		}
 	};
 
@@ -319,6 +323,7 @@ function PreferencesForm({ reqUser }: { reqUser: UserDocument }) {
 							value={themeSetting}
 							onChange={(e) => setThemeSetting(e.target.value as Themes)}
 						>
+							<option value="system">Follow system preference</option>
 							<option value="light">Light</option>
 							<option value="dark">Dark</option>
 							<option value="oled">OLED</option>

@@ -21,22 +21,14 @@ export default function KsHookPage() {
 			<ol className="instructions-list">
 				<li>
 					Download the latest version of <code>kshook.dll</code> from{" "}
-					<ExternalLink
-						className="text-decoration-underline"
-						href="https://djtrackers.com/kshook/latest.zip"
-					>
+					<ExternalLink href="https://djtrackers.com/kshook/latest.zip">
 						here
 					</ExternalLink>
 					.
 				</li>
 				<li>
 					Download your config file{" "}
-					<ExternalLink
-						className="text-decoration-underline"
-						href="/client-file-flow/CXKsHook"
-					>
-						here
-					</ExternalLink>
+					<ExternalLink href="/client-file-flow/CXKsHook">here</ExternalLink>
 					. <br />
 					<Alert variant="warning" className="mt-2">
 						This file contains an API Key, which is meant to be kept secret!

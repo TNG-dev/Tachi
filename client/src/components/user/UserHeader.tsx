@@ -32,7 +32,7 @@ export function UserHeaderBody({ reqUser }: { reqUser: UserDocument }) {
 			<li>
 				<Icon brand type={mode} />{" "}
 				<ExternalLink
-					className="gentle-link"
+					className="text-decoration-none"
 					href={href ? href + reqUser.socialMedia[mode] : undefined}
 				>
 					{reqUser.socialMedia[mode]}
@@ -200,7 +200,7 @@ function StatusComponent({ reqUser }: { reqUser: UserDocument }) {
 				{isRequestedUser && (
 					<a
 						href="#"
-						className="link-opacity-75 link-opacity-100-hover transition-color"
+						className="link-opacity-75 link-opacity-100-hover text-decoration-none transition-color"
 						onClick={() => setModalShow(true)}
 					>
 						Change Status

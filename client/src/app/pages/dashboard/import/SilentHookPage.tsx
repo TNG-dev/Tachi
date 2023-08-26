@@ -22,10 +22,7 @@ export default function SilentHookPage() {
 			<ol className="instructions-list">
 				<li>
 					Download <code>silent</code> from{" "}
-					<ExternalLink
-						className="text-decoration-underline"
-						href="https://zkldi.xyz/stuff/silent-latest.zip"
-					>
+					<ExternalLink href="https://zkldi.xyz/stuff/silent-latest.zip">
 						here
 					</ExternalLink>{" "}
 					and place all the <code>.dll</code> files in the same folder as{" "}
@@ -35,12 +32,7 @@ export default function SilentHookPage() {
 				</li>
 				<li>
 					Download your config file to the same folder{" "}
-					<ExternalLink
-						className="text-decoration-underline"
-						href="/client-file-flow/CXSilentHook"
-					>
-						here
-					</ExternalLink>
+					<ExternalLink href="/client-file-flow/CXSilentHook">here</ExternalLink>
 					. <br />
 					<Alert variant="warning" className="mt-2">
 						This file contains an API Key, which is meant to be kept secret!

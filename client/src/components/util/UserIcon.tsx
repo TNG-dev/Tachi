@@ -18,7 +18,6 @@ export default function UserIcon({
 			/>
 			<h4 className="mt-2">
 				<Link
-					className="gentle-link"
 					to={
 						game && playtype
 							? `/u/${user.username}/games/${game}/${playtype}`

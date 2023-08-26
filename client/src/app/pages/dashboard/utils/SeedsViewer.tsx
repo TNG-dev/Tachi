@@ -35,10 +35,7 @@ export default function SeedsViewer() {
 				To view the state of a given commit or repository, use the select boxes below.
 				<br />
 				For more information what all of this is about and how it works, see{" "}
-				<ExternalLink
-					className="text-decoration-underline"
-					href="https://docs.bokutachi.xyz/contributing/components/seeds"
-				>
+				<ExternalLink href="https://docs.bokutachi.xyz/contributing/components/seeds">
 					the documentation
 				</ExternalLink>
 				.

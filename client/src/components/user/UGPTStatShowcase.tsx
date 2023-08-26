@@ -383,7 +383,7 @@ export function StatDisplay({
 				header={<h5 className="text-body-secondary mb-0">Chart</h5>}
 			>
 				<>
-					<Link className="gentle-link" to={CreateChartLink(chart, game)}>
+					<Link className="text-decoration-none" to={CreateChartLink(chart, game)}>
 						<h4>{FormatChart(game, song, chart, true)}</h4>
 					</Link>
 					<h4>
@@ -415,7 +415,7 @@ export function StatDisplay({
 			>
 				<>
 					<Link
-						className="gentle-link"
+						className="text-decoration-none"
 						to={`/u/${reqUser.id}/games/${game}/${playtype}/folders/${folder.folderID}`}
 					>
 						<h4>{headerStr}</h4>

@@ -9,10 +9,7 @@ export default function TISInfo({ name }: { name: string }) {
 			<ol className="instructions-list">
 				<li>
 					Download the latest version of the {TachiConfig.name} Import Scripts{" "}
-					<ExternalLink
-						className="text-decoration-underline"
-						href="https://github.com/TNG-dev/tachi-import-scripts/releases"
-					>
+					<ExternalLink href="https://github.com/TNG-dev/tachi-import-scripts/releases">
 						here
 					</ExternalLink>
 					.

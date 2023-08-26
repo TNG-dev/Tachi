@@ -462,7 +462,7 @@ function PlayCard({
 					style={{ maxHeight: 128, minWidth: 256 }}
 				>
 					<Link
-						className="gentle-link fs-4 fw-bold text-break text-center"
+						className="text-decoration-none fs-4 fw-bold text-break text-center"
 						to={`/u/${user.username}/games/${pb.game}/${pb.playtype}`}
 					>
 						{user.username}

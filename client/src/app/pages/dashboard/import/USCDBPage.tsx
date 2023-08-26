@@ -15,11 +15,8 @@ export default function USCDBPage() {
 			<Divider />
 			<Alert variant="info">
 				This method is intended for syncing up with existing scores. For new scores, you
-				should set up the{" "}
-				<Link className="text-decoration-underline" to="/import/usc-ir">
-					USC IR
-				</Link>
-				, for automatic score uploading.
+				should set up the <Link to="/import/usc-ir">USC IR</Link>, for automatic score
+				uploading.
 			</Alert>
 			<Muted>
 				Note: If you submit a score on a chart that {TachiConfig.name} doesn't recognise,

@@ -48,7 +48,7 @@ export default function Header({ styles }: { styles: LayoutStyles }) {
 							<Link
 								id="home"
 								to="/"
-								className="mx-auto p-2 focus-ring focus-ring-light"
+								className="mx-auto p-2 focus-visible-ring rounded"
 							>
 								<SiteWordmark id="navbar-label" width="192px" />
 							</Link>

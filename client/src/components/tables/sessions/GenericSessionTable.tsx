@@ -118,7 +118,7 @@ function Row({
 			<td style={{ minWidth: "140px" }}>
 				<Link
 					to={`/u/${reqUser.username}/games/${data.game}/${data.playtype}/sessions/${data.sessionID}`}
-					className="gentle-link"
+					className="text-decoration-none"
 				>
 					{data.name}
 				</Link>
