@@ -14380,5 +14380,49 @@
 		"id": 1124,
 		"searchTerms": [],
 		"title": "絶対敵対メチャキライヤー"
+	},
+	{
+		"altTitles": [],
+		"artist": "曲：広川恵一 (MONACA)／歌：オンゲキシューターズ",
+		"data": {
+			"displayVersion": "FESTiVAL PLUS",
+			"genre": "オンゲキ＆CHUNITHM"
+		},
+		"id": 1125,
+		"searchTerms": [],
+		"title": "STARRED HEART"
+	},
+	{
+		"altTitles": [],
+		"artist": "曲：烏屋茶房／歌：R.B.P. [九條 楓(CV：佳村 はるか)、逢坂 茜(CV：大空 直美)、珠洲島 有栖(CV：長縄 まりあ)]",
+		"data": {
+			"displayVersion": "FESTiVAL PLUS",
+			"genre": "オンゲキ＆CHUNITHM"
+		},
+		"id": 1126,
+		"searchTerms": [],
+		"title": "Y.Y.Y.計画!!!!"
+	},
+	{
+		"altTitles": [],
+		"artist": "USAO",
+		"data": {
+			"displayVersion": "FESTiVAL PLUS",
+			"genre": "オンゲキ＆CHUNITHM"
+		},
+		"id": 1127,
+		"searchTerms": [],
+		"title": "Last Kingdom"
+	},
+	{
+		"altTitles": [],
+		"artist": "BlackY",
+		"data": {
+			"displayVersion": "FESTiVAL PLUS",
+			"genre": "オンゲキ＆CHUNITHM"
+		},
+		"id": 1128,
+		"searchTerms": [],
+		"title": "LAMIA"
 	}
 ]

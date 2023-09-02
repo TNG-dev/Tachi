@@ -30,6 +30,31 @@ interface XmlNotes {
 	isEnable: boolean;
 }
 
+interface AddOtherSheetOptions {
+	/**
+	 * Whether there is a category header in the table.
+	 */
+	parseCategory?: boolean;
+
+	/**
+	 * Whether there is a category column in the table.
+	 */
+	hasCategoryColumn?: boolean;
+
+	/**
+	 * Mark all songs in this sheet as being in the latest version of the game.
+	 */
+	markLatest?: boolean;
+
+	/**
+	 * If `markLatest` is true, exclude these songs from being marked as latest.
+	 *
+	 * This is useful when songs are released in different versions of the game
+	 * in different regions (e.g. FESTiVAL PLUS in Japan but FESTiVAL internationally.)
+	 */
+	markLatestExceptions?: string[];
+}
+
 const diffMap = new Map([
 	["BAS", "Basic"],
 	["ADV", "Advanced"],
@@ -214,26 +239,25 @@ function addTmaiSheet(csvData: string[][]) {
 /**
  * Adds internal levels to charts from a CSV file.
  * @param csvData raw CSV data
- * @param parseCategory whether to include category header in parsing
  * @param headerRow the index (starting from 0) of the first row with a song
  * 	(or with category if `parseCategory` is `true`)
  *
  *  **To be considered a category only the first column can have text.**
- * @param hasCategoryColumn whether there is a category column for each song
- * @param markLatest whether to mark chart as latest
+ * @param options
  */
-function addOtherSheet(
-	csvData: string[][],
-	parseCategory: boolean,
-	headerRow: number,
-	hasCategoryColumn: boolean,
-	markLatest: boolean
-) {
+function addOtherSheet(csvData: string[][], headerRow: number, options: AddOtherSheetOptions) {
+	const {
+		parseCategory = false,
+		hasCategoryColumn = false,
+		markLatest = false,
+		markLatestExceptions = [],
+	} = options;
+
 	const songs = ReadCollection("songs-maimaidx.json");
 	const categoryColumnOffset = hasCategoryColumn ? 1 : 0;
 	let currentCategory = "";
 
-	MutateCollection("charts-maimaidx.json", (charts) => {
+	MutateCollection("charts-maimaidx.json", (charts: ChartDocument<"maimaidx:Single">[]) => {
 		for (
 			let colNumber = 0;
 			colNumber + 4 + categoryColumnOffset < csvData[0]!.length;
@@ -295,7 +319,10 @@ function addOtherSheet(
 					);
 					chart.levelNum = internalLevel;
 				}
-				if (chart.data.isLatest !== markLatest) {
+				if (
+					chart.data.isLatest !== markLatest &&
+					!markLatestExceptions.includes(song.title)
+				) {
 					console.log(
 						`Marking ${song.title} [${chart.difficulty}]'s isLatest to ${markLatest}`
 					);
@@ -379,16 +406,24 @@ if (options.directory) {
 	const csvData = parse(fs.readFileSync(options.file));
 	const newSongsSheet = options.file.includes("新曲");
 	const tmaiSheet = options.file.includes(" - Tmai.csv");
-	const highLevelSheet = / - (14以上|13+|13).csv$/u.test(options.file);
+	const highLevelSheet = / - (14以上|13+|13)$/u.test(options.file);
 
 	if (tmaiSheet) {
 		addTmaiSheet(csvData);
 	} else if (newSongsSheet) {
-		addOtherSheet(csvData, false, 7, false, true);
+		addOtherSheet(csvData, 7, {
+			markLatest: true,
+			markLatestExceptions: [
+				"INTERNET OVERDOSE",
+				"Knight Rider",
+				"Let you DIVE!",
+				"Trrricksters!!",
+			],
+		});
 	} else if (highLevelSheet) {
-		addOtherSheet(csvData, false, 3, true, false);
+		addOtherSheet(csvData, 3, { hasCategoryColumn: true });
 	} else {
-		addOtherSheet(csvData, true, 2, true, false);
+		addOtherSheet(csvData, 2, { parseCategory: true, hasCategoryColumn: true });
 	}
 } else {
 	console.error("Must specify either a file or a directory");
