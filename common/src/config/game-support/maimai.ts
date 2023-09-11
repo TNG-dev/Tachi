@@ -27,7 +27,7 @@ const MaimaiDans = [
 	ClassValue("DAN_10", "十段", "10th Dan"),
 	ClassValue("KAIDEN", "皆伝", "Kaiden"),
 
-	ClassValue("SHINDAN_1", "真初段", "Shinshodan"),
+	ClassValue("SHINDAN_1", "真初段", "1st Shindan"),
 	ClassValue("SHINDAN_2", "真二段", "2nd Shindan"),
 	ClassValue("SHINDAN_3", "真三段", "3rd Shindan"),
 	ClassValue("SHINDAN_4", "真四段", "4th Shindan"),
@@ -41,16 +41,16 @@ const MaimaiDans = [
 ];
 
 const MaimaiColours = [
-	ClassValue("WHITE", "White"),
-	ClassValue("BLUE", "Blue"),
-	ClassValue("GREEN", "Green"),
-	ClassValue("YELLOW", "Yellow"),
-	ClassValue("RED", "Red"),
-	ClassValue("PURPLE", "Purple"),
-	ClassValue("BRONZE", "Bronze"),
-	ClassValue("SILVER", "Silver"),
-	ClassValue("GOLD", "Gold"),
-	ClassValue("RAINBOW", "Rainbow"),
+	ClassValue("WHITE", "White", "0 - 1.99 Rating"),
+	ClassValue("BLUE", "Blue", "2 - 3.99 Rating"),
+	ClassValue("GREEN", "Green", "4 - 6.99 Rating"),
+	ClassValue("YELLOW", "Yellow", "7 - 9.99 Rating"),
+	ClassValue("RED", "Red", "10 - 11.99 Rating"),
+	ClassValue("PURPLE", "Purple", "12 - 12.99 Rating"),
+	ClassValue("BRONZE", "Bronze", "13 - 13.99 Rating"),
+	ClassValue("SILVER", "Silver", "14 - 14.49 Rating"),
+	ClassValue("GOLD", "Gold", "14.5 - 14.99 Rating"),
+	ClassValue("RAINBOW", "Rainbow", ">=15 Rating"),
 ];
 
 export const MAIMAI_SINGLE_CONF = {

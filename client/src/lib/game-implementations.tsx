@@ -55,6 +55,22 @@ export const GPT_CLIENT_IMPLEMENTATIONS: GPTClientImplementations = {
 					color: "var(--bs-dark)",
 				},
 			},
+			dan: {
+				DAN_I: bgc("blue", "var(--bs-dark)"),
+				DAN_II: bgc("cyan", "var(--bs-dark)"),
+				DAN_III: bgc("var(--bs-warning)", "var(--bs-dark)"),
+				DAN_IV: bgc("red", "var(--bs-light)"),
+				DAN_V: bgc("purple", "var(--bs-light)"),
+				DAN_INFINITE: bgc("lightgoldenrodyellow", "var(--bs-dark)"),
+			},
+			emblem: {
+				DAN_I: bgc("blue", "var(--bs-dark)"),
+				DAN_II: bgc("cyan", "var(--bs-dark)"),
+				DAN_III: bgc("var(--bs-warning)", "var(--bs-dark)"),
+				DAN_IV: bgc("red", "var(--bs-light)"),
+				DAN_V: bgc("purple", "var(--bs-light)"),
+				DAN_INFINITE: bgc("lightgoldenrodyellow", "var(--bs-dark)"),
+			},
 		},
 		enumColours: {
 			grade: {

@@ -15,17 +15,26 @@ export const CHUNITHM_CONF = {
 } as const satisfies INTERNAL_GAME_CONFIG;
 
 export const CHUNITHMColours = [
-	ClassValue("BLUE", "青", "Blue"),
-	ClassValue("GREEN", "緑", "Green"),
-	ClassValue("ORANGE", "橙", "Orange"),
-	ClassValue("RED", "赤", "Red"),
-	ClassValue("PURPLE", "紫", "Purple"),
-	ClassValue("COPPER", "銅", "Copper"),
-	ClassValue("SILVER", "銀", "Silver"),
-	ClassValue("GOLD", "金", "Gold"),
-	ClassValue("PLATINUM", "鉑", "Platinum"),
-	ClassValue("RAINBOW", "虹", "Rainbow"),
+	ClassValue("BLUE", "青", "Blue: 0 - 1.99 Rating"),
+	ClassValue("GREEN", "緑", "Green: 2 - 3.99 Rating"),
+	ClassValue("ORANGE", "橙", "Orange: 4 - 6.99 Rating"),
+	ClassValue("RED", "赤", "Red: 7 - 9.99 Rating"),
+	ClassValue("PURPLE", "紫", "Purple: 10 - 11.99 Rating"),
+	ClassValue("COPPER", "銅", "Copper: 12 - 13.24 Rating"),
+	ClassValue("SILVER", "銀", "Silver: 13.25 - 14.49 Rating"),
+	ClassValue("GOLD", "金", "Gold: 14.50 - 15.24 Rating"),
+	ClassValue("PLATINUM", "鉑", "Platinum: 15.25 - 15.99 Rating"),
+	ClassValue("RAINBOW", "虹", "Rainbow: >=16 Rating"),
 ];
+
+export const CHUNITHMClasses = [
+	ClassValue("DAN_I", "I", "Class I"),
+	ClassValue("DAN_II", "II", "Class II"),
+	ClassValue("DAN_III", "III", "Class III"),
+	ClassValue("DAN_IV", "IV", "Class IV"),
+	ClassValue("DAN_V", "V", "Class V"),
+	ClassValue("DAN_INFINITE", "∞", "Infinite Class"),
+]
 
 export const CHUNITHM_SINGLE_CONF = {
 	providedMetrics: {
@@ -115,6 +124,16 @@ export const CHUNITHM_SINGLE_CONF = {
 			type: "DERIVED",
 			values: CHUNITHMColours,
 		},
+
+		dan: {
+			type: "PROVIDED",
+			values: CHUNITHMClasses,
+		},
+
+		emblem: {
+			type: "PROVIDED",
+			values: CHUNITHMClasses,
+		}
 	},
 
 	orderedJudgements: ["jcrit", "justice", "attack", "miss"],
