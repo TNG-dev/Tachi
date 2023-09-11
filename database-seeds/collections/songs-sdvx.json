@@ -22885,5 +22885,151 @@
 			"onedari_one"
 		],
 		"title": "おねがいダーリン"
+	},
+	{
+		"altTitles": [
+			"AP驩CALYPSE RAY"
+		],
+		"artist": "xi",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2131,
+		"searchTerms": [
+			"apocalypseray_xi"
+		],
+		"title": "APØCALYPSE RAY"
+	},
+	{
+		"altTitles": [],
+		"artist": "Enterskip",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2132,
+		"searchTerms": [
+			"spectacular_enterskip"
+		],
+		"title": "Spectacular“V”Adventure!"
+	},
+	{
+		"altTitles": [],
+		"artist": "Ashrount",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2133,
+		"searchTerms": [
+			"breakneckpursuit_ashrount"
+		],
+		"title": "Breakneck Pursuit"
+	},
+	{
+		"altTitles": [],
+		"artist": "Mono.",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2134,
+		"searchTerms": [
+			"wasurenai_mono"
+		],
+		"title": "忘れないように、失くさないように"
+	},
+	{
+		"altTitles": [],
+		"artist": "ゆんゆん",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2135,
+		"searchTerms": [
+			"marielle_yunyun"
+		],
+		"title": "Marielle"
+	},
+	{
+		"altTitles": [],
+		"artist": "概念",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2136,
+		"searchTerms": [
+			"emergencycode_gainen"
+		],
+		"title": "ΣMERGENCY CODΣ"
+	},
+	{
+		"altTitles": [],
+		"artist": "ミハイル + K.key",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2137,
+		"searchTerms": [
+			"bliss_mihairukkey"
+		],
+		"title": "BLISS"
+	},
+	{
+		"altTitles": [],
+		"artist": "BEMANI Sound Team \"PON\" feat.かなたん",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2138,
+		"searchTerms": [
+			"perfecteater_pon"
+		],
+		"title": "パーフェクトイーター"
+	},
+	{
+		"altTitles": [],
+		"artist": "めと（Metomate）",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2139,
+		"searchTerms": [
+			"ruijounokarma_meto"
+		],
+		"title": "累乗のカルマ"
+	},
+	{
+		"altTitles": [],
+		"artist": "BEMANI Sound Team \"PHQUASE\"",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2140,
+		"searchTerms": [
+			"stellarrain_phquase"
+		],
+		"title": "stellar rain"
+	},
+	{
+		"altTitles": [],
+		"artist": "Yuta Imai Vs. BEMANI Sound Team \"L.E.D.-G\"",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2141,
+		"searchTerms": [
+			"thepeerlessunder_yutaled"
+		],
+		"title": "THE PEERLESS UNDER HEAVEN"
+	},
+	{
+		"altTitles": [],
+		"artist": "BEMANI Sound Team \"猫叉Master VS dj TAKA\"",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2142,
+		"searchTerms": [
+			"suspicions_nekomataka"
+		],
+		"title": "suspicions"
 	}
 ]
