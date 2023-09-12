@@ -201,8 +201,8 @@ function ImportInfoDisplayer({ game }: { game: Game }) {
 			<ImportInfoCard
 				name="LR2 Hook"
 				href="lr2hook"
-				desc="Automatically import scores, whenever you get them (in LR2)!"
-				moreInfo="This is the recommended way to import LR2 BMS scores, as it provides high quality data in real-time."
+				desc="Automatically import scores from LR2."
+				moreInfo="IMPORTANT: Bokutachi **DOES NOT** provide official support for LR2. Unless you have a *really* good reason, please use lr2oraja instead."
 				key="LR2 IR"
 			/>,
 			<ImportInfoCard
