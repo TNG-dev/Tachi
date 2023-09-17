@@ -407,6 +407,11 @@ router.post(
 		if (ServerConfig.EMAIL_CONFIG) {
 			const resetEmailCode = Random20Hex();
 
+			// clear out the previous email code!
+			await db["verify-email-codes"].remove({
+				userID: user.id,
+			});
+
 			await db["verify-email-codes"].insert({
 				code: resetEmailCode,
 				userID: user.id,
