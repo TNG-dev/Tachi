@@ -292,7 +292,11 @@ function ScoresActivity({
 				<div className="timeline-content-inner" onClick={() => setShow(!show)}>
 					<div className="timeline-content-title">
 						<span className="me-2">
-							<ProfilePicture size="sm" user={user} toGPT={`${game}/${playtype}`} />
+							<ProfilePicture
+								size="sm"
+								user={user}
+								toGPT={`games/${game}/${playtype}`}
+							/>
 						</span>
 						<Icon
 							type={`chevron-${show ? "down" : "right"}`}
@@ -446,7 +450,7 @@ function QuestActivity({
 								<ProfilePicture
 									size="sm"
 									user={user}
-									toGPT={`${game}/${playtype}`}
+									toGPT={`games/${game}/${playtype}`}
 								/>
 							</span>
 							<UGPTLink reqUser={user} game={game} playtype={playtype} /> completed
@@ -499,7 +503,11 @@ function SessionActivity({
 				<div className="timeline-content-inner" onClick={() => setShow(!show)}>
 					<div className="timeline-content-title">
 						<span className="me-2">
-							<ProfilePicture size="sm" user={user} toGPT={`${game}/${playtype}`} />
+							<ProfilePicture
+								size="sm"
+								user={user}
+								toGPT={`games/${game}/${playtype}`}
+							/>
 						</span>
 						<Icon
 							type={`chevron-${show ? "down" : "right"}`}
@@ -648,7 +656,7 @@ function ClassAchievementActivity({
 							<ProfilePicture
 								size="sm"
 								user={user}
-								toGPT={`${data.game}/${data.playtype}`}
+								toGPT={`games/${data.game}/${data.playtype}`}
 							/>
 						</span>
 						<UGPTLink reqUser={user} game={data.game} playtype={data.playtype} />{" "}

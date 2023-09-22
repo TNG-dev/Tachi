@@ -456,7 +456,7 @@ function PlayCard({
 				direction={isLg ? "horizontal" : "vertical"}
 				className="flex-grow-1 align-items-lg-start align-items-center  justify-content-around"
 			>
-				<ProfilePicture user={user} toGPT={`${pb.game}/${pb.playtype}`} />
+				<ProfilePicture user={user} toGPT={`games/${pb.game}/${pb.playtype}`} />
 				<div
 					className="d-flex flex-column align-self-stretch justify-content-between align-items-center"
 					style={{ maxHeight: 128, minWidth: 256 }}
