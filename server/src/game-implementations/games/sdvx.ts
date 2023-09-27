@@ -5,12 +5,12 @@ import {
 	SDVXLIKE_GOAL_FMT,
 	SDVXLIKE_GOAL_OO_FMT,
 	SDVXLIKE_GOAL_PG_FMT,
-	SDVXLIKE_PB_MERGERS,
 	SDVXLIKE_PROFILE_CALCS,
 	SDVXLIKE_SCORE_CALCS,
 	SDVXLIKE_SCORE_VALIDATORS,
 	SDVXLIKE_SESSION_CALCS,
 } from "./_common";
+import { CreatePBMergeFor } from "game-implementations/utils/pb-merge";
 import type { GPTServerImplementation } from "game-implementations/types";
 
 export const SDVX_IMPL: GPTServerImplementation<"sdvx:Single"> = {
@@ -36,7 +36,14 @@ export const SDVX_IMPL: GPTServerImplementation<"sdvx:Single"> = {
 	goalCriteriaFormatters: SDVXLIKE_GOAL_FMT,
 	goalProgressFormatters: SDVXLIKE_GOAL_PG_FMT,
 	goalOutOfFormatters: SDVXLIKE_GOAL_OO_FMT,
-	pbMergeFunctions: SDVXLIKE_PB_MERGERS,
+	pbMergeFunctions: [
+		CreatePBMergeFor("largest", "enumIndexes.lamp", "Best Lamp", (base, score) => {
+			base.scoreData.lamp = score.scoreData.lamp;
+		}),
+		CreatePBMergeFor("largest", "optional.exScore", "Best EX Score", (base, score) => {
+			base.scoreData.optional.exScore = score.scoreData.optional.exScore;
+		}),
+	],
 	defaultMergeRefName: SDVXLIKE_DEFAULT_MERGE_NAME,
 	scoreValidators: SDVXLIKE_SCORE_VALIDATORS,
 };

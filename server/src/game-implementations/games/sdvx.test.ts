@@ -22,7 +22,7 @@ const scoreData: ScoreData<"sdvx:Single"> = {
 	score: 9_700_000,
 	grade: "AAA",
 	judgements: {},
-	optional: { enumIndexes: {} },
+	optional: { enumIndexes: {}, exScore: 10 },
 	enumIndexes: {
 		grade: SDVX_GRADES.AAA,
 		lamp: SDVX_LAMPS.CLEAR,
@@ -192,6 +192,37 @@ t.test("SDVX Implementation", (t) => {
 					score: mockScore.scoreData.score,
 					lamp: "ULTIMATE CHAIN",
 					enumIndexes: { lamp: SDVX_LAMPS.ULTIMATE_CHAIN },
+				},
+			});
+
+			t.end();
+		});
+
+		t.test("Should join best EX SCore", async (t) => {
+			await db.scores.insert(mockScore);
+			await db.scores.insert(
+				dmf(mockScore, {
+					scoreID: "bestLamp",
+					scoreData: {
+						score: 0,
+						lamp: "ULTIMATE CHAIN",
+						enumIndexes: { lamp: SDVX_LAMPS.ULTIMATE_CHAIN },
+						optional: {
+							exScore: 9000,
+						},
+					},
+				})
+			);
+
+			t.hasStrict(await CreatePBDoc("sdvx:Single", 1, TestingSDVXAlbidaChart, logger), {
+				composedFrom: [{ name: "Best Score" }, { name: "Best Lamp", scoreID: "bestLamp" }],
+				scoreData: {
+					score: mockScore.scoreData.score,
+					lamp: "ULTIMATE CHAIN",
+					enumIndexes: { lamp: SDVX_LAMPS.ULTIMATE_CHAIN },
+					optional: {
+						exScore: 9000,
+					},
 				},
 			});
 
