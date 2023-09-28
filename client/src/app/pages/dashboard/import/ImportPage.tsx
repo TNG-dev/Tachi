@@ -148,11 +148,11 @@ function ImportInfoDisplayer({ game }: { game: Game }) {
 	} else if (game === "sdvx") {
 		Content.unshift(
 			<ImportInfoCard
-				name="Barbatos"
-				href="barbatos"
-				desc="Automatically import scores, whenever you get them!"
-				moreInfo="This is the recommended way to import SDVX scores, as it provides high quality data in real-time."
-				key="Barbatos"
+				name="Mikado"
+				href="mikado"
+				desc="Automatically import scores and dans!"
+				moreInfo="This is the recommended way to import SDVX scores, data is submitted after passing the score/result screen."
+				key="Mikado"
 			/>,
 			<ImportInfoCard
 				name="Konaste Hook"
@@ -160,6 +160,18 @@ function ImportInfoDisplayer({ game }: { game: Game }) {
 				desc="Automatically import scores from SDVX Konaste!"
 				moreInfo="Yep, it's that simple."
 				key="Konaste Hook"
+			/>,
+			<ImportInfoCard
+				name="Barbatos"
+				href="barbatos"
+				desc="Automatically import scores, whenever you get them!"
+				moreInfo={
+					<>
+						High quality data in real-time. <br />
+						Note: Only for versions up to 2022081600.
+					</>
+				}
+				key="Barbatos"
 			/>,
 			<ImportTypeInfoCard
 				key="file/eamusement-sdvx-csv"

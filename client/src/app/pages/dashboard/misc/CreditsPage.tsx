@@ -162,6 +162,9 @@ export default function CreditsPage() {
 						{a("Chunitachi", "CHUNITHM Black Magic")}: <strong>tomatosoup</strong>
 					</li>
 					<li>
+						{a("Mikado", "SDVX Pocky")}: <strong>adamaq01</strong>
+					</li>
+					<li>
 						{a("Server", "Ethereum Mining Solutions")}: <strong>viddy</strong>
 						<br />
 						<small>Yes, the entire server, networking costs, everything.</small>

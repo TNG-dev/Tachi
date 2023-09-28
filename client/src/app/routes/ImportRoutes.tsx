@@ -1,4 +1,5 @@
 import BarbatosPage from "app/pages/dashboard/import/BarbatosPage";
+import MikadoPage from "app/pages/dashboard/import/MikadoPage";
 import BatchManualPage from "app/pages/dashboard/import/BatchManualPage";
 import LR2orajaDBPage from "app/pages/dashboard/import/LR2orajaDBPage";
 import BeatorajaIRPage from "app/pages/dashboard/import/BeatorajaIRPage";
@@ -117,6 +118,9 @@ export default function ImportRoutes() {
 							</Route>
 							<Route exact path="/import/silent-hook">
 								<SilentHookPage />
+							</Route>
+							<Route exact path="/import/mikado">
+								<MikadoPage />
 							</Route>
 
 							<Route exact path="/import/chunitachi">

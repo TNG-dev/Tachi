@@ -124,6 +124,43 @@ apikey = %%TACHI_KEY%%`,
 		requestedPermissions: ["submit_score"],
 		webhookUri: null,
 	},
+	{
+		name: "Mikado",
+		webhookUri: null,
+		redirectUri: null,
+		requestedPermissions: ["submit_score"],
+		clientID: "CXMikado",
+		apiKeyFilename: "mikado.toml",
+		apiKeyTemplate: `[general]
+# Set to 'false' to disable the hook
+enable = true
+# Whether the hook should export your class (skill level) or not
+export_class = true
+# Whether the hook should should inject your Tachi PBs in place of Cloud PBs
+inject_cloud_pbs = true
+# Timeout for web requests, in milliseconds
+timeout = 3000
+
+[cards]
+# Card numbers that should be whitelisted
+# If this is empty, all cards will be whitelisted
+# E000 format, should be in single quotes and separated by commas
+# Example: whitelist = ['E000000000', 'E000000001']
+whitelist = []
+
+[tachi]
+# Tachi instance base URL
+base_url = '${ServerConfig.OUR_URL}'
+# Tachi status endpoint
+status = '/api/v1/status'
+# Tachi score import endpoint
+import = '/ir/direct-manual/import'
+# Tachi pbs endpoint
+pbs = '/api/v1/users/{}/games/sdvx/Single/pbs/all'
+# Your Tachi API key
+api_key = '%%TACHI_KEY%%'
+`,
+	},
 ];
 
 const BtchiDefaultClients: DefaultClients = [
