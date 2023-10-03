@@ -3483,14 +3483,14 @@
 			"type": "folder"
 		},
 		"criteria": {
-			"countNum": 1,
+			"countNum": 100,
 			"key": "lamp",
-			"mode": "proportion",
+			"mode": "absolute",
 			"value": 1
 		},
 		"game": "sdvx",
-		"goalID": "Gf5ca4a1f972bdbf85566d93c747a3788559e7209ecbc53c28a1c34c1d38c9a75",
-		"name": "CLEAR 100% of the charts in the Level 19 (EXCEED GEAR) folder",
+		"goalID": "Gf827d9b6ab5f37ced9ffc825bf9bff85d16d597a6f49c4008c771d38becf1e95",
+		"name": "CLEAR 100 charts in the Level 19 (EXCEED GEAR) folder",
 		"playtype": "Single"
 	},
 	{
