@@ -23189,5 +23189,65 @@
 			"qq_phquasezaquva"
 		],
 		"title": "QQ"
+	},
+	{
+		"altTitles": [],
+		"artist": "白上フブキ",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2156,
+		"searchTerms": [
+			"sayfanfare_sirakamifubuki"
+		],
+		"title": "Say!ファンファーレ!"
+	},
+	{
+		"altTitles": [],
+		"artist": "白上フブキ",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2157,
+		"searchTerms": [
+			"kingworld_sirakamifubuki"
+		],
+		"title": "KINGWORLD"
+	},
+	{
+		"altTitles": [],
+		"artist": "BABACORN(宝鐘マリン/白上フブキ)",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2158,
+		"searchTerms": [
+			"happinessworld_babacorn"
+		],
+		"title": "Happiness World"
+	},
+	{
+		"altTitles": [],
+		"artist": "いろはにほへっと あやふぶみ(白上フブキ/百鬼あやめ/大神ミオ)",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2159,
+		"searchTerms": [
+			"onikemodance_irohanihohetto"
+		],
+		"title": "おにけもだんす"
+	},
+	{
+		"altTitles": [],
+		"artist": "白上フブキ",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2160,
+		"searchTerms": [
+			"oboro_sirakamifubuki"
+		],
+		"title": "朧"
 	}
 ]
