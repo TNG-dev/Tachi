@@ -23249,5 +23249,65 @@
 			"oboro_sirakamifubuki"
 		],
 		"title": "朧"
+	},
+	{
+		"altTitles": [],
+		"artist": "Qrispy Joybox feat.mao",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2161,
+		"searchTerms": [
+			"umeyukiyo_qrispy"
+		],
+		"title": "梅雪夜"
+	},
+	{
+		"altTitles": [],
+		"artist": "MAX MAXIMIZER",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2162,
+		"searchTerms": [
+			"arachne_maxmaximizer"
+		],
+		"title": "ARACHNE"
+	},
+	{
+		"altTitles": [],
+		"artist": "kors k",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2163,
+		"searchTerms": [
+			"poochie_korsk"
+		],
+		"title": "Poochie"
+	},
+	{
+		"altTitles": [],
+		"artist": "Hommarju",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2164,
+		"searchTerms": [
+			"crazyjackpot_hommarju"
+		],
+		"title": "Crazy Jackpot"
+	},
+	{
+		"altTitles": [],
+		"artist": "猫叉Master feat.霜月はるか",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2165,
+		"searchTerms": [
+			"kurobenisukui_nekomata"
+		],
+		"title": "黒紅掬い"
 	}
 ]
