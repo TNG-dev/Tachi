@@ -1,16 +1,14 @@
 import fetch from "node-fetch";
-import { CreateChartID, ReadCollection, WriteCollection } from "../../util";
-import { ChartDocument, SongDocument } from "tachi-common";
+import { CreateChartID, MutateCollection, ReadCollection, WriteCollection } from "../../util";
+import { ChartDocument, Difficulties, SongDocument } from "tachi-common";
 
-const CURRENT_VERSION = "sun";
+const CURRENT_VERSION = "sunplus";
 const DATA_URL = "https://chunithm.sega.jp/storage/json/music.json";
-const ALIAS_URL =
-	"https://raw.githubusercontent.com/lomotos10/GCM-bot/main/data/aliases/en/chuni.tsv";
 
 // Obtain a token from https://developer.chunirec.net/ -> ログイン -> アカウント管理 -> big purple button to issue an API key
 const CHUNIREC_TOKEN = process.env.CHUNIREC_TOKEN;
 
-const DIFFICULTY_MAP: Record<string, ChartDocument<"chunithm:Single">["difficulty"]> = {
+const DIFFICULTY_MAP: Record<string, Difficulties["chunithm:Single"]> = {
 	bas: "BASIC",
 	adv: "ADVANCED",
 	exp: "EXPERT",
@@ -124,19 +122,24 @@ function releaseDateToVersion(date: Date): string {
 		{}
 	).then((r) => r.json());
 
-	const aliases = new Map();
-	const aliasesRaw = await fetch(ALIAS_URL, {}).then((r) => r.text());
-	for (const line of aliasesRaw.split("\n")) {
-		const [title, ...alias] = line.split("\t");
-		aliases.set(title, alias);
+	const existingChartDocs = ReadCollection("charts-chunithm.json");
+
+	const inGameIDToSongIDMap = new Map<number, number>();
+	const existingCharts = new Map<string, ChartDocument<"chunithm:Single">>();
+
+	for (const chart of existingChartDocs) {
+		inGameIDToSongIDMap.set(chart.data.inGameID, chart.songID);
+		existingCharts.set(`${chart.data.inGameID}-${chart.difficulty}`, chart);
 	}
 
-	const songs: SongDocument<"chunithm">[] = ReadCollection("songs-chunithm.json");
-	const charts: ChartDocument<"chunithm:Single">[] = ReadCollection("charts-chunithm.json");
+	const newSongs: Array<SongDocument<"chunithm">> = [];
+	const newCharts: Array<ChartDocument<"chunithm:Single">> = [];
 
 	for (const chunithmSong of chunithmSongs) {
+		const inGameID = Number(chunithmSong.id);
+
 		// Ignore WORLD'S END entries
-		if (chunithmSong.we_kanji || chunithmSong.we_star) {
+		if (inGameID >= 8000) {
 			continue;
 		}
 
@@ -151,65 +154,76 @@ function releaseDateToVersion(date: Date): string {
 			continue;
 		}
 
-		const id = Number(chunithmSong.id);
-		const song = songs.find((s) => s.id === id);
-		if (!song) {
-			songs.push({
+		let songID = inGameIDToSongIDMap.get(inGameID);
+
+		if (songID === undefined) {
+			songID = inGameID;
+
+			newSongs.push({
 				altTitles: [],
 				artist: chunithmSong.artist,
 				data: {
 					displayVersion: releaseDateToVersion(new Date(chunirecSong.meta.release)),
 					genre: chunithmSong.catname,
 				},
-				id,
-				searchTerms: aliases.get(chunithmSong.title) ?? [],
+				id: songID,
+				searchTerms: [],
 				title: chunithmSong.title,
 			});
-		} else {
-			song.searchTerms = aliases.get(chunithmSong.title) ?? [];
 		}
 
-		for (const [shortName, fullName] of Object.entries(DIFFICULTY_MAP)) {
+		for (const [shortName, difficulty] of Object.entries(DIFFICULTY_MAP)) {
 			const key = `lev_${shortName}`;
-			if (!chunithmSong[key]) {
+			const level = chunithmSong[key];
+			if (!level) {
 				continue;
 			}
 
-			const chart = charts.find((c) => c.songID === id && c.difficulty === fullName);
+			const exists = existingCharts.get(`${inGameID}-${difficulty}`);
 			const chunirecChart = chunirecSong.data[shortName.toUpperCase()];
 
-			let chartConstant = chunirecChart.level;
+			let levelNum = chunirecChart.level;
 			if (
 				chunirecChart.is_const_unknown === 0 &&
 				chunirecChart.const >= chunirecChart.level
 			) {
-				chartConstant = chunirecChart.const;
+				levelNum = chunirecChart.const;
 			}
 
-			if (!chart) {
-				charts.push({
-					chartID: CreateChartID(),
-					data: {
-						inGameID: id,
-					},
-					difficulty: fullName,
-					isPrimary: true,
-					level: chunithmSong[key],
-					levelNum: chartConstant,
-					playtype: "Single",
-					songID: id,
-					versions: [CURRENT_VERSION],
-				});
-			} else {
-				chart.level = chunithmSong[key];
-				chart.levelNum = chartConstant;
-				if (!chart.versions.includes(CURRENT_VERSION)) {
-					chart.versions.push(CURRENT_VERSION);
+			if (exists) {
+				if (!exists.versions.includes(CURRENT_VERSION)) {
+					exists.versions.push(CURRENT_VERSION);
 				}
+
+				exists.level = level;
+				exists.levelNum = levelNum;
+
+				continue;
 			}
+
+			newCharts.push({
+				chartID: CreateChartID(),
+				data: {
+					inGameID,
+				},
+				difficulty,
+				isPrimary: true,
+				level,
+				levelNum,
+				playtype: "Single",
+				songID,
+				versions: [CURRENT_VERSION],
+			});
 		}
 	}
 
-	WriteCollection("songs-chunithm.json", songs);
-	WriteCollection("charts-chunithm.json", charts);
+	MutateCollection("songs-chunithm.json", (songs: Array<SongDocument<"chunithm">>) => [
+		...songs,
+		...newSongs,
+	]);
+
+	// overwrite this collection instead of mutating it
+	// we already know the existing chart docs and might have mutated them to
+	// declare the new versions, or update chart constants.
+	WriteCollection("charts-chunithm.json", [...existingChartDocs, ...newCharts]);
 })();

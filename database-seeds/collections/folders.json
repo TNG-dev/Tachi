@@ -8400,6 +8400,162 @@
 	},
 	{
 		"data": {
+			"difficulty": "ADVANCED",
+			"versions": "sun-omni"
+		},
+		"folderID": "F48a64dd4f9898b515f9138d069e35c2108d773546e818f6d363653969248b127",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "ADVANCED (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "ADVANCED",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "Fb091610afc5a5a6a1ae18d577561c669c178d58b7b689988f0cede31d65cc99e",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "ADVANCED (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "ADVANCED",
+			"versions": "sunplus"
+		},
+		"folderID": "F68a48df00698b8ccbbc72dc830569b137c96a4315cc64e935e744d8a8b56d8ac",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "ADVANCED (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "ADVANCED",
+			"versions": "sun"
+		},
+		"folderID": "F02b231e0004d400042db7e96528bdd58264983bc28fb59ab262c53b61b2085a9",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "ADVANCED (SUN)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "BASIC",
+			"versions": "sun-omni"
+		},
+		"folderID": "F83348d50dd5cd8047e635c079c648c866f7be33c83f842ba20844ad61e0f2f74",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "BASIC (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "BASIC",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F4bff342b9fb8322a65cab8f7f7a8923d1bc737ab3bee2dc48981dffc999767c1",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "BASIC (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "BASIC",
+			"versions": "sunplus"
+		},
+		"folderID": "Fb3c16745b5ca2cb6b8c1a737a6ca0e2a100468c990f26bd5a7247511cc49295f",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "BASIC (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "BASIC",
+			"versions": "sun"
+		},
+		"folderID": "F3e092fe1bdbff0b3e927324117fabe41ebf11e816d21baf368b118a64bd8e519",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "BASIC (SUN)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "EXPERT",
+			"versions": "sun-omni"
+		},
+		"folderID": "Fd5c4e8caf273eceb4eb202902846ac6a1dd00154c646b82f83c0034467b1f764",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "EXPERT (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "EXPERT",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F80f88570d7de2e4eb85914169bf2b9b61cf93b5da3c743fbaad57957a8961eb1",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "EXPERT (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "EXPERT",
+			"versions": "sunplus"
+		},
+		"folderID": "F7bb9d1ac6ed6ed93a03eebb3c617a9966f0e871f2f2ccff0f3289cfb2359c5fb",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "EXPERT (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "EXPERT",
+			"versions": "sun"
+		},
+		"folderID": "F9a18f4367f30416d172b9e08c1924a90a8b8a88272a752811d2a5740413a6219",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "EXPERT (SUN)",
+		"type": "charts"
+	},
+	{
+		"data": {
 			"level": "1",
 			"versions": "paradiselost"
 		},
@@ -8414,6 +8570,45 @@
 	{
 		"data": {
 			"level": "1",
+			"versions": "sun-omni"
+		},
+		"folderID": "Fa912441b906993391a1d285ac085fc7debab18ef9c8beef5c61dbd272334aba8",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 1 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "1",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F34f99996cffce7a65daeac66af65b4a17d5a5dfea8b3bc4228389886b9b3645d",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 1 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "1",
+			"versions": "sunplus"
+		},
+		"folderID": "F7c37ca6e3e26da2e368d967709bcbfd0a27fdeb4d9e69ad0d2caa8d03dc6b530",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 1 (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "1",
 			"versions": "sun"
 		},
 		"folderID": "Ff3881c8525378f40166e20293df8c3ababb72c7ce8bd596e29b319c1856e3438",
@@ -8421,7 +8616,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 1 (Sun)",
+		"title": "Level 1 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8440,6 +8635,45 @@
 	{
 		"data": {
 			"level": "10",
+			"versions": "sun-omni"
+		},
+		"folderID": "Fca2faf662ce0e51670fbceff985c995c631eb7db48750709ac965b4bf0e097a6",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "10",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "Fb608b76e624702359004bc3814a93543f06e21409231355095b6384b320debce",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "10",
+			"versions": "sunplus"
+		},
+		"folderID": "F978f4cf3b26fc46e435a69d129e1cdb1a0fa8fe28b29588aa50cf033abddd45a",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10 (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "10",
 			"versions": "sun"
 		},
 		"folderID": "F8936ee78df7499a1d4eaae0ead5099eb2a867b9a8f6ec9c8f6068bd758ebb1d9",
@@ -8447,7 +8681,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 10 (Sun)",
+		"title": "Level 10 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8466,6 +8700,45 @@
 	{
 		"data": {
 			"level": "10+",
+			"versions": "sun-omni"
+		},
+		"folderID": "F9e1a5656702b1bacf406b903b8a3f8158fd2606fb4b2c6601a7f11febdee780f",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10+ (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "10+",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F1686921c6bc85f3821dc0347ddbe14f8d062523bd9578c669be8524729f89187",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10+ (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "10+",
+			"versions": "sunplus"
+		},
+		"folderID": "Fe6d91d7d7311ada013f17558134bd52433b3fdf24994cfe7dcd995a02127d47a",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 10+ (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "10+",
 			"versions": "sun"
 		},
 		"folderID": "F54253c39ace59ebdec44d2320bed3433d824f1300a441f9c202dc310d54d03e3",
@@ -8473,7 +8746,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 10+ (Sun)",
+		"title": "Level 10+ (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8492,6 +8765,45 @@
 	{
 		"data": {
 			"level": "11",
+			"versions": "sun-omni"
+		},
+		"folderID": "F02d3c632c90080fd5cf423785f0f7a3f8309571a84078102c83001bd1b6fb1af",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 11 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "11",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F79ea343c148ddb2d801753b671337c14571265f67bc3c506036c45d4d985d810",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 11 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "11",
+			"versions": "sunplus"
+		},
+		"folderID": "F0fc6d57ad73736db488b0c57e0902fcda27cba2798d51a5cdc84346e30d46cc1",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 11 (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "11",
 			"versions": "sun"
 		},
 		"folderID": "Fd5f2980e30b5182bf07521cdb24c9c9a9017e790821d02763deff4eb2127ce4f",
@@ -8499,7 +8811,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 11 (Sun)",
+		"title": "Level 11 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8518,6 +8830,45 @@
 	{
 		"data": {
 			"level": "11+",
+			"versions": "sun-omni"
+		},
+		"folderID": "Fc0976284ff39ed167af7f32e7ca1f9c1dc70b11befca05de4c64c3a730dcbfb6",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 11+ (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "11+",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "Fefee10da3a0d56db2aba704e0bb9c9f1d5cc8cb1383d70b0e82cacc8aecd792d",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 11+ (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "11+",
+			"versions": "sunplus"
+		},
+		"folderID": "Fde0e3c03575b5bb001ae0f1d3a540ae6c06785c0dfbda233148aaa442101fc66",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 11+ (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "11+",
 			"versions": "sun"
 		},
 		"folderID": "F4f403ef963db137b186438dc81bb133857abc73843a2157a60ffc2aab88cc4b7",
@@ -8525,7 +8876,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 11+ (Sun)",
+		"title": "Level 11+ (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8544,6 +8895,45 @@
 	{
 		"data": {
 			"level": "12",
+			"versions": "sun-omni"
+		},
+		"folderID": "F2d5c0c4600016f84cebd98372400dc7cc7033a3ec9c64398d115db10b6fbeb5d",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 12 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "12",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F883cabbb93cda209f78c57f447d1eecc10b7694a72ed7cdbf99c2321713bc4b2",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 12 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "12",
+			"versions": "sunplus"
+		},
+		"folderID": "Fd7a7ebdb5c126a8957e59948f12ba481f784613e7b590db9d40befe3a1660202",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 12 (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "12",
 			"versions": "sun"
 		},
 		"folderID": "Fd0e1a20941cb21a4e289bdeed849de2f772d0e00a8f0e8226ef3b96eb7c9c813",
@@ -8551,7 +8941,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 12 (Sun)",
+		"title": "Level 12 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8570,6 +8960,45 @@
 	{
 		"data": {
 			"level": "12+",
+			"versions": "sun-omni"
+		},
+		"folderID": "Fd2c6dab740da557b59260f9e06d519f84715c41382bf03a3609c8982283a0fc8",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 12+ (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "12+",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F4d7672b6c11e8dcc44ab0871cbc4b0e506b06655451656bedcc9517c554faed2",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 12+ (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "12+",
+			"versions": "sunplus"
+		},
+		"folderID": "F6f7b06aaec4d47a00ba9bd9623b50d66328ab590c60dbd1dfd0f2d10ec55c9ad",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 12+ (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "12+",
 			"versions": "sun"
 		},
 		"folderID": "F9d8fc9832871db9cc6e0f1c55d3c2f832dd20433cacc8181073b20e133c0c935",
@@ -8577,7 +9006,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 12+ (Sun)",
+		"title": "Level 12+ (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8596,6 +9025,45 @@
 	{
 		"data": {
 			"level": "13",
+			"versions": "sun-omni"
+		},
+		"folderID": "F8f6bc81e6d27023cfcac950c22653fbbda48503d90545802f9f6d56a800a1733",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 13 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "13",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "Fb4203fb180969fa05e2f029ac17bd42dea25af18704830420cc7125de5da2942",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 13 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "13",
+			"versions": "sunplus"
+		},
+		"folderID": "Fb23eac691300691f4a57806d20885a730b84050c0b0c5f7220d97429fbcb9b2a",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 13 (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "13",
 			"versions": "sun"
 		},
 		"folderID": "Fd4ee105ce52bd11e9488fd80acae8ffdc20bdb4803e3095e1e9104c91a61332a",
@@ -8603,7 +9071,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 13 (Sun)",
+		"title": "Level 13 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8622,6 +9090,45 @@
 	{
 		"data": {
 			"level": "13+",
+			"versions": "sun-omni"
+		},
+		"folderID": "F006061d48893b76c0f8c68919639c7d77aa4588c551409375bff885acca1542f",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 13+ (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "13+",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F4037c32849d28b13ccbbe0dd6be243c8cd14812f1ffbd934954c647930b331ac",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 13+ (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "13+",
+			"versions": "sunplus"
+		},
+		"folderID": "F70a443abc6611e00738097e41f90e99f15a8f65beaf0fa5bf284843ea317053c",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 13+ (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "13+",
 			"versions": "sun"
 		},
 		"folderID": "Fc9e606ce11b1bc05540edfc5c73a4d889c8ca77e356d8f5868ab2bcef637f062",
@@ -8629,7 +9136,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 13+ (Sun)",
+		"title": "Level 13+ (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8648,6 +9155,45 @@
 	{
 		"data": {
 			"level": "14",
+			"versions": "sun-omni"
+		},
+		"folderID": "F18426b36571b8ae93e0264ff4f81f35003fc7077323ba265514e7c7a546112f2",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 14 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "14",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F84dff6b29d8118085b2fdc39fe46ee685e32b9012a736e6daf4491b59e1ddbd3",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 14 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "14",
+			"versions": "sunplus"
+		},
+		"folderID": "F7dc2f23552539ed34b812f475de7650dab3eaef88a36b737b08dad9d582a90d0",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 14 (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "14",
 			"versions": "sun"
 		},
 		"folderID": "F2e39bdd8b9adf7c96f934f4db3c35f388ec5c52b0005b2b54f7463dcd328bb31",
@@ -8655,7 +9201,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 14 (Sun)",
+		"title": "Level 14 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8674,6 +9220,45 @@
 	{
 		"data": {
 			"level": "14+",
+			"versions": "sun-omni"
+		},
+		"folderID": "Fe40992304d5598dae52cca23992c99e5665d1ea8ee7392193d1dded4af82cb90",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 14+ (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "14+",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "Fc033b474560eee48879a288c10219c35265b893151726288c8ae41a42559848d",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 14+ (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "14+",
+			"versions": "sunplus"
+		},
+		"folderID": "F8746714de6357ceab3337cee5dadbe7362a6894517bf9b72c29776ee32602291",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 14+ (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "14+",
 			"versions": "sun"
 		},
 		"folderID": "Fedd085e270284fbd3192477f4e536fe727f5e1c7b642e7335aa161ee67d2349a",
@@ -8681,7 +9266,46 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 14+ (Sun)",
+		"title": "Level 14+ (SUN)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "15",
+			"versions": "sun-omni"
+		},
+		"folderID": "F5e5636161b64bf379b8dcc64359a8fca187456d2e26e12d03a026aa4a50a4cdc",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 15 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "15",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "Fb6ec940925c9ef2a598a5425293b1c30a1533a37ea3546c5672ef111944578b0",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 15 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "15",
+			"versions": "sunplus"
+		},
+		"folderID": "F274a34226d167d9d8d51be0dcfd2c893f7051d964d80b232d3d021dc9aa9fdc7",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 15 (SUN PLUS)",
 		"type": "charts"
 	},
 	{
@@ -8694,7 +9318,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 15 (Sun)",
+		"title": "Level 15 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8713,6 +9337,45 @@
 	{
 		"data": {
 			"level": "2",
+			"versions": "sun-omni"
+		},
+		"folderID": "F54a007227353ee72f435f9efce665a2cf18c881c46829a8dfa8bb114ee890e27",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 2 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "2",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F290bac30687512c433a68bf632178d82c7f361b22dbe11891d0d04a69dbd3973",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 2 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "2",
+			"versions": "sunplus"
+		},
+		"folderID": "Fa6b606be256c6c762e6a8589dafcc5712d7fda06e69ddd66d8aba24c9157b57c",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 2 (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "2",
 			"versions": "sun"
 		},
 		"folderID": "Fca334aec18ecddf9fe69e4fab40619a4ee90448e442ea7d467d8837eb24dd840",
@@ -8720,7 +9383,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 2 (Sun)",
+		"title": "Level 2 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8739,6 +9402,45 @@
 	{
 		"data": {
 			"level": "3",
+			"versions": "sun-omni"
+		},
+		"folderID": "F51635f3eaa05cb99797c73ed7d6c6be82084ccacdc412dbe05983686ad15f5ee",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 3 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "3",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F69909ffc7fe2ca7ba90d4c523bd46ade84fdb5bfecb2c3e6870b1a3f76f268de",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 3 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "3",
+			"versions": "sunplus"
+		},
+		"folderID": "F7c6a8542c135a9c031fe3a152be9e4938b6f541860f5ea71c074aca3aa11c151",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 3 (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "3",
 			"versions": "sun"
 		},
 		"folderID": "F60e8098e5bb3f27b350a27b96700a6b944b5932b10299771eb9b39eea5ca30dd",
@@ -8746,7 +9448,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 3 (Sun)",
+		"title": "Level 3 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8765,6 +9467,45 @@
 	{
 		"data": {
 			"level": "4",
+			"versions": "sun-omni"
+		},
+		"folderID": "Fb10e04c260027eed8cf04679b709c9defccf4627a67bc67137ad3d4af0f8ff05",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 4 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "4",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "Fda7c6fce5a1d5543640744fce34e1bf5a256ae7e8722406ad7487f9863f5d9e2",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 4 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "4",
+			"versions": "sunplus"
+		},
+		"folderID": "Ff2bca9a20fb13631aacf33109d950aed2ffb41826bf6b2dc47eeb197e0ba8b1e",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 4 (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "4",
 			"versions": "sun"
 		},
 		"folderID": "Fd8e83a053e783202a91582508fc119077f2434b4ea19fc60d2fd7c7f67d7c845",
@@ -8772,7 +9513,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 4 (Sun)",
+		"title": "Level 4 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8791,6 +9532,45 @@
 	{
 		"data": {
 			"level": "5",
+			"versions": "sun-omni"
+		},
+		"folderID": "Facbd0324726bc81b7eb22264068502f492bf5ee33c6585842043b1d969618e5c",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 5 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "5",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F9755624cdf1ec744a4b8b82187c8c45881377a4f5e86eddbcdafc5d74957de10",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 5 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "5",
+			"versions": "sunplus"
+		},
+		"folderID": "F7b4a41e7dc83b33b39987be7f9396351eea98ef7e529e820241e79c34d3b67e9",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 5 (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "5",
 			"versions": "sun"
 		},
 		"folderID": "Fde63735793e4434f42b6ec24c1868a462e0364affbb8c3865eca10ca1919b39a",
@@ -8798,7 +9578,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 5 (Sun)",
+		"title": "Level 5 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8817,6 +9597,45 @@
 	{
 		"data": {
 			"level": "6",
+			"versions": "sun-omni"
+		},
+		"folderID": "F35efabd7daa1cfdea362dbf13cc77fb3cd6843b17552b8af5f65cddfb98898fe",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 6 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "6",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "Fc5d4b036eb8f4b012572b4edeea0cc834388ad4e7ab3fbb31da7cccfa6ba2190",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 6 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "6",
+			"versions": "sunplus"
+		},
+		"folderID": "Fb154d7213e7f35dae86709a053bf51a0c66f243927fe190db1f221993b0e95bf",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 6 (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "6",
 			"versions": "sun"
 		},
 		"folderID": "Fcf51860c4ccdd06ddc9637336a793cde802de72d886affdbc1c2b44ef7ea2bbc",
@@ -8824,7 +9643,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 6 (Sun)",
+		"title": "Level 6 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8843,6 +9662,45 @@
 	{
 		"data": {
 			"level": "7",
+			"versions": "sun-omni"
+		},
+		"folderID": "F8f702b1c93cf393b37dbdffef7da6ba40b197db91f0a39d53835d3fc4bdca7f2",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 7 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "7",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "Fb12d1177e28ab59251adf3aafa65cc045230e1605cff7be4cb6f20caa4433615",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 7 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "7",
+			"versions": "sunplus"
+		},
+		"folderID": "F52032389bfff41084d2e065612caf1d93f711874f5224a22d2853d8cb03712cf",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 7 (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "7",
 			"versions": "sun"
 		},
 		"folderID": "F72443d44c04aaf8a2f1e8aded5776c5a5fb11189c7baa0378684460cdd8a0567",
@@ -8850,7 +9708,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 7 (Sun)",
+		"title": "Level 7 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8869,6 +9727,45 @@
 	{
 		"data": {
 			"level": "7+",
+			"versions": "sun-omni"
+		},
+		"folderID": "F3267cfb34b3a885318146edccd3811d0aca519f9f06aa261d8a38fd0e59cba30",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 7+ (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "7+",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F7e5ae76f52045e09f53efa3dd048a0f9a5c142af3d323cedd59eac06d52d1824",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 7+ (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "7+",
+			"versions": "sunplus"
+		},
+		"folderID": "Fb75347ab031c47cb0593c593d7a6497ab12e24b8968191205db544da71b6314f",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 7+ (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "7+",
 			"versions": "sun"
 		},
 		"folderID": "Ff8b6d166d4779f98d5fd820ebe14bb4c941a70cfbac7f19e206aa58ce61cf598",
@@ -8876,7 +9773,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 7+ (Sun)",
+		"title": "Level 7+ (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8895,6 +9792,45 @@
 	{
 		"data": {
 			"level": "8",
+			"versions": "sun-omni"
+		},
+		"folderID": "F8f96042306eadc90f9553fc1910b9d9011a05af57e1ecd8f79cfd37ba6208fb5",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 8 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "8",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F4dd88f5b3e1f1cd321e6d2c6d9a10e87c2d31af31d78c28c867e97debf752289",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 8 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "8",
+			"versions": "sunplus"
+		},
+		"folderID": "F0000508e3a7968d64eb9b1a7acea04293b48f82f392a705c5d086008bcce3513",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 8 (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "8",
 			"versions": "sun"
 		},
 		"folderID": "F157c90044b9a570acc51d08e942952ac59f49dbbcc83fecacc001b7f4455363a",
@@ -8902,7 +9838,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 8 (Sun)",
+		"title": "Level 8 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8921,6 +9857,45 @@
 	{
 		"data": {
 			"level": "8+",
+			"versions": "sun-omni"
+		},
+		"folderID": "F11692d498d01fbd1ade153f8e6816f1cc69d1e2e35491d1f979b1f5c894d3648",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 8+ (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "8+",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F89ee31fd0170e9f855d58250d88dd6cac4a663551af611b45ebd3acfa7e24792",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 8+ (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "8+",
+			"versions": "sunplus"
+		},
+		"folderID": "F3043d5369a0ebf9cfaaa85320a45ae5ead2837aced98e295eeeb188ecb927464",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 8+ (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "8+",
 			"versions": "sun"
 		},
 		"folderID": "F35062bbebbde3f1634087459e4fe0d7e2467cb8f71b276c800253fbe42ef6ac5",
@@ -8928,7 +9903,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 8+ (Sun)",
+		"title": "Level 8+ (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8947,6 +9922,45 @@
 	{
 		"data": {
 			"level": "9",
+			"versions": "sun-omni"
+		},
+		"folderID": "F7f97db16a4c66fdb4ffe998f8dc2c040c4a1cb0921d20896b117c917068ccdb3",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9 (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "9",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F5f44928a5bd45258b73275e6f8f9b2449ffe9a1626a1e1d213b32df32ade9a08",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9 (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "9",
+			"versions": "sunplus"
+		},
+		"folderID": "F6ca30736ede1f303ae820da9a253599a0c84e940f6f7e8b57ccc0648b6646519",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9 (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "9",
 			"versions": "sun"
 		},
 		"folderID": "F0920882a673a8f9fa6ba4aeb57042c55629133395e22d90e6ee959245c4b4b40",
@@ -8954,7 +9968,7 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 9 (Sun)",
+		"title": "Level 9 (SUN)",
 		"type": "charts"
 	},
 	{
@@ -8973,6 +9987,45 @@
 	{
 		"data": {
 			"level": "9+",
+			"versions": "sun-omni"
+		},
+		"folderID": "Fd89d43ad4028245895acd793dbdb503db0051cf3a848d5174a4f9fb0948b1589",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9+ (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "9+",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F8959296d279a6a1fda4fc6f434e9e0c21e669c5208245bba6038cba6ede6c3be",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9+ (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "9+",
+			"versions": "sunplus"
+		},
+		"folderID": "Fe32f5e35341d47eb612727bc6a88de1ebf7f60df4e335b51eacb788ff7983226",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "Level 9+ (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "9+",
 			"versions": "sun"
 		},
 		"folderID": "Fa3046e8dfc86ba9062261b82ebfc0080d96027ebbc230bc693c3f3ac7aad6a8f",
@@ -8980,7 +10033,111 @@
 		"inactive": false,
 		"playtype": "Single",
 		"searchTerms": [],
-		"title": "Level 9+ (Sun)",
+		"title": "Level 9+ (SUN)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "MASTER",
+			"versions": "sun-omni"
+		},
+		"folderID": "F68951200549b9cd90b5f300bb1c2e8c8e69072cfd7485ae5e7b8c6b381807ce5",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "MASTER (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "MASTER",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F15c9c17ee37db494cf13a5a3bd86e2223a39c2b99005c02d866587ceb1772aad",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "MASTER (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "MASTER",
+			"versions": "sunplus"
+		},
+		"folderID": "Fc40045c378f96b749c539691e1c1b79bb64b313c4fb9ef2916b42e2d6d7d14f2",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "MASTER (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "MASTER",
+			"versions": "sun"
+		},
+		"folderID": "Ffa96bd9e13bc807a7aea431e5169ef951c3517eafe96b059efede2c1b40c3bd2",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "MASTER (SUN)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "ULTIMA",
+			"versions": "sun-omni"
+		},
+		"folderID": "F81e330f6b88a5c7715a84a9842a8900ed54f63a16da4f0a05ec55ca880705d41",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "ULTIMA (SUN Omnimix)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "ULTIMA",
+			"versions": "sunplus-intl"
+		},
+		"folderID": "F95235a5e7bdec38e18306a2e9d49c14699dac4b8117dec637eade33e1b34ca1a",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "ULTIMA (SUN PLUS International)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "ULTIMA",
+			"versions": "sunplus"
+		},
+		"folderID": "Fd64cc883d1107033fdecf9154d8e158f26b4a04144c285b3a38490b38e43de8a",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "ULTIMA (SUN PLUS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"difficulty": "ULTIMA",
+			"versions": "sun"
+		},
+		"folderID": "F632be66a0e43ed3fbcfac5c3c4555c4c9b693b365d62f5337765b7a93448546c",
+		"game": "chunithm",
+		"inactive": false,
+		"playtype": "Single",
+		"searchTerms": [],
+		"title": "ULTIMA (SUN)",
 		"type": "charts"
 	},
 	{

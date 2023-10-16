@@ -141,6 +141,10 @@ export const CHUNITHM_SINGLE_CONF = {
 	versions: {
 		paradiselost: "PARADISE LOST",
 		sun: "SUN",
+		"sun-intl": "SUN International",
+		"sun-omni": "SUN Omnimix",
+		"sunplus": "SUN PLUS",
+		"sunplus-intl": "SUN PLUS International",
 	},
 
 	chartData: z.strictObject({
