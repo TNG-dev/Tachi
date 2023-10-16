@@ -20,7 +20,7 @@ mkdirSync(ifsOUT, { recursive: true });
  */
 function ifsExtract(ifsPath: string) {
 	logger.info(`Extracting ${ifsPath}...`);
-	execSync(`ifstools "${ifsPath}" -o "${ifsOUT}" -y`, { stdio: "ignore" });
+	execSync(`ifstools "${ifsPath}" -o "${ifsOUT}" -y --super-disable`, { stdio: "ignore" });
 }
 
 // @optimisable
