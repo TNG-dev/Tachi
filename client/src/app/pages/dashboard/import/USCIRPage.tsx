@@ -24,7 +24,10 @@ export default function USCIRPage() {
 					Fill out IR Base URL with <code>{ToServerURL("/ir/usc/Controller")}</code>.
 				</li>
 				<h3 className="mt-4">
-					<b>If you play on Keyboard or Pocket Voltex</b>
+					<b>
+						If you play on Keyboard, Pocket Voltex or ANYTHING THAT IS NOT AN ARCADE
+						SIZED CONTROLLER
+					</b>
 				</h3>
 				<li>
 					Fill out IR Base URL with <code>{ToServerURL("/ir/usc/Keyboard")}</code>.

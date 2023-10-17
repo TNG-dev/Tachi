@@ -108,6 +108,10 @@ export function FormatGame(game: Game, playtype: Playtypes[Game]): string {
 		return gameConfig.name;
 	}
 
+	if (game === "usc" && playtype === "Keyboard") {
+		return `${gameConfig.name} (Keyboard/Other)`;
+	}
+
 	return `${gameConfig.name} (${playtype})`;
 }
 
