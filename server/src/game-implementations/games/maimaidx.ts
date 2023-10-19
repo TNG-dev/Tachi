@@ -146,6 +146,10 @@ export const MAIMAIDX_IMPL: GPTServerImplementation<"maimaidx:Single"> = {
 			if (s.scoreData.lamp !== "ALL PERFECT+" && s.scoreData.percent === 101) {
 				return "A score of 101% should be an ALL PERFECT+";
 			}
+
+			if (s.scoreData.lamp === "ALL PERFECT" && s.scoreData.percent < 100.5) {
+				return "Cannot have an ALL PERFECT without at least 100.5%.";
+			}
 		},
 	],
 };
