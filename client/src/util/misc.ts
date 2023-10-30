@@ -384,6 +384,11 @@ export function FlattenValue(
 	keychain: string[] = []
 ): Array<{ keychain: string[]; value: unknown }> {
 	if (Array.isArray(value)) {
+		// probably not a tuple, don't make this thing super long.
+		if (value.length > 5) {
+			return [{ keychain, value: value.join(", ") }];
+		}
+
 		return value.flatMap((e, i) => FlattenValue(e, [...keychain, i.toString()]));
 	} else if (typeof value === "object" && value !== null) {
 		return FlattenRecord(value as Record<string, unknown>, keychain);
