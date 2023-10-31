@@ -7,14 +7,19 @@ const DATA_URL = "https://chunithm.sega.jp/storage/json/music.json";
 
 // Obtain a token from https://developer.chunirec.net/ -> ログイン -> アカウント管理 -> big purple button to issue an API key
 const CHUNIREC_TOKEN = process.env.CHUNIREC_TOKEN;
+if (!CHUNIREC_TOKEN) {
+	throw new Error("CHUNIREC_TOKEN not found in environment variables.");
+}
 
-const DIFFICULTY_MAP: Record<string, Difficulties["chunithm:Single"]> = {
-	bas: "BASIC",
-	adv: "ADVANCED",
-	exp: "EXPERT",
-	mas: "MASTER",
-	ult: "ULTIMA",
-};
+type ShortDifficultyNames = "bas" | "adv" | "exp" | "mas" | "ult";
+
+const DIFFICULTY_MAP = new Map<ShortDifficultyNames, Difficulties["chunithm:Single"]>([
+	["bas", "BASIC"],
+	["adv", "ADVANCED"],
+	["exp", "EXPERT"],
+	["mas", "MASTER"],
+	["ult", "ULTIMA"],
+]);
 
 const CHUNITHM_CATCODE_MAP = new Map([
 	["POPS & ANIME", "0"],
@@ -70,7 +75,7 @@ interface ChunirecSong {
 		bpm: number;
 	};
 	data: Record<
-		"BAS" | "ADV" | "EXP" | "MAS" | "ULT" | "WE",
+		Uppercase<ShortDifficultyNames>,
 		{
 			level: number;
 			const: number;
@@ -105,22 +110,37 @@ function releaseDateToVersion(date: Date): string {
 	const entries = Object.entries(RELEASE_DATES);
 
 	for (let i = 0; i < entries.length - 1; i++) {
-		// @ts-expect-error make ts-node shut up, array access is already in bounds
-		if (entries[i][1] <= date && date < entries[i + 1][1]) {
-			// @ts-expect-error same as above
-			return entries[i][0];
+		const versionName = entries[i]?.[0];
+		const versionStartDate = entries[i]?.[1];
+		const versionEndDate = entries[i + 1]?.[1];
+
+		if (!versionName) {
+			throw new Error(`Version name at index ${i} was undefined?!`);
+		}
+
+		if (!versionStartDate || !versionEndDate) {
+			throw new Error(`No start date/end date was declared for version ${versionName}.`);
+		}
+
+		if (versionStartDate <= date && date < versionEndDate) {
+			return versionName;
 		}
 	}
-	// @ts-expect-error same as above again
-	return entries[entries.length - 1][0];
+
+	const latestVersionName = entries[entries.length - 1]?.[0];
+	if (!latestVersionName) {
+		throw new Error(`Latest version name was undefined.`);
+	}
+
+	return latestVersionName;
 }
 
 (async () => {
-	const chunithmSongs: ChunithmSong[] = await fetch(DATA_URL, {}).then((r) => r.json());
+	const chunithmSongs: ChunithmSong[] = await fetch(DATA_URL, {}).then((r: Response) => r.json());
 	const chunirecSongs: ChunirecSong[] = await fetch(
 		`https://api.chunirec.net/2.0/music/showall.json?token=${CHUNIREC_TOKEN}&region=jp2`,
 		{}
-	).then((r) => r.json());
+	).then((r: Response) => r.json());
 
 	const existingChartDocs = ReadCollection("charts-chunithm.json");
 
@@ -172,8 +192,8 @@ function releaseDateToVersion(date: Date): string {
 			});
 		}
 
-		for (const [shortName, difficulty] of Object.entries(DIFFICULTY_MAP)) {
-			const key = `lev_${shortName}`;
+		for (const [shortName, difficulty] of DIFFICULTY_MAP.entries()) {
+			const key: `lev_${ShortDifficultyNames}` = `lev_${shortName}`;
 			const level = chunithmSong[key];
 			if (!level) {
 				continue;
