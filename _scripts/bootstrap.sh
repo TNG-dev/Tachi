@@ -58,7 +58,13 @@ function pnpmInstall {
 	pnpm install
 
 	# install ts-node aswell so people can use that inside enter-seeds.
-	pnpm install ts-node -g
+	#
+	# forcibly install this to /usr/local/bin because otherwise pnpm needs
+	# a bunch of other env vars and needs to modify .bashrc and all that jazz
+	#
+	# we're installing a global binary; it should go in a global binary place
+	# and this just works. sweet
+	PNPM_HOME=/usr/local/bin pnpm install ts-node -g
 
 	echo "Installed dependencies."
 }
