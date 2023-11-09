@@ -8,7 +8,7 @@ But, what *can* you contribute, and where can you help out?
 Contrary to what you might already think, contributing to Tachi actually has remarkably little to
 do with code.
 
-The primary Tachi maintainer (hitherto referred to as `zkldi`, because that's their name)
+The primary Tachi maintainer (henceforth referred to as `zkldi`, because that's their name)
 deals with the core of the codebase; things like importing scores, adding new features and most of the UI work
 is handled by them.
 
