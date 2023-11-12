@@ -175,7 +175,7 @@ looks like this:
 		"identifier": "1",
 		"difficulty": "HYPER",
 		"comment": "This score sucked!",
-		"hitMeta": {
+		"optional": {
 			"bp": 5
 		},
 		"scoreMeta": {
