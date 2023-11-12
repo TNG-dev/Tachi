@@ -80730,5 +80730,65 @@
 		"versions": [
 			"festivalplus"
 		]
+	},
+	{
+		"chartID": "2d2196d0d33f27f5b6ac4b9a1e2e937ad43c9ce1",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Advanced",
+		"isPrimary": true,
+		"level": "8+",
+		"levelNum": 8.7,
+		"playtype": "Single",
+		"songID": 1129,
+		"versions": [
+			"festivalplus"
+		]
+	},
+	{
+		"chartID": "015eab66f424d7bd913beb3a1bef51e801fe6995",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Basic",
+		"isPrimary": true,
+		"level": "6",
+		"levelNum": 6,
+		"playtype": "Single",
+		"songID": 1129,
+		"versions": [
+			"festivalplus"
+		]
+	},
+	{
+		"chartID": "88b5def1d194009d8fccfd4a019879f4a45802eb",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Expert",
+		"isPrimary": true,
+		"level": "12+",
+		"levelNum": 12.9,
+		"playtype": "Single",
+		"songID": 1129,
+		"versions": [
+			"festivalplus"
+		]
+	},
+	{
+		"chartID": "d592519617c007e81bae6233ee37e13ba016262d",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Master",
+		"isPrimary": true,
+		"level": "14+",
+		"levelNum": 14.7,
+		"playtype": "Single",
+		"songID": 1129,
+		"versions": [
+			"festivalplus"
+		]
 	}
 ]

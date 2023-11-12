@@ -69,7 +69,7 @@ function calculateLevelNum(data: Pick<MusicFumenData, "level" | "levelDecimal">)
 
 const program = new Command();
 program.requiredOption("-i, --input <OPTION FOLDERS...>");
-program.requiredOption("-v, --version <sun, sunplus>");
+program.requiredOption("-v, --version <VERSION>");
 
 program.parse(process.argv);
 const options = program.opts();

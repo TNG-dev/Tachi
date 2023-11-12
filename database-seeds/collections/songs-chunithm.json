@@ -14349,7 +14349,7 @@
 	},
 	{
 		"altTitles": [],
-		"artist": "R Sound Design ",
+		"artist": "R Sound Design",
 		"data": {
 			"displayVersion": "new",
 			"genre": "niconico"
@@ -16916,7 +16916,7 @@
 	},
 	{
 		"altTitles": [],
-		"artist": "EBIMAYO ",
+		"artist": "EBIMAYO",
 		"data": {
 			"displayVersion": "sun",
 			"genre": "ゲキマイ"
@@ -18088,6 +18088,17 @@
 			"pokapokaonsen ondo"
 		],
 		"title": "ぽかぽか温泉音頭"
+	},
+	{
+		"altTitles": [],
+		"artist": "rintaro soma",
+		"data": {
+			"displayVersion": "sunplus",
+			"genre": "ゲキマイ"
+		},
+		"id": 2477,
+		"searchTerms": [],
+		"title": "sølips"
 	},
 	{
 		"altTitles": [],
