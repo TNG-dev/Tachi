@@ -280,52 +280,12 @@ function SongInfoHeader({
 			  )
 	);
 
-	const [ImageCell, setImageCell] = useState<JSX.Element | null>(null);
-
-	useEffect(() => {
-		if (game === "popn") {
-			setImageCell(
-				<img
-					src={ToCDNURL(
-						`/misc/popn/banners/${
-							(charts[0] as ChartDocument<"popn:9B">).data.inGameID
-						}.png`
-					)}
-					className="w-100"
-				/>
-			);
-		} else if (game === "itg") {
-			const itgChart = activeChart as ChartDocument<"itg:Stamina">;
-			const banner = itgChart?.data.bannerLocationOverride ?? itgChart?.data.originalPack;
-
-			if (banner) {
-				setImageCell(
-					<img
-						src={ToCDNURL(`/misc/itg/banners/${encodeURIComponent(banner)}.png`)}
-						className="w-100"
-					/>
-				);
-			}
-		} else if ("displayVersion" in song.data) {
-			setImageCell(
-				<img
-					// on error just hide this tbh
-					onError={() => setImageCell(null)}
-					src={ToCDNURL(`/game-icons/${game}/${song.data.displayVersion}`)}
-					className="w-100"
-				/>
-			);
-		}
-	}, [game, song]);
-
 	return (
 		<Card header="Song Info">
 			<Row className="align-items-center justify-content-evenly">
-				{ImageCell && (
-					<Col xs={12} lg={3} className="text-center">
-						{ImageCell}
-					</Col>
-				)}
+				<Col xs={12} lg={3} className="text-center">
+					{/* empty padding :) */}
+				</Col>
 				<Col xs={12} lg={4} className="text-center">
 					<SongInfoFormat {...{ game, song, chart: activeChart }} />
 				</Col>
