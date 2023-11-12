@@ -84,7 +84,7 @@ function OAuthClientPage() {
 					with {TachiConfig.name}.
 					<br />
 					You can read the documentation{" "}
-					<ExternalLink href="https://docs.bokutachi.xyz/tachi-server/infrastructure/api-clients/">
+					<ExternalLink href="https://docs.bokutachi.xyz/codebase/infrastructure/api-clients/">
 						here
 					</ExternalLink>
 					!
@@ -239,7 +239,7 @@ function CreateNewOAuthClient({ setClients }: { setClients: SetState<TachiAPICli
 							In what format should a generated API Key be shown to the user? This
 							only applies to Client File Flow. <code>%%TACHI_KEY%%</code> will be
 							replaced with the generated key. Read more about client file flow{" "}
-							<ExternalLink href="https://docs.bokutachi.xyz/tachi-server/infrastructure/file-flow/">
+							<ExternalLink href="https://docs.bokutachi.xyz/codebase/infrastructure/file-flow/">
 								here
 							</ExternalLink>
 							.
@@ -573,7 +573,7 @@ function EditClientModal({
 						In what format should a generated API Key be shown to the user? This only
 						applies to Client File Flow. <code>%%TACHI_KEY%%</code> will be replaced
 						with the generated key. Read more about client file flow{" "}
-						<ExternalLink href="https://docs.bokutachi.xyz/tachi-server/infrastructure/file-flow/">
+						<ExternalLink href="https://docs.bokutachi.xyz/codebase/infrastructure/file-flow/">
 							here
 						</ExternalLink>
 						.
