@@ -23309,5 +23309,53 @@
 			"kurobenisukui_nekomata"
 		],
 		"title": "黒紅掬い"
+	},
+	{
+		"altTitles": [],
+		"artist": "Hidra-Xjeil",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2166,
+		"searchTerms": [
+			"dreamendrmx_hidra"
+		],
+		"title": "ドリームエンド・サバイバー(Hidra-Xjeil Remix)"
+	},
+	{
+		"altTitles": [],
+		"artist": "Yooh",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2167,
+		"searchTerms": [
+			"gerolrmx_yooh"
+		],
+		"title": "GEROL (Yooh Remix)"
+	},
+	{
+		"altTitles": [],
+		"artist": "Sot-C",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2168,
+		"searchTerms": [
+			"sayoplarmx_sotc"
+		],
+		"title": "Sayonara Planet Wars (Sot-C Remix)"
+	},
+	{
+		"altTitles": [],
+		"artist": "brz1128 feat.しろさきあや",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2169,
+		"searchTerms": [
+			"lovesicklovetunermx_brz"
+		],
+		"title": "Lovesick Lovetune(brz_style)"
 	}
 ]
