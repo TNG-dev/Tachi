@@ -161,6 +161,68 @@ pbs = '/api/v1/users/{}/games/sdvx/Single/pbs/all'
 api_key = '%%TACHI_KEY%%'
 `,
 	},
+	{
+		clientID: "CXSaekawa",
+		requestedPermissions: ["submit_score"],
+		name: "Saekawa",
+		redirectUri: null,
+		webhookUri: null,
+		apiKeyFilename: "saekawa.toml",
+		apiKeyTemplate: `[general]
+# Set to 'false' to disable the hook
+enable = true
+# Whether the hook should export your class medals and emblems or not.
+export_class = true
+# Whether the hook should export PBs. This should be used as a last resort, if
+# you cannot import scores from your network, since this provides less data
+# and sends only one pre-joined score per chart. Will only work once every session; you'll
+# need to restart the game to do it again.
+export_pbs = false
+# Whether FAILED should override FULL COMBO and ALL JUSTICE.
+fail_over_lamp = false
+# Timeout for web requests, in milliseconds
+timeout = 3000
+
+[cards]
+# **DOES NOT WORK FOR WHITELISTING PBS!!**
+#
+# Access codes that should be whitelisted
+# If this is empty, all cards will be whitelisted
+# There should be no whitespace between the digits
+#
+# example: whitelist = ["00001111222233334444"]
+whitelist = []
+
+[crypto]
+# Since CRYSTAL+, the game employs network encryption. If you do not wish to
+# patch out encryption from your game, you will need to fill in these values.
+#
+# All values are in hex strings.
+key = ""
+iv = ""
+
+# Salt for deriving hashed API endpoint names. Not necessary on PARADISE LOST
+# and older. For CHUNITHM NEW and later versions, this must be set if encryption
+# is not patched out, otherwise the hook will be active but doing nothing, since 
+# it cannot recognize the score upload endpoint.
+#
+# This must also be a hex string.
+salt = ""
+
+# Number of PBKDF2 iterations to hash the endpoint URL. Set to 70 for CHUNITHM SUN
+# and newer, and 44 for older versions.
+iterations = 70
+
+[tachi]
+# Tachi instance base URL
+base_url = '${ServerConfig.OUR_URL}'
+# Tachi status endpoint
+status = '/api/v1/status'
+# Tachi score import endpoint
+import = '/ir/direct-manual/import'
+# Your Tachi API key
+api_key = '%%TACHI_KEY%%'`,
+	},
 ];
 
 const BtchiDefaultClients: DefaultClients = [

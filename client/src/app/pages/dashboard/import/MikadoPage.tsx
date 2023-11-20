@@ -13,8 +13,8 @@ export default function MikadoPage() {
 			<h1 className="text-center mb-4">What Is Mikado?</h1>
 			<div>
 				Mikado is a <code>.dll</code> file that hooks into SDVX and automatically sends
-				the scores to a server. {TachiConfig.name} is compatible with what Mikado sends,
-				so you can use it to submit scores!
+				scores to a server. {TachiConfig.name} is compatible with what Mikado sends, so you
+				can use it to submit scores!
 			</div>
 			<Divider />
 			<h1 className="text-center my-4">Setup Instructions</h1>
@@ -39,8 +39,7 @@ export default function MikadoPage() {
 				</li>
 				<ul className="instructions-list">
 					<li>
-						BemaniTools: Add <code>-K mikado.dll</code> to your <code>.bat</code>{" "}
-						file.
+						BemaniTools: Add <code>-K mikado.dll</code> to your <code>.bat</code> file.
 					</li>
 					<li>
 						SpiceTools: Add <code>-k mikado.dll</code> to your <code>.bat</code> file.

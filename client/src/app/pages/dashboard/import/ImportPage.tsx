@@ -187,11 +187,11 @@ function ImportInfoDisplayer({ game }: { game: Game }) {
 	} else if (game === "chunithm") {
 		Content.unshift(
 			<ImportInfoCard
-				name="Chunitachi"
-				href="chunitachi"
-				desc="Automatically import scores, whenever you get them!"
-				moreInfo="This is the recommended way to import CHUNITHM scores, as it provides high quality data in real-time."
-				key="Chunitachi"
+				name="Saekawa"
+				href="saekawa"
+				desc="Automatically import scores and dans!"
+				moreInfo="This is the recommended way to import CHUNITHM scores, data is submitted at the end of every credit."
+				key="Saekawa"
 			/>,
 			<ImportInfoCard
 				name="CHUNITHM Site Importer"
@@ -199,6 +199,19 @@ function ImportInfoDisplayer({ game }: { game: Game }) {
 				desc="Use your data from CHUNITHM NET."
 				moreInfo="If you are currently playing on CHUNITHM International, you can import play data from it here."
 				key="CHUNITHM Site Importer"
+			/>,
+			<ImportInfoCard
+				name="Chunitachi"
+				href="chunitachi"
+				desc="Automatically import scores, whenever you get them!"
+				moreInfo={
+					<>
+						This is the recommended way to import CHUNITHM scores, as it provides high
+						quality data in real-time. <br />
+						Note: Only for versions PARADISE and PARADISE LOST.
+					</>
+				}
+				key="Chunitachi"
 			/>
 		);
 	} else if (game === "bms") {
