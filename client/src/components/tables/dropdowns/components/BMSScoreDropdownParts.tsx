@@ -93,7 +93,9 @@ function GraphComponent({ type, values }: { type: LampTypes; values: (number | n
 			data={[
 				{
 					id: type,
-					data: values.map((e, i) => ({ x: i, y: e ?? 0 })),
+					// x is from 0 -> 1_000; the percentXAxis function divides by 100
+					// so we want this to be out of 10_000.
+					data: values.map((e, i) => ({ x: i * 10, y: e ?? 0 })),
 				},
 			]}
 		/>
