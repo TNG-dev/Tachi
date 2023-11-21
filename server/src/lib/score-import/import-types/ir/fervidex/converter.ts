@@ -145,7 +145,16 @@ export const ConverterIRFervidex: ConverterFunction<FervidexScore, FervidexConte
 	importType,
 	logger
 ) => {
-	const { difficulty, playtype } = SplitFervidexChartRef(data.chart);
+	let { difficulty, playtype } = SplitFervidexChartRef(data.chart);
+
+	// Scripted Long used to be an ANOTHER with id 21201
+	//
+	// now it has an id of 12250 and is a legg.
+	// Versions of omnimix prior to oct 2023 depend on this behaviour.
+	if (data.entry_id === 21201 && difficulty === "ANOTHER") {
+		data.entry_id = 12250;
+		difficulty = "LEGGENDARIA";
+	}
 
 	let chart;
 

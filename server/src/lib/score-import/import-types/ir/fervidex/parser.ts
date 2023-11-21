@@ -114,6 +114,8 @@ export function SoftwareIDToVersion(
 			} else if (EXT_RESIDENT.includes(data.ext)) {
 				if (data.rev === REV_NORMAL) {
 					return "30";
+				} else if (data.rev === REV_OMNIMIX) {
+					return "30-omni";
 				}
 			}
 		}
