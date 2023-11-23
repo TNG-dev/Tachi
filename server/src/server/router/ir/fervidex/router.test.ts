@@ -107,8 +107,6 @@ function TestHeaders(url: string, data: any) {
 			.set("User-Agent", "fervidex/1.3.0")
 			.send(data);
 
-		console.dir(res.body);
-
 		t.equal(res.body.success, true, "Should allow 30-omni");
 
 		t.end();
