@@ -88,6 +88,32 @@ function TestHeaders(url: string, data: any) {
 		t.end();
 	});
 
+	t.only("Should allow 30-omni", async (t) => {
+		await db["fer-settings"].remove({});
+		await db["fer-settings"].insert({
+			userID: 1,
+			cards: null,
+			forceStaticImport: false,
+		});
+
+		const token = `mock_token_${Random20Hex()}`;
+
+		await InsertFakeTokenWithAllPerms(token)();
+
+		const res = await mockApi
+			.post(url)
+			.set("Authorization", `Bearer ${token}`)
+			.set("X-Software-Model", "LDJ:J:B:X:2023090500")
+			.set("User-Agent", "fervidex/1.3.0")
+			.send(data);
+
+		console.dir(res.body);
+
+		t.equal(res.body.success, true, "Should allow 30-omni");
+
+		t.end();
+	});
+
 	t.test("Should reject invalid X-Software-Models", async (t) => {
 		let res = await mockApi
 			.post(url)
