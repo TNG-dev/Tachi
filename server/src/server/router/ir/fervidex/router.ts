@@ -107,7 +107,7 @@ const ValidateModelHeader: RequestHandler = (req, res, next) => {
 			);
 			return res.status(400).json({
 				success: false,
-				error: `Invalid extension ${softID.ext}`,
+				error: `Invalid software model ${swModel})`,
 			});
 		}
 	} catch (err) {
@@ -157,13 +157,18 @@ router.use(
 	ValidateCards
 );
 
-async function ShouldImportScoresFromProfileSubmit(swModel: string, userID: integer) {
+async function ShouldImportScoresFromProfileSubmit(
+	swModel: string,
+	userID: integer
+) {
 	const settings = await db["fer-settings"].findOne({
 		userID,
 	});
 
 	if (settings?.forceStaticImport === true) {
-		logger.debug(`User ${settings.userID} had forceStaticImport set, allowing request.`);
+		logger.debug(
+			`User ${settings.userID} had forceStaticImport set, allowing request.`
+		);
 
 		// Force static import should ideally only ever be used once. If left on, a users profile
 		// will get innundated with a bunch of pb imports on every game-load. This is not what
@@ -300,7 +305,11 @@ router.post("/class/submit", ValidateModelHeader, async (req, res) => {
 	if (err) {
 		return res.status(400).json({
 			success: false,
-			error: PrudenceErrorFormatter(err.message, String(err.userVal), err.keychain),
+			error: PrudenceErrorFormatter(
+				err.message,
+				String(err.userVal),
+				err.keychain
+			),
 		});
 	}
 
@@ -311,14 +320,18 @@ router.post("/class/submit", ValidateModelHeader, async (req, res) => {
 	};
 
 	if (!body.cleared) {
-		return res.status(200).json({ success: true, description: "No Update Made.", body: {} });
+		return res
+			.status(200)
+			.json({ success: true, description: "No Update Made.", body: {} });
 	}
 
 	// is 0 or 1.
 	const playtype: Playtypes["iidx"] = body.play_style === 0 ? "SP" : "DP";
 
 	const dans = (
-		GetGamePTConfig("iidx", playtype) as unknown as SpecificGamePTConfig<"iidx:DP" | "iidx:SP">
+		GetGamePTConfig("iidx", playtype) as unknown as SpecificGamePTConfig<
+			"iidx:DP" | "iidx:SP"
+		>
 	).classes.dan.values;
 
 	const dan = dans[body.course_id];
@@ -341,7 +354,9 @@ router.post("/class/submit", ValidateModelHeader, async (req, res) => {
 	return res.status(200).json({
 		success: true,
 		description:
-			r === false ? "Dan unchanged, was worse than your current dan." : "Dan changed!",
+			r === false
+				? "Dan unchanged, was worse than your current dan."
+				: "Dan changed!",
 	});
 });
 
