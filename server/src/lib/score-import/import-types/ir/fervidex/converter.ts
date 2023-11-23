@@ -145,6 +145,7 @@ export const ConverterIRFervidex: ConverterFunction<FervidexScore, FervidexConte
 	importType,
 	logger
 ) => {
+	// eslint-disable-next-line prefer-const
 	let { difficulty, playtype } = SplitFervidexChartRef(data.chart);
 
 	// Scripted Long used to be an ANOTHER with id 21201
