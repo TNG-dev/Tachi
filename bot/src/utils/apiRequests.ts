@@ -2,6 +2,7 @@ import { RequestTypes, TachiServerV1Get, TachiServerV1Request } from "./fetchTac
 import { CreateLayeredLogger } from "./logger";
 import { Sleep } from "./misc";
 import { LoggerLayers } from "../data/data";
+import { BotConfig } from "config";
 import type { ImportDeferred, ImportPollStatus, UGPTStats } from "./returnTypes";
 import type { CommandInteraction } from "discord.js";
 import type {
@@ -152,6 +153,14 @@ export async function PerformScoreImport(
 				// eslint-disable-next-line no-await-in-loop
 				await Sleep(1000);
 			} else {
+				// silly kai bug they won't ever fix. hacking around it in the bot here.
+				if (/attempting reauthentication/u.exec(pollRes.description)) {
+					throw new Error(`Failed to import scores.
+Your authentication with this service has expired, and a bug on their end prevents us from automatically renewing it.
+
+Please go to ${BotConfig.HTTP_SERVER.URL}/u/me/integrations/services to un-link and re-link.`);
+				}
+
 				throw new Error(`Failed to import scores. ${pollRes.description}.`);
 			}
 		}
