@@ -10751,7 +10751,7 @@
 		},
 		"folderID": "Fc69d42c0d7a35cf628dfefc49ecc3f15969cd7db26014fd7c11859b64d08d47e",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 1 (CastHour Omnimix)",
@@ -10764,7 +10764,7 @@
 		},
 		"folderID": "F72f522ea790115f463f08d9f3c3d24ab95e6baa3edabd510b4f11c4a67139e16",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 1 (CastHour)",
@@ -10924,6 +10924,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 1 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "1",
+			"versions": "30-omni"
+		},
+		"folderID": "Ff4de2cc21bffa3e6e9eb8725e0fbe0986c231dab88178d584c41c7b3c256b118",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 1 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -11167,7 +11180,7 @@
 		},
 		"folderID": "F43a16ecd8da35fde4718541fd5a458c48cc06e74107fea350d17025f40e00b36",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 10 (CastHour Omnimix)",
@@ -11180,7 +11193,7 @@
 		},
 		"folderID": "Fa80ba9d3a809a7a941f0d05ab3688a33b204b6833c19cf5db70909341787bce8",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 10 (CastHour)",
@@ -11340,6 +11353,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 10 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "10",
+			"versions": "30-omni"
+		},
+		"folderID": "F1efd11cef63058f3bbd628f263e69c3550db00f101600164ecdb2bdbbf700e4c",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 10 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -11583,7 +11609,7 @@
 		},
 		"folderID": "F3ec36187d4889aa539009da648ac0bbe8d187bf1b9e70a20cffc3d325aaa95a0",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 11 (CastHour Omnimix)",
@@ -11596,7 +11622,7 @@
 		},
 		"folderID": "F0305e2715be6ecde7849175f017b1a2021d947f160369a3960207ab8d3c0b216",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 11 (CastHour)",
@@ -11756,6 +11782,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 11 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "11",
+			"versions": "30-omni"
+		},
+		"folderID": "Fe59d635ed6e06f7f2962324bf8381d2b02cdcd706bee31a2c95b9f5fb87504d2",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 11 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -11999,7 +12038,7 @@
 		},
 		"folderID": "F56cd39e50005431e7b3f8d002b2e6f8772cf447660321bb241a9719615f158be",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 12 (CastHour Omnimix)",
@@ -12012,7 +12051,7 @@
 		},
 		"folderID": "F822bedcc82fef2b4e982f5214ca964db8a2948e522fb9b9c3458fab2cc6c17ed",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 12 (CastHour)",
@@ -12172,6 +12211,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 12 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "12",
+			"versions": "30-omni"
+		},
+		"folderID": "Fac017a39ab8c4084178808f92c5c7109e3165a03f1f08b091a697196e88ec77d",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 12 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -12415,7 +12467,7 @@
 		},
 		"folderID": "Fb16cca53146da196ab23fc13b79633ddcb3f8c61d8d2dcc9082c4f1698b9c91a",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 2 (CastHour Omnimix)",
@@ -12428,7 +12480,7 @@
 		},
 		"folderID": "F25686241f622bccea059f92757862b3e5a89c3764c5db78abb7f44dadf2007d7",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 2 (CastHour)",
@@ -12588,6 +12640,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 2 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "2",
+			"versions": "30-omni"
+		},
+		"folderID": "F5143df7a36805fd4aacf65be0645bdceab4ce3c01177ad14268e3d6bce362801",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 2 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -12831,7 +12896,7 @@
 		},
 		"folderID": "F1ebe7667613e1d8215143d7d5764a97ed4931b2d546559bf6d081d7eff6380de",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 3 (CastHour Omnimix)",
@@ -12844,7 +12909,7 @@
 		},
 		"folderID": "F5b0f1818352902384603671635c56cfe9a34b3be2a507ab954efd1c314a174fe",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 3 (CastHour)",
@@ -13004,6 +13069,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 3 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "3",
+			"versions": "30-omni"
+		},
+		"folderID": "F158445e29f4436e616866b7f126130e290a4463c0e12ff6f3e79bc41f1bb1ea2",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 3 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -13247,7 +13325,7 @@
 		},
 		"folderID": "Fad966633580b7a37d5f7ef0a7f536495a091a8a875a174f8c959ab092cb8fb73",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 4 (CastHour Omnimix)",
@@ -13260,7 +13338,7 @@
 		},
 		"folderID": "F4bdb9165ba1588c09bb34f773d93abb205bcce276faf6e72fe22657e177b420a",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 4 (CastHour)",
@@ -13420,6 +13498,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 4 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "4",
+			"versions": "30-omni"
+		},
+		"folderID": "F48c35137077a2f7c712e6c9877bbdc672d0ff02918991632dacdf02d4d179548",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 4 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -13663,7 +13754,7 @@
 		},
 		"folderID": "F400947833d51c60846afd3f8b80c82e54112a1a0efd836d71d52fc74bb5d7af4",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 5 (CastHour Omnimix)",
@@ -13676,7 +13767,7 @@
 		},
 		"folderID": "F3da580f81fb7f401375ff8f652289c61541452df1659e4277d462c9fffca0fef",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 5 (CastHour)",
@@ -13836,6 +13927,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 5 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "5",
+			"versions": "30-omni"
+		},
+		"folderID": "F621bb8be1f078964d89badb33a17bf43725423beda57f2b842a914b71949caeb",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 5 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -14079,7 +14183,7 @@
 		},
 		"folderID": "F6c4da6e56c3f7c44969885edd070776ac2fae041da74fd33b5a5e06ee1525ec3",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 6 (CastHour Omnimix)",
@@ -14092,7 +14196,7 @@
 		},
 		"folderID": "Faf3f8439a2756250728da827b4144649314e01ce320785971b4372538d6b6696",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 6 (CastHour)",
@@ -14252,6 +14356,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 6 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "6",
+			"versions": "30-omni"
+		},
+		"folderID": "Fca26035746a97558a28c975e6b40c312acd53e285205feb35b6b1e3e5d52281d",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 6 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -14495,7 +14612,7 @@
 		},
 		"folderID": "F6ff2668e9f28bf5a72cdd7ed27e5e6fc351e4c4039028348bd79bcf23c633e18",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 7 (CastHour Omnimix)",
@@ -14508,7 +14625,7 @@
 		},
 		"folderID": "F05b5d24b55e673283f67f3150d8724807bc9ce472392eebaa2ed06dcc700cea2",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 7 (CastHour)",
@@ -14668,6 +14785,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 7 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "7",
+			"versions": "30-omni"
+		},
+		"folderID": "F637669b160cb74f26b2a36de16a32985141b3e1eaddca9efacca1e4b1f8f8c4d",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 7 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -14911,7 +15041,7 @@
 		},
 		"folderID": "F1cb14427be337f8d7148b2e147af8ef50406b1a744a739757b7ef3356d756b35",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 8 (CastHour Omnimix)",
@@ -14924,7 +15054,7 @@
 		},
 		"folderID": "F726f7c2589fb3ee62a9bf17641d41d618b581966ecf19108d7b5f31035de4f02",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 8 (CastHour)",
@@ -15084,6 +15214,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 8 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "8",
+			"versions": "30-omni"
+		},
+		"folderID": "F9d8efd8f6382861fc04ef3dbb53a2ac42e9187cea52341422ecf47395885f4d9",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 8 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -15327,7 +15470,7 @@
 		},
 		"folderID": "F809c601ce0a5f57d10b0eea514c370f4db42aa08a56b8d7589c2eb153626c30e",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 9 (CastHour Omnimix)",
@@ -15340,7 +15483,7 @@
 		},
 		"folderID": "Fe2939c8b39ee4e1ef23db36e7cfdc87868ded759f0e1f7b1dea598bc11d4154b",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 9 (CastHour)",
@@ -15500,6 +15643,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 9 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "9",
+			"versions": "30-omni"
+		},
+		"folderID": "Fea4d31db72d354155d069e15cc51aa80493fd599fa0388f916086f9eb736556d",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 9 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -15743,7 +15899,7 @@
 		},
 		"folderID": "Ff603bf43256a072b981830bd0ac1dd4d3777dea026ba9b79be8b77e8abb56fa1",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 1 (CastHour Omnimix)",
@@ -15756,7 +15912,7 @@
 		},
 		"folderID": "F10e3e0e7c0bcbd4dcbb49a1086184d6949fe7a213ecbd6bf1ed7001f2b98a98b",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 1 (CastHour)",
@@ -15916,6 +16072,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 1 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "1",
+			"versions": "30-omni"
+		},
+		"folderID": "Fc8eff46b03da944c5bbc149a02af7341e454c869cc5657efc069a80ed32d99bc",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 1 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -16159,7 +16328,7 @@
 		},
 		"folderID": "Fa9d604b60f3c84981ebc6d2a999206beb2d22b2eb3af1b5036d5c19b0d831c7d",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 10 (CastHour Omnimix)",
@@ -16172,7 +16341,7 @@
 		},
 		"folderID": "F844651ec49a21e5c065b1138bbb98b1bfd9f3abd6a0dca444892993b15e8b41d",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 10 (CastHour)",
@@ -16332,6 +16501,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 10 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "10",
+			"versions": "30-omni"
+		},
+		"folderID": "F4d45367f5f15769025d7fc31169b10c96d71ffe9e6e4885fc4fd93a6385fc616",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 10 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -16575,7 +16757,7 @@
 		},
 		"folderID": "F236f08e96932d40bbf93fa7678149fa490b641260f02b9f0418e71f74dacbf32",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 11 (CastHour Omnimix)",
@@ -16588,7 +16770,7 @@
 		},
 		"folderID": "F7aaf1fe3b7bc5a346106a596e67ae2c86462c671d11c7f1db1422d8e7a421735",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 11 (CastHour)",
@@ -16748,6 +16930,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 11 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "11",
+			"versions": "30-omni"
+		},
+		"folderID": "F412ec5dc3d521cce489e3804ec2d660f1fcd9bfcebea5223d908f3562bae2622",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 11 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -16991,7 +17186,7 @@
 		},
 		"folderID": "Fb997c0c2ee9e2e98fd19c183ef9b8c80b9b0345a226d1824b4d544b0dada2ef0",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 12 (CastHour Omnimix)",
@@ -17004,7 +17199,7 @@
 		},
 		"folderID": "F4641845dcaacfc772a35291197128d6958a0b2551d0831ea1ab6bf2901bad44a",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 12 (CastHour)",
@@ -17164,6 +17359,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 12 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "12",
+			"versions": "30-omni"
+		},
+		"folderID": "F2b886412954844875e7dc96de42c8ff11703344436fb580e3b3ff76b3d7424ff",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 12 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -17407,7 +17615,7 @@
 		},
 		"folderID": "F3966599dbd3f3a1ab8d07c1cfeb6eea7e0b5f415e529e1842af80409b79dd5bd",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 2 (CastHour Omnimix)",
@@ -17420,7 +17628,7 @@
 		},
 		"folderID": "Fc70b831a128ec65509903180ef080015ca89aecb023530bdcd0daf6bbd07b4dc",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 2 (CastHour)",
@@ -17580,6 +17788,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 2 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "2",
+			"versions": "30-omni"
+		},
+		"folderID": "F91865a3cdebfb5d54a276d1efb8953bdd74229deed086051eee979102e1244f9",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 2 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -17823,7 +18044,7 @@
 		},
 		"folderID": "F7b8f6a9e69fc7d525cc3dd1ff2b8752e2da599ffd91dfcf1cbdda7737a598746",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 3 (CastHour Omnimix)",
@@ -17836,7 +18057,7 @@
 		},
 		"folderID": "Fd5355b99effb7110b25289cc5811bfdb6a67b2ed8740e31a3d21cdcd314c471a",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 3 (CastHour)",
@@ -17996,6 +18217,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 3 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "3",
+			"versions": "30-omni"
+		},
+		"folderID": "Fccce99caba93454ce72a0ed614bd411fc3ad92f18053c39ca0e8b593b4bf142b",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 3 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -18239,7 +18473,7 @@
 		},
 		"folderID": "F575067eb26b072b322b0f412f05d6f736750bb3eac98ad197771de8015961559",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 4 (CastHour Omnimix)",
@@ -18252,7 +18486,7 @@
 		},
 		"folderID": "F90919af86e48c407529d64be1384c124643a90ba40b6eedad9426fad9191209c",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 4 (CastHour)",
@@ -18412,6 +18646,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 4 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "4",
+			"versions": "30-omni"
+		},
+		"folderID": "F90adf2d5125d0d7550d991631e8c3d19b5d18a3b0627e0bcca68330808c9c085",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 4 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -18655,7 +18902,7 @@
 		},
 		"folderID": "Fdc77449105a13a79bf168378968a9fd7e4dd65016368a7224a6f2afef87a2f36",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 5 (CastHour Omnimix)",
@@ -18668,7 +18915,7 @@
 		},
 		"folderID": "F4059ac0dfb11e27cbd71798f5f1482dabff9f57c220bb2236ac82f2ea79a7836",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 5 (CastHour)",
@@ -18828,6 +19075,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 5 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "5",
+			"versions": "30-omni"
+		},
+		"folderID": "Fdf8c3ec3a65a21acdcfc2addd1d64b38e48fd627a0206ba42bdde6e96c83e3fc",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 5 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -19071,7 +19331,7 @@
 		},
 		"folderID": "Fdd875f6ef90148dcc9d40e1069fcefc9c8c3f7e05a775f24e39775b556a0f87c",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 6 (CastHour Omnimix)",
@@ -19084,7 +19344,7 @@
 		},
 		"folderID": "F981aa071da24ecc7294bbba9097601f77b1758912970a5d47cd8905621067a5e",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 6 (CastHour)",
@@ -19244,6 +19504,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 6 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "6",
+			"versions": "30-omni"
+		},
+		"folderID": "F4ce32f0b4a2242dd2f26871db885d30c86f24cce356469ba4523282b582a4cb7",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 6 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -19487,7 +19760,7 @@
 		},
 		"folderID": "F3f39a2e11d3f88cc81c0105bbf6481eb521b2c2607ed012ebd53932b5d1d2387",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 7 (CastHour Omnimix)",
@@ -19500,7 +19773,7 @@
 		},
 		"folderID": "F7958ccb2cfa095fcf4305b766f00074238c8afe37cae11793296a7e63b064873",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 7 (CastHour)",
@@ -19660,6 +19933,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 7 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "7",
+			"versions": "30-omni"
+		},
+		"folderID": "Fd493959f12d46fabf56a0ac7da8c4c3a01abec4344ec909e725f35be76d293c1",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 7 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -19903,7 +20189,7 @@
 		},
 		"folderID": "Fee5acaafb89eb9e07a2dfbfa856cf4ee2bd227a0cb08c020cd6b72d338b51ddc",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 8 (CastHour Omnimix)",
@@ -19916,7 +20202,7 @@
 		},
 		"folderID": "F5f38ec57d18e196fa66daba3b12f92a750e56c122542167f68525ff34a5def5a",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 8 (CastHour)",
@@ -20076,6 +20362,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 8 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "8",
+			"versions": "30-omni"
+		},
+		"folderID": "F6bcff59330c8aeb312728de2c4880e4448fc50289b686dfe6dacd1e0734b8410",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 8 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
@@ -20319,7 +20618,7 @@
 		},
 		"folderID": "Faee1a053f0a66e7687eebf784a22e1fd8b7c3472078af9e57d2c3af90d744d71",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 9 (CastHour Omnimix)",
@@ -20332,7 +20631,7 @@
 		},
 		"folderID": "F5d3b507b2e00c793b7f7d1196195d33890556abd564beef68d08fbd4be56ae8c",
 		"game": "iidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 9 (CastHour)",
@@ -20492,6 +20791,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 9 (PENDUAL)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "9",
+			"versions": "30-omni"
+		},
+		"folderID": "Fa4b4b04fb2090b24fae6f67711109ca572661804e9c21d219bd3b7caff13ed82",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 9 (Resident Omnimix)",
 		"type": "charts"
 	},
 	{
