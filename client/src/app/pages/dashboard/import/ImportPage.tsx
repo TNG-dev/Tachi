@@ -201,6 +201,29 @@ function ImportInfoDisplayer({ game }: { game: Game }) {
 				key="CHUNITHM Site Importer"
 			/>,
 			<ImportInfoCard
+				name="Aqua/ARTEMiS Exporter"
+				href="aqua-artemis-exporter"
+				desc="Export your scores from an Aqua/ARTEMiS instance."
+				moreInfo={
+					<>
+						This is a script that exports scores from an Aqua/ARTEMiS instance. <br />
+						Note: You will need direct access to the server instance.
+					</>
+				}
+				key="Aqua/ARTEMiS Exporter"
+			/>,
+			<ImportInfoCard
+				name="MYT Exporter"
+				href="chunithm-myt-exporter"
+				desc="Export your scores from MYT."
+				moreInfo={
+					<>
+						This is an userscript that exports scores from the MYT web interface.
+					</>
+				}
+				key="MYT Exporter"
+			/>,
+			<ImportInfoCard
 				name="Chunitachi"
 				href="chunitachi"
 				desc="Automatically import scores, whenever you get them!"
