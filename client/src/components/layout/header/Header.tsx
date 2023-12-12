@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import { Navbar, Offcanvas, OffcanvasHeader } from "react-bootstrap";
+import { Navbar, Offcanvas } from "react-bootstrap";
 import SiteWordmark from "components/util/SiteWordmark";
 import SignOut from "components/util/SignOut";
 import { UserContext } from "context/UserContext";
@@ -44,7 +44,7 @@ export default function Header({ styles }: { styles: LayoutStyles }) {
 						show={showMobileMenu}
 						onHide={() => setShowMobileMenu(false)}
 					>
-						<OffcanvasHeader className="p-4 border-bottom border-body-tertiary">
+						<Offcanvas.Header className="p-4 border-bottom border-body-tertiary">
 							<Link
 								id="home"
 								to="/"
@@ -52,17 +52,17 @@ export default function Header({ styles }: { styles: LayoutStyles }) {
 							>
 								<SiteWordmark id="navbar-label" width="192px" />
 							</Link>
-						</OffcanvasHeader>
-						<Offcanvas.Body className="position-relative">
+						</Offcanvas.Header>
+						<Offcanvas.Body className="d-flex flex-column">
 							<HeaderMenu
 								user={user}
 								dropdownMenuStyle={dropdownMenuStyle}
 								setState={setState}
 							/>
-							<div className="position-absolute bottom-0 w-100 pb-4 px-4 d-md-none">
-								<SignOut className="w-100 bg-body-secondary bg-opacity-75 backdrop-blur-xl" />
-							</div>
 						</Offcanvas.Body>
+						<div className="d-flex bottom-0 pb-2 px-4 d-lg-none">
+							<SignOut className="w-100" />
+						</div>
 					</Navbar.Offcanvas>
 					<UserArea user={user} dropdownMenuStyle={dropdownMenuStyle} />
 				</Container>
