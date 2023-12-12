@@ -16269,6 +16269,17 @@
 	},
 	{
 		"altTitles": [],
+		"artist": "曲：原田篤（Arte Refact）／歌：⊿TRiEDGE [高瀬 梨緒(CV：久保 ユリカ)、結城 莉玖(CV：朝日奈 丸佳)、藍原 椿(CV：橋本 ちなみ)]",
+		"data": {
+			"displayVersion": "sunplus",
+			"genre": "ゲキマイ"
+		},
+		"id": 2309,
+		"searchTerms": [],
+		"title": "Let's Starry Party！"
+	},
+	{
+		"altTitles": [],
 		"artist": "永倉秋斗 feat.キャサリン",
 		"data": {
 			"displayVersion": "sun",
@@ -18108,7 +18119,10 @@
 			"genre": "POPS & ANIME"
 		},
 		"id": 2478,
-		"searchTerms": [],
+		"searchTerms": [
+			"mako no nichijou",
+			"mako's daily life"
+		],
 		"title": "茉子の日常"
 	},
 	{
@@ -18119,7 +18133,10 @@
 			"genre": "POPS & ANIME"
 		},
 		"id": 2479,
-		"searchTerms": [],
+		"searchTerms": [
+			"kizuna hitosu",
+			"one bond"
+		],
 		"title": "キズナヒトツ"
 	},
 	{
@@ -18152,7 +18169,9 @@
 			"genre": "POPS & ANIME"
 		},
 		"id": 2482,
-		"searchTerms": [],
+		"searchTerms": [
+			"dohna dohna no uta"
+		],
 		"title": "ドーナドーナのうた"
 	},
 	{
@@ -18163,8 +18182,58 @@
 			"genre": "POPS & ANIME"
 		},
 		"id": 2483,
-		"searchTerms": [],
+		"searchTerms": [
+			"mirai e no hoko",
+			"roar towards the future"
+		],
 		"title": "未来への咆哮"
+	},
+	{
+		"altTitles": [],
+		"artist": "technoplanet",
+		"data": {
+			"displayVersion": "sunplus",
+			"genre": "ゲキマイ"
+		},
+		"id": 2485,
+		"searchTerms": [],
+		"title": "Singularity"
+	},
+	{
+		"altTitles": [],
+		"artist": "アリスシャッハと魔法の楽団",
+		"data": {
+			"displayVersion": "sunplus",
+			"genre": "ゲキマイ"
+		},
+		"id": 2486,
+		"searchTerms": [
+			"wanderschaffen no housoku",
+			"wanderschaffen's law"
+		],
+		"title": "ワンダーシャッフェンの法則"
+	},
+	{
+		"altTitles": [],
+		"artist": "魂音泉",
+		"data": {
+			"displayVersion": "sunplus",
+			"genre": "ゲキマイ"
+		},
+		"id": 2487,
+		"searchTerms": [],
+		"title": "Paradisoda"
+	},
+	{
+		"altTitles": [],
+		"artist": "An & Ryunosuke Kudo",
+		"data": {
+			"displayVersion": "sunplus",
+			"genre": "ゲキマイ"
+		},
+		"id": 2488,
+		"searchTerms": [],
+		"title": "Yorugao"
 	},
 	{
 		"altTitles": [],

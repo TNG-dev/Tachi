@@ -74,6 +74,9 @@ program.requiredOption("-v, --version <VERSION>");
 program.parse(process.argv);
 const options = program.opts();
 
+const isLatestVersion =
+	VERSIONS.indexOf(options.version.replace(/(-intl|-omni)$/u, "")) === VERSIONS.length - 1;
+
 const existingChartDocs = ReadCollection("charts-chunithm.json");
 
 const inGameIDToSongIDMap = new Map<number, number>();
@@ -164,8 +167,10 @@ for (const optionFolder of options.input) {
 					exists.versions.push(options.version);
 				}
 
-				exists.level = level;
-				exists.levelNum = levelNum;
+				if (isLatestVersion) {
+					exists.level = level;
+					exists.levelNum = levelNum;
+				}
 
 				continue;
 			}
