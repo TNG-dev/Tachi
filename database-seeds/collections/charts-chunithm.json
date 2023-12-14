@@ -11016,7 +11016,8 @@
 		"versions": [
 			"sun",
 			"sun-omni",
-			"sunplus"
+			"sunplus",
+			"sunplus-intl"
 		]
 	},
 	{
@@ -109116,7 +109117,9 @@
 		"playtype": "Single",
 		"songID": 2443,
 		"versions": [
-			"sunplus"
+			"sun-omni",
+			"sunplus",
+			"sunplus-intl"
 		]
 	},
 	{
@@ -109131,7 +109134,9 @@
 		"playtype": "Single",
 		"songID": 2443,
 		"versions": [
-			"sunplus"
+			"sun-omni",
+			"sunplus",
+			"sunplus-intl"
 		]
 	},
 	{
@@ -109146,7 +109151,9 @@
 		"playtype": "Single",
 		"songID": 2443,
 		"versions": [
-			"sunplus"
+			"sun-omni",
+			"sunplus",
+			"sunplus-intl"
 		]
 	},
 	{
@@ -109161,7 +109168,9 @@
 		"playtype": "Single",
 		"songID": 2443,
 		"versions": [
-			"sunplus"
+			"sun-omni",
+			"sunplus",
+			"sunplus-intl"
 		]
 	},
 	{
@@ -111000,7 +111009,9 @@
 		"playtype": "Single",
 		"songID": 2480,
 		"versions": [
-			"sunplus"
+			"sun-omni",
+			"sunplus",
+			"sunplus-intl"
 		]
 	},
 	{
@@ -111015,7 +111026,9 @@
 		"playtype": "Single",
 		"songID": 2480,
 		"versions": [
-			"sunplus"
+			"sun-omni",
+			"sunplus",
+			"sunplus-intl"
 		]
 	},
 	{
@@ -111030,7 +111043,9 @@
 		"playtype": "Single",
 		"songID": 2480,
 		"versions": [
-			"sunplus"
+			"sun-omni",
+			"sunplus",
+			"sunplus-intl"
 		]
 	},
 	{
@@ -111045,7 +111060,9 @@
 		"playtype": "Single",
 		"songID": 2480,
 		"versions": [
-			"sunplus"
+			"sun-omni",
+			"sunplus",
+			"sunplus-intl"
 		]
 	},
 	{
