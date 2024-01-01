@@ -183,7 +183,14 @@ router.post(
 	async (req, res) => {
 		const importDoc = GetTachiData(req, "importDoc");
 
-		await RevertImport(importDoc);
+		const k = await RevertImport(importDoc);
+
+		if (k !== null) {
+			return res.status(409).json({
+				success: false,
+				description: `You already have an import or a revert ongoing.`,
+			});
+		}
 
 		return res.status(200).json({
 			success: true,
