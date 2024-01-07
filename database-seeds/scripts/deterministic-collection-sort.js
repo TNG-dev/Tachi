@@ -4,6 +4,11 @@ const path = require("path");
 const collections = fs.readdirSync(path.join(__dirname, "../collections"));
 
 function ChartSort(a, b) {
+	// sink all 2dxtra charts to the bottom
+	if (b.data?.["2dxtraSet"] !== null && a.data?.["2dxtraSet"] === null) {
+		return -1;
+	}
+
 	if (a.songID !== b.songID) {
 		return a.songID - b.songID;
 	}
