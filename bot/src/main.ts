@@ -35,11 +35,12 @@ client.on("interactionCreate", async (interaction) => {
 		const requestingUser = await GetUserAndTokenForDiscordID(interaction.user.id);
 
 		if (!requestingUser) {
-			return RequireUserAuth(interaction);
+			await RequireUserAuth(interaction);
+			return;
 		}
 
 		if (interaction.isCommand()) {
-			return handleIsCommand(interaction, requestingUser);
+			await handleIsCommand(interaction, requestingUser);
 		}
 	} catch (e) {
 		logger.error("Failed to run interaction.", { interaction });
