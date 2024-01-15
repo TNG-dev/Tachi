@@ -659,6 +659,7 @@ router.get(
 router.use("/games", gameSpecificRouter);
 router.use("/games/:game/:playtype", gamePTRouter);
 router.use("/pfp", pfpRouter);
+
 router.use("/banner", bannerRouter);
 router.use("/integrations", integrationsRouter);
 router.use("/settings", settingsRouter);
@@ -668,5 +669,14 @@ router.use("/imports", importsRouter);
 router.use("/notifications", notifsRouter);
 router.use("/following", followingRouter);
 router.use("/sessions", sessionsRouter);
+
+// Shims for discord functionality; discord checks that a url ends with ".png"
+// to use as an image
+router.get("/pfp.png", (req, res) => {
+	res.redirect("./pfp");
+});
+router.get("/banner.png", (req, res) => {
+	res.redirect("./banner");
+});
 
 export default router;

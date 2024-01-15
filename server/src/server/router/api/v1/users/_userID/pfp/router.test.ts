@@ -20,6 +20,17 @@ t.test("GET /api/v1/users/:userID/pfp", (t) => {
 		t.end();
 	});
 
+	t.test("Should work with a .png extension", async (t) => {
+		await CDNStoreOrOverwrite("/users/default/pfp", "test");
+
+		// we have to follow redirs here lol
+		const res = await mockApi.get("/api/v1/users/1/pfp.png").redirects(1);
+
+		t.equal(res.body.toString(), "test");
+
+		t.end();
+	});
+
 	t.test("Should return a custom profile picture if one is set", async (t) => {
 		await CDNStoreOrOverwrite(GetProfilePictureURL(1, "checksum"), "foo");
 		await db.users.update({ id: 1 }, { $set: { customPfpLocation: "checksum" } });
