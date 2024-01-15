@@ -24,7 +24,7 @@ t.test("GET /api/v1/users/:userID/pfp", (t) => {
 		await CDNStoreOrOverwrite("/users/default/pfp", "test");
 
 		// we have to follow redirs here lol
-		const res = await mockApi.get("/api/v1/users/1/pfp.png").redirects(1);
+		const res = await mockApi.get("/api/v1/users/1/pfp.png").redirects(2);
 
 		t.equal(res.body.toString(), "test");
 
