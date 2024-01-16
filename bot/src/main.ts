@@ -10,6 +10,17 @@ import { Client, Intents } from "discord.js";
 import { GetLimboChannel } from "utils/misc";
 import type { CommandInteraction, SelectMenuInteraction } from "discord.js";
 
+// hack: DiscordJS's endpoints sometimes return bigints that end up in our logger.
+// when our logger tries to format that content, JSON.stringify fails.
+//
+// I personally cannot believe that the spec now made JSON.stringify fallible in such
+// a common case. It's kind of absurdly ridiculous. But hey ho; monkey patch our way
+// out of it.
+// @ts-expect-error hack
+BigInt.prototype.toJSON = function toJSON() {
+	return this.toString();
+};
+
 const logger = CreateLayeredLogger(LoggerLayers.client);
 
 export const client = new Client({
