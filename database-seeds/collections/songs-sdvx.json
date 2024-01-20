@@ -23369,5 +23369,149 @@
 			"caldwell99_blacky"
 		],
 		"title": "Caldwell 99"
+	},
+	{
+		"altTitles": [],
+		"artist": "キノシタ feat.音街ウナ・鏡音リン",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2171,
+		"searchTerms": [
+			"positivedance_kinoshita"
+		],
+		"title": "ポジティブ☆ダンスタイム"
+	},
+	{
+		"altTitles": [],
+		"artist": "キノシタ feat.音街ウナ・鏡音リン",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2172,
+		"searchTerms": [
+			"poppincandy_kinoshita"
+		],
+		"title": "ポッピンキャンディ☆フィーバー！"
+	},
+	{
+		"altTitles": [],
+		"artist": "ここなつ2.0",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2173,
+		"searchTerms": [
+			"polarisnouta_kokonatsu"
+		],
+		"title": "ポラリスノウタ"
+	},
+	{
+		"altTitles": [],
+		"artist": "Remixed by BEMANI Sound Team \"Yvya\"",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2174,
+		"searchTerms": [
+			"ckprmx_yvya"
+		],
+		"title": "ちくわパフェだよ☆ＣＫＰ (Yvya Remix)"
+	},
+	{
+		"altTitles": [],
+		"artist": "Remixed by BEMANI Sound Team \"ZAQUVA\"",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2175,
+		"searchTerms": [
+			"meurmx_zaquva"
+		],
+		"title": "めうめうぺったんたん！！ (ZAQUVA Remix)"
+	},
+	{
+		"altTitles": [],
+		"artist": "MYUKKE.",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2176,
+		"searchTerms": [
+			"tokakualmiraj_myukke"
+		],
+		"title": "TOKAKU=ALMiRAJ"
+	},
+	{
+		"altTitles": [],
+		"artist": "みーに feat. 杠葉えりか",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2177,
+		"searchTerms": [
+			"rainbowflavor_miini"
+		],
+		"title": "レインボウ・フレーバー"
+	},
+	{
+		"altTitles": [],
+		"artist": "qfeileadh + yuichi NAGAO",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2178,
+		"searchTerms": [
+			"anomadevotion_qfeileadh"
+		],
+		"title": "=∴NOMADE∵OTION="
+	},
+	{
+		"altTitles": [],
+		"artist": "影虎。",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2179,
+		"searchTerms": [
+			"kannagara_kagetora"
+		],
+		"title": "随神"
+	},
+	{
+		"altTitles": [],
+		"artist": "kanone VS nora2r",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2180,
+		"searchTerms": [
+			"overture_kanonenora2r"
+		],
+		"title": "OVEЯ+TUЯE"
+	},
+	{
+		"altTitles": [],
+		"artist": "めと（Metomate）",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2181,
+		"searchTerms": [
+			"burstandreboot_meto"
+		],
+		"title": "Burst Λnd reBoost"
+	},
+	{
+		"altTitles": [],
+		"artist": "BlackY feat. Risa Yuzuki",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2182,
+		"searchTerms": [
+			"akasha_blacky"
+		],
+		"title": "Λkasha"
 	}
 ]
