@@ -2,11 +2,12 @@ import { ToAPIURL } from "util/api";
 import React from "react";
 import { UserDocument } from "tachi-common";
 import { Link } from "react-router-dom";
+import { GamePT } from "types/react";
 
 export default function ProfilePicture({
 	user,
-	src: imgUrl,
-	toGPT = "",
+	src,
+	toGPT,
 	link = true,
 	size = "lg",
 }: {
@@ -30,19 +31,27 @@ export default function ProfilePicture({
 	/**
 	 * When clicking this this profile, should it take you to a UGPT page?
 	 */
-	toGPT?: string;
+	toGPT?: GamePT;
 }) {
 	const dimensions = size === "sm" ? 32 : 128;
 	const props = {
-		src: imgUrl ? imgUrl : ToAPIURL(`/users/${user.id}/pfp`),
+		src: src ? src : ToAPIURL(`/users/${user.id}/pfp`),
 		alt: `${user.username}'s Profile Picture`,
 		height: dimensions,
 		width: dimensions,
 		className: "d-inline-block object-fit-cover bg-body-tertiary shadow-sm rounded fs-0",
 	};
+
+	// this API is bad an hard to use. Why is it like this?
+
 	if (link) {
+		let addendum = "";
+		if (toGPT) {
+			addendum = `/${toGPT.game}/${toGPT.playtype}`;
+		}
+
 		return (
-			<Link to={`/u/${user.username}/${toGPT}`}>
+			<Link to={`/u/${user.username}${addendum}`}>
 				<img {...props} />
 			</Link>
 		);

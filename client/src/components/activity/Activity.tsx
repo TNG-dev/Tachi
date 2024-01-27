@@ -292,11 +292,7 @@ function ScoresActivity({
 				<div className="timeline-content-inner" onClick={() => setShow(!show)}>
 					<div className="timeline-content-title">
 						<span className="me-2">
-							<ProfilePicture
-								size="sm"
-								user={user}
-								toGPT={`games/${game}/${playtype}`}
-							/>
+							<ProfilePicture size="sm" user={user} toGPT={{ game, playtype }} />
 						</span>
 						<Icon
 							type={`chevron-${show ? "down" : "right"}`}
@@ -378,7 +374,7 @@ function GoalActivity({
 				<div className="timeline-content-inner" onClick={() => setShow(!show)}>
 					<div className="timeline-content-title">
 						<span className="me-2">
-							<ProfilePicture size="sm" user={user} toGPT={`${game}/${playtype}`} />
+							<ProfilePicture size="sm" user={user} toGPT={{ game, playtype }} />
 						</span>
 						<Icon
 							type={`chevron-${show ? "down" : "right"}`}
@@ -447,11 +443,7 @@ function QuestActivity({
 					<div className="timeline-content-title">
 						<span style={{ fontSize: "1.15rem" }}>
 							<span className="me-2">
-								<ProfilePicture
-									size="sm"
-									user={user}
-									toGPT={`games/${game}/${playtype}`}
-								/>
+								<ProfilePicture size="sm" user={user} toGPT={{ game, playtype }} />
 							</span>
 							<UGPTLink reqUser={user} game={game} playtype={playtype} /> completed
 							the{" "}
@@ -503,11 +495,7 @@ function SessionActivity({
 				<div className="timeline-content-inner" onClick={() => setShow(!show)}>
 					<div className="timeline-content-title">
 						<span className="me-2">
-							<ProfilePicture
-								size="sm"
-								user={user}
-								toGPT={`games/${game}/${playtype}`}
-							/>
+							<ProfilePicture size="sm" user={user} toGPT={{ game, playtype }} />
 						</span>
 						<Icon
 							type={`chevron-${show ? "down" : "right"}`}
@@ -656,7 +644,7 @@ function ClassAchievementActivity({
 							<ProfilePicture
 								size="sm"
 								user={user}
-								toGPT={`games/${data.game}/${data.playtype}`}
+								toGPT={{ game: data.game, playtype: data.playtype }}
 							/>
 						</span>
 						<UGPTLink reqUser={user} game={data.game} playtype={data.playtype} />{" "}
