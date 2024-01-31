@@ -3473,6 +3473,40 @@
 	},
 	{
 		"default": true,
+		"description": "Levels for maimai DX in BUDDiES.",
+		"folders": [
+			"F6368ee35170f27874d3869158e738981a5dc8e2a0c0ca74d783d8006269bd1dd",
+			"Fc5b103397b1ff0db69c2971b7a243af218468a189b6a34521ec586d23cd4786d",
+			"F46d9183887727748b93fa0cd876945e1019e75de0c5a2ce366e3163a3f2fb72f",
+			"Fb15edb32fad5af468bb2bc3fa066d0d488d9b05fd81a3327fa32e0ab1a07cbd5",
+			"Fdc6000db2761ef641da81d4776213147a824cd5b0fed7d047d3b8cac9b6ffb89",
+			"F7e4758cbbb6bc5551e4d3606a7c4948744a9451913a5ab9ac09f84884b307bdd",
+			"Fba7a1cf6300906989c72be6bc77866995a2cfe6e243fd4dbb0ea2498297a5d6b",
+			"F711c04281259d8a6d2a573babd40b97e4097a036147444e82553a989657dd912",
+			"F2254693dd4dd780baab128512a5b9ce8ed68e97c865d430e307bec63a00ec15a",
+			"Fceb713055431ec52fa4c8ecbb7ab2869440a764612ae74a485e162453a73bd7d",
+			"F7e2d733286bdc0c6264e4163e6014948bb6bb1f05b810119f317f5a57985d077",
+			"F9d069cb37a49c2dd33eab44d72e7f45d36b059c0ec826b9272ece746559c47f3",
+			"F6aecc2187c5cd1dfe30b908442648d1b7869bb67289433332a6c70175d370ec0",
+			"F642ad377715ff93d029411bc63370283d6a2f36d0f5633df1c6e3b20c6e3cab8",
+			"F081c0cc40019fd901337698f6505f5467b370c72eaac53e06bce77b5c0e03e11",
+			"Fc49208811a0ca9564d5cb155c1b28304aae0be18c21063ea23de8a73114c2c2d",
+			"Fdfb1de2d66b33089de5d61d115c7736848d309feda17d5358e026ea7b3bdeb28",
+			"F0465da9514b6b0c2d68ceca7175bbc3dd1b06daa8ef311c44d15f56b05bf9baa",
+			"Fc637e835fed1b11d9539f357771c4a774abcaed76dc7d210bbaf0ee7a3812179",
+			"F111ec00e7fcd5d79055eb1898f109eebe42e0ac592bc05208e7635b1977ac6e0",
+			"F98d753fb4b81e7e9f6bcc39f97999bc25563c0476fa2794984ab7318de1e983c",
+			"Fa0f3c5ec11cfcb42c3360f736e22aa4e311723d7e7e118a071af9a148f5f3a1d",
+			"F27358f4f2d040acfe4fa4994e2764ff9e980f4fd3d68e5af2d2e6e38484b444a"
+		],
+		"game": "maimaidx",
+		"inactive": false,
+		"playtype": "Single",
+		"tableID": "maimaidx-Single-buddies-levels",
+		"title": "maimai DX (BUDDiES)"
+	},
+	{
+		"default": false,
 		"description": "Levels for maimai DX in FESTiVAL PLUS.",
 		"folders": [
 			"F3cb8c46dfb31ca7fb8d4ec18b226232b8a05303f88f329a83455099317f1759b",
@@ -3500,7 +3534,7 @@
 			"F249c6b4ed09ef3ce477aa34c8ccf9ec102d9965f77af851f01ba55fe0b2df516"
 		],
 		"game": "maimaidx",
-		"inactive": false,
+		"inactive": true,
 		"playtype": "Single",
 		"tableID": "maimaidx-Single-festivalplus-levels",
 		"title": "maimai DX (FESTiVAL PLUS)"

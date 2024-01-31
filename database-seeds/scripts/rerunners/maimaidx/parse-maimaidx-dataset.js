@@ -1,8 +1,8 @@
 const fetch = require("node-fetch");
 const { CreateChartID, ReadCollection, WriteCollection } = require("../../util");
 
-const CURRENT_VERSION = "festivalplus";
-const CURRENT_VERSION_NUM = 235;
+const CURRENT_VERSION = "buddies";
+const CURRENT_VERSION_NUM = 240;
 const DATA_URL = "https://maimai.sega.jp/data/maimai_songs.json";
 const ALIAS_URL =
 	"https://raw.githubusercontent.com/lomotos10/GCM-bot/main/data/aliases/en/maimai.tsv";
@@ -30,6 +30,7 @@ const versionMap = new Map([
 	[225, "UNiVERSE PLUS"],
 	[230, "FESTiVAL"],
 	[235, "FESTiVAL PLUS"],
+	[240, "BUDDiES"],
 ]);
 
 const diffNames = ["bas", "adv", "exp", "mas", "remas"];

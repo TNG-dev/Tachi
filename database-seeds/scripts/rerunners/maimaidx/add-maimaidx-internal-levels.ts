@@ -1,8 +1,8 @@
 /**
  * Run parse-maimaidx-dataset.js first.
  *
- * Internal levels for FESTiVAL+ songs are at
- * https://docs.google.com/spreadsheets/d/1xqXfzfDfxiEE9mREwgX_ITIY8AowRM7w-TH2t1I_RJE/edit
+ * Internal levels for BUDDiES songs are at
+ * https://docs.google.com/spreadsheets/d/1vSqx2ghJKjWwCLrDEyZTUMSy5wkq_gY4i0GrJgSreQc/edit
  *
  * Download sheets as CSV and use `-f <CSV filename>`.
  *

@@ -1,11 +1,11 @@
-const { MutateCollection, CreateFolderID } = require("../util");
+const { MutateCollection, CreateFolderID } = require("../../util");
 
 // Change these for whatever table you are adding.
 const GAME = "maimaidx";
 const PLAYTYPES = ["Single"];
 const PREFIX = "Level";
-const VERSION = "FESTiVAL PLUS";
-const VERSIONID = "festivalplus";
+const VERSION = "BUDDiES";
+const VERSIONID = "buddies";
 const TITLE = `maimai DX (${VERSION})`;
 const SHORTTITLE = `${VERSIONID}-levels`; // this is used in the tableID
 const DESCRIPTION = `Levels for maimai DX in ${VERSION}.`;
