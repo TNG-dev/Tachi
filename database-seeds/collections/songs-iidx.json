@@ -25204,5 +25204,105 @@
 		"id": 2264,
 		"searchTerms": [],
 		"title": "Stylus"
+	},
+	{
+		"altTitles": [],
+		"artist": "rino & m@sumi from plastic penguin",
+		"data": {
+			"displayVersion": "inf",
+			"genre": "RAINY WALTZ"
+		},
+		"id": 2265,
+		"searchTerms": [
+			"Remember remember"
+		],
+		"title": "リメンバーリメンバー"
+	},
+	{
+		"altTitles": [],
+		"artist": "dj TAKA feat.のりあ",
+		"data": {
+			"displayVersion": "inf",
+			"genre": "EURO BEAT"
+		},
+		"id": 2266,
+		"searchTerms": [
+			"LOVELOVE SUGAR"
+		],
+		"title": "♥LOVE² シュガ→♥"
+	},
+	{
+		"altTitles": [],
+		"artist": "DJ YOSHITAKA",
+		"data": {
+			"displayVersion": "inf",
+			"genre": "SUPER SPLASH TUNE"
+		},
+		"id": 2267,
+		"searchTerms": [],
+		"title": "MANA"
+	},
+	{
+		"altTitles": [],
+		"artist": "BEMANI Sound Team \"PON\" feat.NU-KO",
+		"data": {
+			"displayVersion": "inf",
+			"genre": "ハピコアMAX"
+		},
+		"id": 2268,
+		"searchTerms": [],
+		"title": "LIMIT TOPPA REVOLUTION"
+	},
+	{
+		"altTitles": [],
+		"artist": "Nana Takahashi & BEMANI Sound Team \"L.E.D.\"",
+		"data": {
+			"displayVersion": "inf",
+			"genre": "爆走EUROBEAT"
+		},
+		"id": 2269,
+		"searchTerms": [
+			"JONETSU TANDEM RUNAWAY"
+		],
+		"title": "情熱タンデムRUNAWAY"
+	},
+	{
+		"altTitles": [],
+		"artist": "U1 overground",
+		"data": {
+			"displayVersion": "inf",
+			"genre": "ORBITAL STEAMPUNK"
+		},
+		"id": 2270,
+		"searchTerms": [
+			"An Uncompleted Steam Locomotive Girl"
+		],
+		"title": "未完成ノ蒸氣驅動乙女"
+	},
+	{
+		"altTitles": [],
+		"artist": "少年ラジオ",
+		"data": {
+			"displayVersion": "inf",
+			"genre": "RINASCITA"
+		},
+		"id": 2271,
+		"searchTerms": [
+			"uen"
+		],
+		"title": "uən"
+	},
+	{
+		"altTitles": [],
+		"artist": "めと（Metomate）",
+		"data": {
+			"displayVersion": "inf",
+			"genre": "PIANO ROCK"
+		},
+		"id": 2272,
+		"searchTerms": [
+			"Exponentiated Karma"
+		],
+		"title": "累乗のカルマ"
 	}
 ]
