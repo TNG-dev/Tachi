@@ -1519,7 +1519,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13.3,
+		"levelNum": 13.4,
 		"playtype": "Single",
 		"songID": 20,
 		"versions": [
@@ -1789,7 +1789,7 @@
 		"difficulty": "Re:Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13.2,
+		"levelNum": 13.1,
 		"playtype": "Single",
 		"songID": 23,
 		"versions": [
@@ -3801,7 +3801,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13.5,
+		"levelNum": 13.6,
 		"playtype": "Single",
 		"songID": 48,
 		"versions": [
@@ -4268,8 +4268,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.8,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 54,
 		"versions": [
@@ -5831,7 +5831,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13.3,
+		"levelNum": 13.4,
 		"playtype": "Single",
 		"songID": 74,
 		"versions": [
@@ -6479,7 +6479,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13,
+		"levelNum": 13.1,
 		"playtype": "Single",
 		"songID": 82,
 		"versions": [
@@ -7527,7 +7527,7 @@
 	{
 		"chartID": "2cbfe3bef4c0bbf7c795965f21c617d9e8177984",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -8208,8 +8208,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 99,
 		"versions": [
@@ -8586,8 +8586,8 @@
 		},
 		"difficulty": "Re:Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 103,
 		"versions": [
@@ -9086,7 +9086,7 @@
 	{
 		"chartID": "11b6912bdab8ef65cd8a00a74691ea562dc2d47e",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -9102,7 +9102,7 @@
 	{
 		"chartID": "3468525e8724f30642dedf17be639db28c816178",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -9118,7 +9118,7 @@
 	{
 		"chartID": "2bac41b1cad950a38491ebe55b6c041cc82b1a49",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -9134,7 +9134,7 @@
 	{
 		"chartID": "91c14bf2a832417526096f34f2cf2f66d3d6ab8a",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -10055,7 +10055,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13.4,
+		"levelNum": 13.5,
 		"playtype": "Single",
 		"songID": 121,
 		"versions": [
@@ -10288,8 +10288,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 124,
 		"versions": [
@@ -11747,7 +11747,7 @@
 	{
 		"chartID": "40ca902d3f552fb4eefdb138642fd1d8735e3df3",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -12158,7 +12158,7 @@
 	{
 		"chartID": "4de04298c2f8a6119c5e41d4c736d742a156da47",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -12174,7 +12174,7 @@
 	{
 		"chartID": "a8fef7105d268b8e4d8344efb9d27103ea55618a",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -12190,7 +12190,7 @@
 	{
 		"chartID": "2dbeac54235e2c78ddec5f726802cbf70603481e",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -12206,7 +12206,7 @@
 	{
 		"chartID": "82df3856c287d7e6269d03e1bf1f512651a5341a",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -13594,7 +13594,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.7,
+		"levelNum": 13.8,
 		"playtype": "Single",
 		"songID": 163,
 		"versions": [
@@ -13737,8 +13737,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 165,
 		"versions": [
@@ -14439,8 +14439,8 @@
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "13",
-		"levelNum": 13.3,
+		"level": "13+",
+		"levelNum": 13.7,
 		"playtype": "Single",
 		"songID": 174,
 		"versions": [
@@ -16285,7 +16285,7 @@
 	{
 		"chartID": "87de86c6388ba7e14d834e85481c431164d1c7dc",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -16301,7 +16301,7 @@
 	{
 		"chartID": "c9ee8b36b3914e857b1a53eddf5bd561144403ea",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -16317,7 +16317,7 @@
 	{
 		"chartID": "82df96c55d58c05b22c50605dc977c72ba3ddf3d",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -16333,7 +16333,7 @@
 	{
 		"chartID": "1318a1bdcf919749aa225eb28cbf91ce384b689c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -17087,8 +17087,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 204,
 		"versions": [
@@ -17807,8 +17807,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 214,
 		"versions": [
@@ -19370,7 +19370,7 @@
 	{
 		"chartID": "a08d7be26a00ffcd7a3b54f383ed39f1c9e02d4c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -19876,7 +19876,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14.2,
+		"levelNum": 14.3,
 		"playtype": "Single",
 		"songID": 240,
 		"versions": [
@@ -20019,8 +20019,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 242,
 		"versions": [
@@ -20177,7 +20177,7 @@
 	{
 		"chartID": "3e0c6248f34f202e6116b6ede2748841be2d1d68",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "Re:Master",
 		"isPrimary": true,
@@ -20251,7 +20251,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14.4,
+		"levelNum": 14.5,
 		"playtype": "Single",
 		"songID": 245,
 		"versions": [
@@ -20700,8 +20700,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 251,
 		"versions": [
@@ -20845,7 +20845,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.8,
+		"levelNum": 13.9,
 		"playtype": "Single",
 		"songID": 253,
 		"versions": [
@@ -21496,7 +21496,7 @@
 	{
 		"chartID": "2b7ffd3d4b64c86de3da49de8b0b5e05e6275072",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -21511,7 +21511,7 @@
 	{
 		"chartID": "dbab2848a01079715ae6c2ff8864ca7f40957629",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -22718,8 +22718,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 276,
 		"versions": [
@@ -23439,7 +23439,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13.4,
+		"levelNum": 13.5,
 		"playtype": "Single",
 		"songID": 286,
 		"versions": [
@@ -23583,7 +23583,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.7,
+		"levelNum": 13.8,
 		"playtype": "Single",
 		"songID": 288,
 		"versions": [
@@ -24159,7 +24159,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.8,
+		"levelNum": 13.9,
 		"playtype": "Single",
 		"songID": 296,
 		"versions": [
@@ -25436,8 +25436,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 313,
 		"versions": [
@@ -25653,7 +25653,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.8,
+		"levelNum": 13.9,
 		"playtype": "Single",
 		"songID": 316,
 		"versions": [
@@ -27651,7 +27651,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14.5,
+		"levelNum": 14.6,
 		"playtype": "Single",
 		"songID": 343,
 		"versions": [
@@ -27884,8 +27884,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 346,
 		"versions": [
@@ -27979,7 +27979,7 @@
 	{
 		"chartID": "aab46f9e9d8ef2593df104a7de02723745306b9e",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -28592,8 +28592,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 354,
 		"versions": [
@@ -29025,7 +29025,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13,
+		"levelNum": 13.2,
 		"playtype": "Single",
 		"songID": 359,
 		"versions": [
@@ -29240,8 +29240,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 362,
 		"versions": [
@@ -30032,8 +30032,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 372,
 		"versions": [
@@ -30248,8 +30248,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 374,
 		"versions": [
@@ -30370,7 +30370,7 @@
 	{
 		"chartID": "b5346d0356ad8ea7a755d36c015675788cee97e4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -30386,7 +30386,7 @@
 	{
 		"chartID": "b4c689f3de4e4be6b289b76dc50e29256c912b71",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -30402,7 +30402,7 @@
 	{
 		"chartID": "4a224b9204d21e5b45ac59e6b971f6c898a6b4b2",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -30418,7 +30418,7 @@
 	{
 		"chartID": "048d0f2b7b961c1c0bf5b210f5f3cd829b926e2d",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -31339,7 +31339,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.8,
+		"levelNum": 13.9,
 		"playtype": "Single",
 		"songID": 388,
 		"versions": [
@@ -31483,7 +31483,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14.1,
+		"levelNum": 14.2,
 		"playtype": "Single",
 		"songID": 389,
 		"versions": [
@@ -31986,8 +31986,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 395,
 		"versions": [
@@ -32202,8 +32202,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 398,
 		"versions": [
@@ -33046,8 +33046,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 408,
 		"versions": [
@@ -34073,7 +34073,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14.1,
+		"levelNum": 14.2,
 		"playtype": "Single",
 		"songID": 421,
 		"versions": [
@@ -36239,7 +36239,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13.5,
+		"levelNum": 13.6,
 		"playtype": "Single",
 		"songID": 449,
 		"versions": [
@@ -36454,8 +36454,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 452,
 		"versions": [
@@ -36599,7 +36599,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14,
+		"levelNum": 14.1,
 		"playtype": "Single",
 		"songID": 454,
 		"versions": [
@@ -37603,7 +37603,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.7,
+		"levelNum": 13.8,
 		"playtype": "Single",
 		"songID": 467,
 		"versions": [
@@ -38413,7 +38413,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.7,
+		"levelNum": 13.8,
 		"playtype": "Single",
 		"songID": 476,
 		"versions": [
@@ -39511,7 +39511,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.8,
+		"levelNum": 13.9,
 		"playtype": "Single",
 		"songID": 490,
 		"versions": [
@@ -40266,8 +40266,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 500,
 		"versions": [
@@ -40933,7 +40933,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14.2,
+		"levelNum": 14.3,
 		"playtype": "Single",
 		"songID": 509,
 		"versions": [
@@ -43489,7 +43489,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.8,
+		"levelNum": 13.9,
 		"playtype": "Single",
 		"songID": 543,
 		"versions": [
@@ -44497,7 +44497,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14.3,
+		"levelNum": 14.4,
 		"playtype": "Single",
 		"songID": 556,
 		"versions": [
@@ -46135,7 +46135,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.8,
+		"levelNum": 13.9,
 		"playtype": "Single",
 		"songID": 576,
 		"versions": [
@@ -46369,7 +46369,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.7,
+		"levelNum": 13.8,
 		"playtype": "Single",
 		"songID": 579,
 		"versions": [
@@ -46441,7 +46441,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.8,
+		"levelNum": 13.9,
 		"playtype": "Single",
 		"songID": 580,
 		"versions": [
@@ -46800,8 +46800,8 @@
 		},
 		"difficulty": "Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 585,
 		"versions": [
@@ -47377,7 +47377,7 @@
 		"difficulty": "Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14,
+		"levelNum": 14.2,
 		"playtype": "Single",
 		"songID": 591,
 		"versions": [
@@ -48151,7 +48151,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13,
+		"levelNum": 13.2,
 		"playtype": "Single",
 		"songID": 599,
 		"versions": [
@@ -48398,7 +48398,7 @@
 	{
 		"chartID": "bfa11accd3e41aeb75c8f8b0d753e53efd9dc12f",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Re:Master",
 		"isPrimary": true,
@@ -48485,7 +48485,7 @@
 	{
 		"chartID": "7d24a39b69667a2f0798774af22aea2efe3ff88b",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Re:Master",
 		"isPrimary": true,
@@ -48644,7 +48644,7 @@
 	{
 		"chartID": "25a24557b11ab9591c8acf7776c15778f4a0bba4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Re:Master",
 		"isPrimary": true,
@@ -50914,7 +50914,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.8,
+		"levelNum": 13.9,
 		"playtype": "Single",
 		"songID": 636,
 		"versions": [
@@ -52137,8 +52137,8 @@
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "12+",
-		"levelNum": 12.9,
+		"level": "13",
+		"levelNum": 13,
 		"playtype": "Single",
 		"songID": 653,
 		"versions": [
@@ -54910,7 +54910,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13.5,
+		"levelNum": 13.4,
 		"playtype": "Single",
 		"songID": 691,
 		"versions": [
@@ -57151,8 +57151,8 @@
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 722,
 		"versions": [
@@ -57957,7 +57957,7 @@
 	{
 		"chartID": "8e9dc7af2da98f2e9da22ec898ef268e8aa036aa",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Re:Master",
 		"isPrimary": true,
@@ -59472,8 +59472,8 @@
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "12+",
-		"levelNum": 12.9,
+		"level": "13",
+		"levelNum": 13,
 		"playtype": "Single",
 		"songID": 754,
 		"versions": [
@@ -60553,7 +60553,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14.3,
+		"levelNum": 14.4,
 		"playtype": "Single",
 		"songID": 769,
 		"versions": [
@@ -61498,7 +61498,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14.1,
+		"levelNum": 14.2,
 		"playtype": "Single",
 		"songID": 782,
 		"versions": [
@@ -61655,7 +61655,7 @@
 	{
 		"chartID": "05afae09da07ba10c0b1f88836faf40634c8464f",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Re:Master",
 		"isPrimary": true,
@@ -61801,7 +61801,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14.3,
+		"levelNum": 14.4,
 		"playtype": "Single",
 		"songID": 786,
 		"versions": [
@@ -65743,7 +65743,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13.2,
+		"levelNum": 13.4,
 		"playtype": "Single",
 		"songID": 839,
 		"versions": [
@@ -66607,7 +66607,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.8,
+		"levelNum": 13.9,
 		"playtype": "Single",
 		"songID": 851,
 		"versions": [
@@ -67038,8 +67038,8 @@
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "14",
-		"levelNum": 14.6,
+		"level": "14+",
+		"levelNum": 14.7,
 		"playtype": "Single",
 		"songID": 857,
 		"versions": [
@@ -69343,7 +69343,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.8,
+		"levelNum": 13.9,
 		"playtype": "Single",
 		"songID": 888,
 		"versions": [
@@ -71017,7 +71017,7 @@
 		"difficulty": "DX Re:Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13.3,
+		"levelNum": 13.5,
 		"playtype": "Single",
 		"songID": 911,
 		"versions": [
@@ -72096,8 +72096,8 @@
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "14",
-		"levelNum": 14,
+		"level": "13+",
+		"levelNum": 13.9,
 		"playtype": "Single",
 		"songID": 926,
 		"versions": [
@@ -72672,8 +72672,8 @@
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "14",
-		"levelNum": 14.6,
+		"level": "14+",
+		"levelNum": 14.7,
 		"playtype": "Single",
 		"songID": 934,
 		"versions": [
@@ -73465,7 +73465,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14,
+		"levelNum": 14.1,
 		"playtype": "Single",
 		"songID": 945,
 		"versions": [
@@ -74663,7 +74663,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "13+",
-		"levelNum": 13.8,
+		"levelNum": 13.9,
 		"playtype": "Single",
 		"songID": 961,
 		"versions": [
@@ -74879,7 +74879,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13.5,
+		"levelNum": 13.6,
 		"playtype": "Single",
 		"songID": 964,
 		"versions": [
@@ -75023,7 +75023,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14,
+		"levelNum": 14.1,
 		"playtype": "Single",
 		"songID": 966,
 		"versions": [
@@ -75455,7 +75455,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13.4,
+		"levelNum": 13.3,
 		"playtype": "Single",
 		"songID": 972,
 		"versions": [
@@ -76462,8 +76462,8 @@
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.7,
+		"level": "13",
+		"levelNum": 13.5,
 		"playtype": "Single",
 		"songID": 986,
 		"versions": [
@@ -76735,8 +76735,8 @@
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "14",
-		"levelNum": 14,
+		"level": "13+",
+		"levelNum": 13.9,
 		"playtype": "Single",
 		"songID": 990,
 		"versions": [
@@ -76871,8 +76871,8 @@
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "14",
-		"levelNum": 14.6,
+		"level": "14+",
+		"levelNum": 14.7,
 		"playtype": "Single",
 		"songID": 992,
 		"versions": [
@@ -78146,8 +78146,8 @@
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 1010,
 		"versions": [
@@ -78486,8 +78486,8 @@
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 1015,
 		"versions": [
@@ -79167,7 +79167,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "13",
-		"levelNum": 13.2,
+		"levelNum": 13.4,
 		"playtype": "Single",
 		"songID": 1026,
 		"versions": [
@@ -79234,8 +79234,8 @@
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.8,
+		"level": "13",
+		"levelNum": 13.6,
 		"playtype": "Single",
 		"songID": 1027,
 		"versions": [
@@ -79710,8 +79710,8 @@
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.9,
+		"level": "14",
+		"levelNum": 14,
 		"playtype": "Single",
 		"songID": 1035,
 		"versions": [
@@ -79847,7 +79847,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14.4,
+		"levelNum": 14.3,
 		"playtype": "Single",
 		"songID": 1037,
 		"versions": [
@@ -80051,7 +80051,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14.4,
+		"levelNum": 14.3,
 		"playtype": "Single",
 		"songID": 1040,
 		"versions": [
@@ -80119,7 +80119,7 @@
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14.4,
+		"levelNum": 14.3,
 		"playtype": "Single",
 		"songID": 1041,
 		"versions": [
@@ -80849,8 +80849,8 @@
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
-		"level": "13",
-		"levelNum": 13,
+		"level": "12+",
+		"levelNum": 12.8,
 		"playtype": "Single",
 		"songID": 1052,
 		"versions": [
@@ -81627,7 +81627,7 @@
 	{
 		"chartID": "07e3f573925fd3a2904bd58897070243823cbef6",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -81643,7 +81643,7 @@
 	{
 		"chartID": "ce5e74841b4d66190ad4c7c205a77b794f807ea0",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -81659,7 +81659,7 @@
 	{
 		"chartID": "89abc668a9d69329dd94e30b22ba31cc91e94c3b",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -81675,7 +81675,7 @@
 	{
 		"chartID": "3dac2daccc86b6d6283f7b5aaa400caa0f4303cf",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -81691,7 +81691,7 @@
 	{
 		"chartID": "782eeac06ddcca35e93f893ce686c11d43a0e269",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -81707,7 +81707,7 @@
 	{
 		"chartID": "a5919aeb853eacdd983b2597e2112e11b9ff11f9",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -81723,7 +81723,7 @@
 	{
 		"chartID": "039734b1c0deddb4db9953c488b6902328531358",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -81739,7 +81739,7 @@
 	{
 		"chartID": "bb6d82d317e728165873e35c81ae185434372244",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -81755,7 +81755,7 @@
 	{
 		"chartID": "8c4d496cda3a0cae1a075ff2dd237cdeadabc775",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -81771,7 +81771,7 @@
 	{
 		"chartID": "b6be8f63181b33518c582bcdd22b142297a6414b",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -81787,7 +81787,7 @@
 	{
 		"chartID": "02c9e5a5a78cbbf4e4bcb5b3a3c1cf31e02c7494",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -81803,7 +81803,7 @@
 	{
 		"chartID": "7ee79ddff5ead75f6e560e08517656de7626b631",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -81819,7 +81819,7 @@
 	{
 		"chartID": "d41d3f0d6558df4cad516cab21b18bd7ec0081fb",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -81835,7 +81835,7 @@
 	{
 		"chartID": "49134c97dad29276880990935aedb544305c8d83",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -81851,7 +81851,7 @@
 	{
 		"chartID": "332cc8daafdafa63e64889ffa3fe6f6986e45fd5",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -81867,7 +81867,7 @@
 	{
 		"chartID": "1813a2720c9920c460eb6427d71ade80fcf32620",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -81883,7 +81883,7 @@
 	{
 		"chartID": "ecb146e5fdaa6c2874f96511ede6c2b9da6d6163",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -81899,7 +81899,7 @@
 	{
 		"chartID": "d7e63c55f8a7fc6989056eaf84f7d038786f03da",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -81915,7 +81915,7 @@
 	{
 		"chartID": "b67acccc905c8d5f262f2476d08e7be948de15f2",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -81931,7 +81931,7 @@
 	{
 		"chartID": "d04c9d5ffad02f209ac1c37d7c6954cb3b558cf2",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -81947,7 +81947,7 @@
 	{
 		"chartID": "08b5f8ffbe7b370cbe40c0206bf64dcbb2519d23",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -81963,7 +81963,7 @@
 	{
 		"chartID": "7860a45c3c9e4603160a779e5038cc575fde0e6f",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -81979,7 +81979,7 @@
 	{
 		"chartID": "3970e8e8f6e21d35040214ede6f6145c327739b9",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -81995,7 +81995,7 @@
 	{
 		"chartID": "e48a223ed23621c6a914ff1ebc4da4ae6aaed4b2",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82011,7 +82011,7 @@
 	{
 		"chartID": "7efb89b10d022b42de1f2fd4c3bccfb23d255167",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82027,7 +82027,7 @@
 	{
 		"chartID": "920b07024a58e02c1fa392e62c8ff73e57cd8b03",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82043,7 +82043,7 @@
 	{
 		"chartID": "33dbccd2ba152e80f0dbc38acca8221692b29a4a",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82059,7 +82059,7 @@
 	{
 		"chartID": "71c6bc7b604b9656bfe21d9017f5a9a5cce60cda",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82075,7 +82075,7 @@
 	{
 		"chartID": "b397b82a86e7b01bf8df492de27b951545610697",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82091,7 +82091,7 @@
 	{
 		"chartID": "38243eb25b0d2ee33cb6d73a93370894a3177b1b",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82107,7 +82107,7 @@
 	{
 		"chartID": "3d2f0193aa6d8d8cbbc04251eb5db9012eb60fbe",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82123,7 +82123,7 @@
 	{
 		"chartID": "f443785e1f5f927d249c839c22af988d1df6e8d1",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82139,7 +82139,7 @@
 	{
 		"chartID": "df522b540517143589ebdca8218c4f574e9f8e12",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82155,7 +82155,7 @@
 	{
 		"chartID": "546764f6b0c8819eeaba89f768c21505c49418dc",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82171,7 +82171,7 @@
 	{
 		"chartID": "760a00d5959a88a5fd1eb89678086e7303ba95eb",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82187,7 +82187,7 @@
 	{
 		"chartID": "e016fc2a3e509f3a4ae03745b2a326409aec6658",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82203,7 +82203,7 @@
 	{
 		"chartID": "b90d71925212be98656b5e713c478f9121d7409e",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82219,7 +82219,7 @@
 	{
 		"chartID": "a5851ae0f7c8a983df1e317c7725dbaee38b6da7",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82235,7 +82235,7 @@
 	{
 		"chartID": "11c378ada421654318c5b1b95b87e34affc41ec3",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82251,7 +82251,7 @@
 	{
 		"chartID": "193740d49613131b1d278ea79d4980f09820dded",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82267,7 +82267,7 @@
 	{
 		"chartID": "2248ed0fcc7cb84fbffa083e8865cf1bd5f85436",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82283,7 +82283,7 @@
 	{
 		"chartID": "d63a4b7a480d6723e45a58aaecd47e21db1636d4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82299,7 +82299,7 @@
 	{
 		"chartID": "a1d72de6ac6807e7068038fd5c846b12c9dc4eaf",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82315,7 +82315,7 @@
 	{
 		"chartID": "27246dc18c4886417daf689d8ba464f07a759029",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82331,7 +82331,7 @@
 	{
 		"chartID": "2f4b1d6a4110cf630fb23b5b072fbf21b6812bee",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82347,7 +82347,7 @@
 	{
 		"chartID": "a8bf7964984a97f83fb7dfe2c603c3e368e05636",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82363,7 +82363,7 @@
 	{
 		"chartID": "335392936a649c0eb9ba6203630d05786d19e0df",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82379,7 +82379,7 @@
 	{
 		"chartID": "88dfccd129cf5caf19b37f019b5b95b0066c2c2b",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82395,7 +82395,7 @@
 	{
 		"chartID": "88a9c94d6aed01f10bc90c7d60e31df71572adf6",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82411,7 +82411,7 @@
 	{
 		"chartID": "6a33bcb68af423a541af954a2ed599afab256ae5",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82427,7 +82427,7 @@
 	{
 		"chartID": "cb73a6237a26da0d44121b5bc5d9a0e6f5993175",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82443,7 +82443,7 @@
 	{
 		"chartID": "ebd24f8019dd64d63ea81cc67d2986fed52c76ed",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82459,7 +82459,7 @@
 	{
 		"chartID": "98722934bda91b9e5f627fff9bf1aed23de7d15c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82475,7 +82475,7 @@
 	{
 		"chartID": "aa40472f14af36b960a6749c57a2f94a877898fc",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82491,7 +82491,7 @@
 	{
 		"chartID": "93a90af0eb15d0a7fbc88b2e33400eb795181646",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82507,7 +82507,7 @@
 	{
 		"chartID": "75f1a019bbe8d59f0fd5c4341a1946c51729a934",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82523,7 +82523,7 @@
 	{
 		"chartID": "c0fbcf387f93d9f022aaf6f2b3a368edbfb53819",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82539,7 +82539,7 @@
 	{
 		"chartID": "194a8e4a727fe5af0c0672304af83f936e55a0bf",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82555,7 +82555,7 @@
 	{
 		"chartID": "6ba5ee12dfeea02777cd5f8c8f14ec3e0f313970",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82571,7 +82571,7 @@
 	{
 		"chartID": "431f712c51fd6aa6d30d97f546a32b1452ca2c85",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82587,7 +82587,7 @@
 	{
 		"chartID": "45b1abc1e7af169703a846e0364a7e945bd86710",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82603,7 +82603,7 @@
 	{
 		"chartID": "b0c033a4927c1e3b312fb0790ea3844241f9d5ff",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82619,7 +82619,7 @@
 	{
 		"chartID": "9c2155df733dd5a7fe65c495675e46638458c15d",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82635,7 +82635,7 @@
 	{
 		"chartID": "d904bb4119789d5ebbee57306bd10fab3847ef57",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82651,7 +82651,7 @@
 	{
 		"chartID": "68ea5c31161ca9e913901eb996329358bc6456a5",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82667,7 +82667,7 @@
 	{
 		"chartID": "84391b241c1f922f74581380e60c0dd2869be5f3",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82683,7 +82683,7 @@
 	{
 		"chartID": "2c55f3cefd8cf1566f67eb588c93ae9b0bf4c74a",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82699,7 +82699,7 @@
 	{
 		"chartID": "a64a3cdfa7903c96aeefc6b9bbf858576ebeb26e",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82715,7 +82715,7 @@
 	{
 		"chartID": "b6208185ed22644594aa1c34aa8ac20dbdd536c2",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82731,7 +82731,7 @@
 	{
 		"chartID": "27a117919e1dc3d5244acefa5badf57c70447457",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82747,7 +82747,7 @@
 	{
 		"chartID": "7980beb4d4b7316590b2018952d320b94ada4140",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82763,7 +82763,7 @@
 	{
 		"chartID": "9810d8f5deb82802e073d3cff81d43dc6ac6b3fc",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82779,7 +82779,7 @@
 	{
 		"chartID": "c29aaf76b24ccaeb91294accf20231c19b48b80e",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82795,7 +82795,7 @@
 	{
 		"chartID": "cb6ba114e5dc0e6043764bb263176e43852a32fa",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82811,7 +82811,7 @@
 	{
 		"chartID": "59061fc3fdd81b8970f8d5581f693df256a3928e",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82827,7 +82827,7 @@
 	{
 		"chartID": "403241bcde291d780f686a7d66a8e9c48d40c77b",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82843,7 +82843,7 @@
 	{
 		"chartID": "8268d4eb6c15c0fc3e54ab7967d694e5723f963d",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Re:Master",
 		"isPrimary": true,
@@ -82859,7 +82859,7 @@
 	{
 		"chartID": "ac201bffa16d6dd5b511f9a058f8716db4dbe26f",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82875,7 +82875,7 @@
 	{
 		"chartID": "2d9bd3ba79e5a27868919907c206d432dd58b3df",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82891,7 +82891,7 @@
 	{
 		"chartID": "3da0714a952a312d071a73d95bb6dcd8f990d320",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82907,7 +82907,7 @@
 	{
 		"chartID": "095ee3b9c7ba7c59fbf9d0b35306b824e64f4a6a",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82923,7 +82923,7 @@
 	{
 		"chartID": "c35f250f650123cf3799840af7d4e9f684137d84",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -82939,7 +82939,7 @@
 	{
 		"chartID": "c3a25f8874f123e7197dae07cc31bdfbc5cab8cd",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -82955,7 +82955,7 @@
 	{
 		"chartID": "90efd887cc16ebf83438c94772fb09439f457647",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -82971,7 +82971,7 @@
 	{
 		"chartID": "d14fc5ce642e608e163bf27199fbb8ec474ad086",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -82987,7 +82987,7 @@
 	{
 		"chartID": "74d19b5dd07b5a29f5b7472a804f5f9d1fab8970",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83003,7 +83003,7 @@
 	{
 		"chartID": "5b15edc5045c90539dee061a218dca11ce31bb3c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83019,7 +83019,7 @@
 	{
 		"chartID": "7302b19461043e48aeaefe4ed91e60e7131ac12b",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83035,7 +83035,7 @@
 	{
 		"chartID": "8aa1b6fc783505cdc08edfdd6980d9b9ab4ca4c0",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83051,7 +83051,7 @@
 	{
 		"chartID": "4371f9a5a6549ced196dd75711268255dc0f5139",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Re:Master",
 		"isPrimary": true,
@@ -83067,7 +83067,7 @@
 	{
 		"chartID": "7938d1991db2bd5b93d5e40235db2355ef2c8d7d",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83083,7 +83083,7 @@
 	{
 		"chartID": "b79014fedcccdef6726877ba4e7f1c2f4579d7eb",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83099,7 +83099,7 @@
 	{
 		"chartID": "789a3b7324c30964689413f908692bcc85d6d7bf",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83115,7 +83115,7 @@
 	{
 		"chartID": "9c09830000dca08f2ebfcc8f9f95b5f9d95d4469",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83131,7 +83131,7 @@
 	{
 		"chartID": "407a34b964efd6c91bf649e56578db6b78e2bfd4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Re:Master",
 		"isPrimary": true,
@@ -83147,7 +83147,7 @@
 	{
 		"chartID": "966853ada8d1d35d2723ed5d4f7e12b900b0cc04",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83163,7 +83163,7 @@
 	{
 		"chartID": "04aec8c08f59506f78cbbf9ce5b80ac63f52b7ca",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83179,7 +83179,7 @@
 	{
 		"chartID": "9757d0f8481e588075972433deba5db1e5f7b334",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83195,7 +83195,7 @@
 	{
 		"chartID": "9cb92686a0e3d47be5d158b37bfb10815264ebbf",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83211,7 +83211,7 @@
 	{
 		"chartID": "35229b37512407dd4fb466e5593184d464cd3716",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83227,7 +83227,7 @@
 	{
 		"chartID": "0c82770f37365c79c83fb782545496673b9004a0",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83243,7 +83243,7 @@
 	{
 		"chartID": "3b105fe34194dc5559bf490f3e9c6c6ca8fc7e73",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83259,7 +83259,7 @@
 	{
 		"chartID": "4a3dd30a26cff071348e45334dfa196b439c2447",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83275,7 +83275,7 @@
 	{
 		"chartID": "6bc52153083654a4e4aae2f18b9d057e96d55fe8",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83291,7 +83291,7 @@
 	{
 		"chartID": "e59b1fb156424b980a22157f1f15a436a16d52b7",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83307,7 +83307,7 @@
 	{
 		"chartID": "f59b93bd626f252c3ddcfea8436a7159f4620469",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83323,7 +83323,7 @@
 	{
 		"chartID": "f7021a6c1776fd96a482c70ca1d93f6f08b7dd71",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83339,7 +83339,7 @@
 	{
 		"chartID": "467cc9bcd34b0a2cb925b082944bfb7a66b3e995",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83355,7 +83355,7 @@
 	{
 		"chartID": "f41f0be3ceeaa3cb3999d34a241651aa76a0f908",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83371,7 +83371,7 @@
 	{
 		"chartID": "231fdd6b504fee0151ab7f5cec427138d6387260",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83387,7 +83387,7 @@
 	{
 		"chartID": "0c6bc1dbf675bb8127e7a294839a0152f66db8d5",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83403,7 +83403,7 @@
 	{
 		"chartID": "b2474d40e5b3a6a488d2d899acf5f27d3996c8ca",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83419,7 +83419,7 @@
 	{
 		"chartID": "370a6f4341afea8854e1d2423e0539c22280e57c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83435,7 +83435,7 @@
 	{
 		"chartID": "98568372cdf19669c1f98037c70a96ec544bb58d",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83451,7 +83451,7 @@
 	{
 		"chartID": "cf1f5c8e0059156a0615bcc839ab5513d6f9fb7e",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83467,7 +83467,7 @@
 	{
 		"chartID": "cc2865f9ed5bbcd137d33aea5c2b93785af381ec",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83483,7 +83483,7 @@
 	{
 		"chartID": "35d2601c7a200b7a25c83bcd6749fd3afbaf897f",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83499,7 +83499,7 @@
 	{
 		"chartID": "ee9dc3fb3cb1ee4e6478b810c1b358854ee8b058",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83515,7 +83515,7 @@
 	{
 		"chartID": "7d05e7e21b0cb861afd26c16d63156d05e04925b",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83531,7 +83531,7 @@
 	{
 		"chartID": "2b13dfae8c7d3e0d34564fc72436f0b920bf2a37",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83547,7 +83547,7 @@
 	{
 		"chartID": "0e1531507e6ec56088e07767f30e58aebf2a8f32",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83563,7 +83563,7 @@
 	{
 		"chartID": "20ab01688a8ddf26fbdc66b2cf2eeb03853318a3",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83579,7 +83579,7 @@
 	{
 		"chartID": "e6975b279dc6efc85e957bf74710fa6235056c17",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83595,7 +83595,7 @@
 	{
 		"chartID": "6b46b0d10aba9486eb47ff1091317b97205ae4a8",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83611,7 +83611,7 @@
 	{
 		"chartID": "abff4da35c8561d4be86da7b9ea6f6c6d61b0bb6",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83627,7 +83627,7 @@
 	{
 		"chartID": "04a38faed97af9cba6a60fcc2563e4e67d1a6e72",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83643,7 +83643,7 @@
 	{
 		"chartID": "90262af55f81e57edacd6d407eec46f18529e260",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83659,7 +83659,7 @@
 	{
 		"chartID": "4e567c44084443827e164402e9835d071d5fd6c5",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83675,7 +83675,7 @@
 	{
 		"chartID": "dd98603ef80723162afe01ba9bf97ab3fa1d69d8",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83691,7 +83691,7 @@
 	{
 		"chartID": "6d5d19ddee661eba136c3fe590e8f167c0730006",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83707,7 +83707,7 @@
 	{
 		"chartID": "d7ca8be68c397d0580c798fb68c06b61f217dffd",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83723,7 +83723,7 @@
 	{
 		"chartID": "b9617528dc76948fd2bdafea42de559237e19338",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83739,7 +83739,7 @@
 	{
 		"chartID": "3ecaa4dbad49164c0eaa309622357a2f79cc3fe2",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83755,7 +83755,7 @@
 	{
 		"chartID": "31035731c9eee043a9213cbb2f755935bfde1436",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83771,7 +83771,7 @@
 	{
 		"chartID": "3a6cd3c13e48ec7d85687556dc63145ed364f195",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83787,7 +83787,7 @@
 	{
 		"chartID": "42acc472ed5bd84eea3ade8f8f3428ff37cfced9",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83803,7 +83803,7 @@
 	{
 		"chartID": "435eb9f01bcb2d59bf2338bf7b8b2731a2c917a4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83819,7 +83819,7 @@
 	{
 		"chartID": "451ca8a5bd649d9e23053af88762584111a83177",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83835,7 +83835,7 @@
 	{
 		"chartID": "a404e5fd555453b4a99e09201ff56a0ad1c2d81c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83851,7 +83851,7 @@
 	{
 		"chartID": "1c1a750344a3e99a739e64a658e0f4e825f233ec",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83867,7 +83867,7 @@
 	{
 		"chartID": "830cbe46051c10bcdab71fe5cc1ec6d068d26294",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83883,7 +83883,7 @@
 	{
 		"chartID": "0c5611ff5714a7b2d7b796962f7a438ddebdec47",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83899,7 +83899,7 @@
 	{
 		"chartID": "ba679d933b706b83577417d01fc9535188335484",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83915,7 +83915,7 @@
 	{
 		"chartID": "1c56c833f412594f3631d5e17c2daf552409886e",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83931,7 +83931,7 @@
 	{
 		"chartID": "f9dab18d08b639917edfcbc6ebf3ca28ff151516",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -83947,7 +83947,7 @@
 	{
 		"chartID": "117400e05a04bc5b566a1fc437a6541bf08dbfe4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -83963,7 +83963,7 @@
 	{
 		"chartID": "e580c64dfa4109a6778277b105f5a419325e911e",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -83979,7 +83979,7 @@
 	{
 		"chartID": "09c9ad1e5c520547797e2f7f2a649aa31e81afae",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -83995,7 +83995,7 @@
 	{
 		"chartID": "43ffc734048b865b5fd9acc48e786999b115d0fe",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84011,7 +84011,7 @@
 	{
 		"chartID": "454204f3afab7890688b6a41f2b33dc38e64668c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84027,7 +84027,7 @@
 	{
 		"chartID": "3a38b669b28a2721b793309b628930d8d96491f8",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -84043,7 +84043,7 @@
 	{
 		"chartID": "57c7456edeb56c4edc0c85f13edd992bd7286dda",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84059,7 +84059,7 @@
 	{
 		"chartID": "f5c52abacb31c5527b2241f3f8f97521898ac63c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84075,7 +84075,7 @@
 	{
 		"chartID": "9cbf1a5c60792974e79c776dd3a40d088c00c371",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84091,12 +84091,12 @@
 	{
 		"chartID": "1a043c299011c2f11a145aa1bd229f7174710c5f",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
-		"level": "13+",
-		"levelNum": 13.7,
+		"level": "13",
+		"levelNum": 13.3,
 		"playtype": "Single",
 		"songID": 1101,
 		"versions": [
@@ -84107,7 +84107,7 @@
 	{
 		"chartID": "b47fd10c5722769ca20176127bcf8a1ed2d63283",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84123,7 +84123,7 @@
 	{
 		"chartID": "6e3e7f1f59560c70e0161308d9e5e28f0436b873",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84139,7 +84139,7 @@
 	{
 		"chartID": "059a50150f8d2d4389dc48e441dfff97faacb145",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84155,7 +84155,7 @@
 	{
 		"chartID": "1bf26d960a9ad28ee361ca1fc4f5e65b57a9e7f3",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -84171,7 +84171,7 @@
 	{
 		"chartID": "6b53c72b6b61852a1d074446999b9612660068fb",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84187,7 +84187,7 @@
 	{
 		"chartID": "4bc95bc3322fea1a5d614ad3cf0e409169495fb4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84203,7 +84203,7 @@
 	{
 		"chartID": "ac41b66d81e6705e3bf972ba2e1466d2fa332fa1",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84219,7 +84219,7 @@
 	{
 		"chartID": "66aa6e1e1e6dc6a3271e3ace793ecd0a7acda97d",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -84235,7 +84235,7 @@
 	{
 		"chartID": "28733784b7d6c7d74ea3283da6dde28d767784fb",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84251,7 +84251,7 @@
 	{
 		"chartID": "a886af631f31b91d557b3a157afccfd5d3fbb3c4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84267,7 +84267,7 @@
 	{
 		"chartID": "3e10f4a50d097899552cbaae86c5515aa5bb2fb4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84283,7 +84283,7 @@
 	{
 		"chartID": "536bde2622c29e2e5c0a7fc5ddea8dc34327de18",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -84299,7 +84299,7 @@
 	{
 		"chartID": "2668ed72c74c6b0215d7257b03003a41903e90ad",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84315,7 +84315,7 @@
 	{
 		"chartID": "e48ceb0757e97aadd46c72eecc7076763facca4a",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84331,7 +84331,7 @@
 	{
 		"chartID": "cc571f17018eedf0201dc90e21a37f4cb82744e4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84347,7 +84347,7 @@
 	{
 		"chartID": "6dabb9fb75412acd20daf722bc22ce67573384bc",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -84363,7 +84363,7 @@
 	{
 		"chartID": "abb66f18e686e62eb6f7c82105960568874695f4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84379,7 +84379,7 @@
 	{
 		"chartID": "a3f675b1d483613d49342410abd19fbe8b911c6d",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84395,7 +84395,7 @@
 	{
 		"chartID": "d6032017c4ad84d635e8e0c63f666324d0e76831",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84411,7 +84411,7 @@
 	{
 		"chartID": "6c0860a627d9980268d363438da2a703d2305b23",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -84427,7 +84427,7 @@
 	{
 		"chartID": "d771f2adf0595929b6305e764ab06297aa6a0b31",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84443,7 +84443,7 @@
 	{
 		"chartID": "515b53599c9dbaa05b0ad503b360521c5fa607a2",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84459,7 +84459,7 @@
 	{
 		"chartID": "958f9ff9d9a08c4e141fc187cc7a012c5ffe613c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84475,7 +84475,7 @@
 	{
 		"chartID": "115dc6c46bed6ba618c6ed5a4df0d185b0ba63c4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -84491,7 +84491,7 @@
 	{
 		"chartID": "8e7655953e3e78c62e727edd35d922f7c2192c88",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84507,7 +84507,7 @@
 	{
 		"chartID": "fd79475ff6084652f3078806fb8f53c9cda88495",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84523,7 +84523,7 @@
 	{
 		"chartID": "d4688fad71aa96041c17c77766a2fa6e62da1b31",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84539,7 +84539,7 @@
 	{
 		"chartID": "edce2e4c6ac6fd507211f462b06b03c11fd7f452",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -84555,7 +84555,7 @@
 	{
 		"chartID": "4812b9f6f67311ef1f070a8736559ba4795fb06b",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84571,7 +84571,7 @@
 	{
 		"chartID": "1b081a432b2c5a0cac3bec3693c5380e7eeec89b",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84587,7 +84587,7 @@
 	{
 		"chartID": "dc3b1d09c96299da7693cd9c8742a4e7dd081652",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84603,12 +84603,12 @@
 	{
 		"chartID": "03a68b5e13c67d26f235f0b4c4d72966b2ea080f",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
 		"level": "14",
-		"levelNum": 14.1,
+		"levelNum": 14.2,
 		"playtype": "Single",
 		"songID": 1109,
 		"versions": [
@@ -84619,7 +84619,7 @@
 	{
 		"chartID": "bb6bec2a001c7f8071869e93f084d3a254664af9",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84635,7 +84635,7 @@
 	{
 		"chartID": "0198fc5f6c6df1f7273b6d133c77a49b44ddd5b4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84651,7 +84651,7 @@
 	{
 		"chartID": "b3fd81da2c695189d8cb3000584afb59166dd27c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84667,7 +84667,7 @@
 	{
 		"chartID": "e3b8b52a59bb7c609850693e40a93b4df7deff02",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -84683,7 +84683,7 @@
 	{
 		"chartID": "478bc11b72e60695a8fd4102d14b2d16e5d44f8f",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84699,7 +84699,7 @@
 	{
 		"chartID": "1442da535ad1226c850e31a3ea73bc9c8883af0b",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84715,7 +84715,7 @@
 	{
 		"chartID": "9ffe55d640d6f310fe5f857db927080d72840dcd",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84731,7 +84731,7 @@
 	{
 		"chartID": "bffff150fc83729616d5edc6cbee80f8b56088b8",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -84747,7 +84747,7 @@
 	{
 		"chartID": "cf4786c88b0bca74df13aee748991730c66531a4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84763,7 +84763,7 @@
 	{
 		"chartID": "dedcebfaad2357304a25a41bbc329580a05e71d1",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84779,7 +84779,7 @@
 	{
 		"chartID": "45960d954f5c10329cef54ab61892cbd75ee89ec",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84795,7 +84795,7 @@
 	{
 		"chartID": "003d907e074871a14f34ab6751bbd353e71a99d7",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -84811,7 +84811,7 @@
 	{
 		"chartID": "1143d068325e6720b93eed99bd9b1c162140b529",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84827,7 +84827,7 @@
 	{
 		"chartID": "8a683adab3050238297a90208bb87ccec5662acf",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84843,7 +84843,7 @@
 	{
 		"chartID": "be0acff218abea3ede1acf70d073fa089fde5fcd",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84859,7 +84859,7 @@
 	{
 		"chartID": "b287fb9ea305e13e9a9c2c75746b8b96ef18665c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -84875,7 +84875,7 @@
 	{
 		"chartID": "d96665f7d6e03ee7955bde480b7385097658eecb",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84891,7 +84891,7 @@
 	{
 		"chartID": "987ffe94eb0a06422b9da503ab99c8e5b1ebf9c0",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84907,7 +84907,7 @@
 	{
 		"chartID": "31b0f8802a7b23444572548298a2180c63117804",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84923,7 +84923,7 @@
 	{
 		"chartID": "bf9630fe34635ca2605ab952a5919e927c6a26ca",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -84939,7 +84939,7 @@
 	{
 		"chartID": "3df22faf11bd5dbdcc7b2f1028815ffcc67fd759",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -84955,7 +84955,7 @@
 	{
 		"chartID": "7178f831ba3f46d1c558ad374cfc593847553135",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -84971,7 +84971,7 @@
 	{
 		"chartID": "508197d88139b77243b68115301031a921e3dd54",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -84987,7 +84987,7 @@
 	{
 		"chartID": "e21231f7c3045eb03aff540731977aa5e493e488",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -85003,7 +85003,7 @@
 	{
 		"chartID": "61f3173f933bd80b78081dfadc1f47d8da221ac2",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -85019,7 +85019,7 @@
 	{
 		"chartID": "2dac360423888c4041833b12b30f080cf98dcf57",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -85035,7 +85035,7 @@
 	{
 		"chartID": "210c60de71bc748fa2e1f8f61b44f952865c816c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -85051,7 +85051,7 @@
 	{
 		"chartID": "8915aaef9ead8b393886c196e9c5b96469f180ac",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -85067,7 +85067,7 @@
 	{
 		"chartID": "d65c0df6201053e7eb9d15b987640e54df4a38f8",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -85083,7 +85083,7 @@
 	{
 		"chartID": "fbaa627c9c06e73f89e107ca7b5443c2ad6cfe8c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -85099,7 +85099,7 @@
 	{
 		"chartID": "c1b42c8038702a0bf325370eeed61986b1f789a7",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -85115,7 +85115,7 @@
 	{
 		"chartID": "851bb8324803d83a39da8d592094cb2bd831e3a8",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -85131,7 +85131,7 @@
 	{
 		"chartID": "bcf1e4716539bedcd5da75cccd2af21f7e3874bb",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -85147,7 +85147,7 @@
 	{
 		"chartID": "5345bb228557a8db3baa22eeb28afe52502c3416",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -85163,7 +85163,7 @@
 	{
 		"chartID": "a6379454eaf27d5d27dd30f7a85b62eba011ec34",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -85179,7 +85179,7 @@
 	{
 		"chartID": "35218d82aad2a3786fe8a908a56f705e4bec585a",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -85195,7 +85195,7 @@
 	{
 		"chartID": "8bb1866c424349e885816a7e42faf9ddab721db8",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -85211,7 +85211,7 @@
 	{
 		"chartID": "a15cfe0143bb1a89c6590c8aa822b28bfedbec0f",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -85227,7 +85227,7 @@
 	{
 		"chartID": "3da5c00c153ec1d580a9830f5b0308fcb7688afa",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -85243,7 +85243,7 @@
 	{
 		"chartID": "09e26cdbe780060945d3afb4908a2544f4468712",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -85259,7 +85259,7 @@
 	{
 		"chartID": "fb18abcf8c90aa5d0088b2a143effc165288dc7a",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -85275,7 +85275,7 @@
 	{
 		"chartID": "0f57b606506dbf20d59eded9c472ba9e09d8704d",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -85291,7 +85291,7 @@
 	{
 		"chartID": "207d6de729299e8e1595e04fa5e02611743b3fa5",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -85307,7 +85307,7 @@
 	{
 		"chartID": "b1a724306bd2840507287017adfe5f57f80ad800",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -85323,7 +85323,7 @@
 	{
 		"chartID": "43ae73f4a9736bfa553650c3ac583be4a80edb8e",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -85339,7 +85339,7 @@
 	{
 		"chartID": "579a12afca67f61c54c9ac7bc2d12b62e244b606",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -85355,7 +85355,7 @@
 	{
 		"chartID": "e39784ae32c1f0c4d6120fadde9c7c766122eab0",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -85371,7 +85371,7 @@
 	{
 		"chartID": "c5e7b713a10614ea26bfa149675fe08e9f0bb7a0",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -85387,7 +85387,7 @@
 	{
 		"chartID": "3eb62e587b5c1b55d50f21a60e73c7ac5dd3c713",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -85403,7 +85403,7 @@
 	{
 		"chartID": "d2ac569d22ed4445537b893daede666924fddae4",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -85419,7 +85419,7 @@
 	{
 		"chartID": "da7558d93c2e6fb698e1381c0623b6bae782e43c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -85435,7 +85435,7 @@
 	{
 		"chartID": "84c6edd8da6e8af6a59a41d717a7d7eadfb907c2",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -85451,7 +85451,7 @@
 	{
 		"chartID": "465ac5df857fc02780816904b44edfa5a7c31690",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -85467,7 +85467,7 @@
 	{
 		"chartID": "a267796290005412e8eefb4a9ec4126b6e581073",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -85483,7 +85483,7 @@
 	{
 		"chartID": "f39a7e9f5d81625fd77b7b969f9f14af3016457d",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -85499,7 +85499,7 @@
 	{
 		"chartID": "110019ac654c9a90945703e410085a8505b3680d",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -85515,7 +85515,7 @@
 	{
 		"chartID": "ea7cece9644344138edcd971b4937f7486e9a453",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -85531,7 +85531,7 @@
 	{
 		"chartID": "e80459b76bd40bf42cc1d899ccbd33b20e653522",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -85547,7 +85547,7 @@
 	{
 		"chartID": "d8cc602cf590b17267ca6c998067a72ef0c599f7",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -85563,7 +85563,7 @@
 	{
 		"chartID": "11e96531e8181a6ceddfa22a143bf00f2480fd8e",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -85579,7 +85579,7 @@
 	{
 		"chartID": "4f0af3f4d7863397cde04171e2b05c91f9dee5e9",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -85595,7 +85595,7 @@
 	{
 		"chartID": "23f628e594399f0daac5e0783f079d40f89bf138",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -85611,7 +85611,7 @@
 	{
 		"chartID": "fed22dd4b5107805a6a15f53411363a97c67b8e8",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -85627,7 +85627,7 @@
 	{
 		"chartID": "199c36b58998396aedb64b9f27f984371a5de3e2",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -85643,7 +85643,7 @@
 	{
 		"chartID": "b33db1d588be2a94500367ce98d7e553a0789999",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -85659,7 +85659,7 @@
 	{
 		"chartID": "363faec21c030c2a2f2242c21daa1589c7d41409",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -85675,7 +85675,7 @@
 	{
 		"chartID": "5416dbb6b73d0ad4b11d2dc5a39dd0b8d7128ce5",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -85691,7 +85691,7 @@
 	{
 		"chartID": "31adedeebb258d378e0e0ae9718b0ddc2c9ef43d",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -85707,7 +85707,7 @@
 	{
 		"chartID": "cc52fd87aa2196b0628af9431b54894f5f9922d9",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -85723,7 +85723,7 @@
 	{
 		"chartID": "a83a61e270d6073ab02b410d5f7b69251b113d9c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -85739,7 +85739,7 @@
 	{
 		"chartID": "9c9b0b8433f488705b884225cba5b5d975bab026",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -85755,7 +85755,7 @@
 	{
 		"chartID": "37f434f576f0e95d454bc29548d2e82e860e371c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -85771,7 +85771,7 @@
 	{
 		"chartID": "01733e06a216a83bb7be067b609894e199249d8c",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -85787,7 +85787,7 @@
 	{
 		"chartID": "fae653511a937ca28de86738165e7093ce447dc5",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -85803,7 +85803,7 @@
 	{
 		"chartID": "441cbb9e7c5c3bde96c99b954003c9b73636287e",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -85819,7 +85819,7 @@
 	{
 		"chartID": "58120f9b3c231a84e19cad416d96d318e4e872a2",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -85835,7 +85835,7 @@
 	{
 		"chartID": "2d2196d0d33f27f5b6ac4b9a1e2e937ad43c9ce1",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Advanced",
 		"isPrimary": true,
@@ -85851,7 +85851,7 @@
 	{
 		"chartID": "015eab66f424d7bd913beb3a1bef51e801fe6995",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Basic",
 		"isPrimary": true,
@@ -85867,7 +85867,7 @@
 	{
 		"chartID": "88b5def1d194009d8fccfd4a019879f4a45802eb",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Expert",
 		"isPrimary": true,
@@ -85883,7 +85883,7 @@
 	{
 		"chartID": "d592519617c007e81bae6233ee37e13ba016262d",
 		"data": {
-			"isLatest": true
+			"isLatest": false
 		},
 		"difficulty": "DX Master",
 		"isPrimary": true,
@@ -88817,6 +88817,246 @@
 		"levelNum": 13.8,
 		"playtype": "Single",
 		"songID": 1177,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "6987672293857ed8540e0190924352026ee6c9a0",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Advanced",
+		"isPrimary": true,
+		"level": "8",
+		"levelNum": 8,
+		"playtype": "Single",
+		"songID": 1178,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "6e63fc6602b0bc71d64881857c5e74e865d8f166",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Basic",
+		"isPrimary": true,
+		"level": "3",
+		"levelNum": 3,
+		"playtype": "Single",
+		"songID": 1178,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "1e4cf541d4334ce0a457b4e1aa2101413e0d3b4c",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Expert",
+		"isPrimary": true,
+		"level": "10+",
+		"levelNum": 10.7,
+		"playtype": "Single",
+		"songID": 1178,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "05892e7967aaf69751332baafdb9404959fe3fad",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Master",
+		"isPrimary": true,
+		"level": "13",
+		"levelNum": 13,
+		"playtype": "Single",
+		"songID": 1178,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "a81672591c8a554b7696daa1be1cddee343469dd",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Advanced",
+		"isPrimary": true,
+		"level": "6",
+		"levelNum": 6,
+		"playtype": "Single",
+		"songID": 1179,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "39e8a0c0baf30e37a707ae9529e08439240c27bf",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Basic",
+		"isPrimary": true,
+		"level": "2",
+		"levelNum": 2,
+		"playtype": "Single",
+		"songID": 1179,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "ea639405d37cdbbdbe7a609fac5f5170912471fc",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Expert",
+		"isPrimary": true,
+		"level": "9+",
+		"levelNum": 9.7,
+		"playtype": "Single",
+		"songID": 1179,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "681330fd1de69ab383b513545631195a87db4c37",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Master",
+		"isPrimary": true,
+		"level": "12+",
+		"levelNum": 12.7,
+		"playtype": "Single",
+		"songID": 1179,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "e7b5b4cdab9e0c57cc06a98cabc70fdb1f2a5214",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Advanced",
+		"isPrimary": true,
+		"level": "7",
+		"levelNum": 7,
+		"playtype": "Single",
+		"songID": 1180,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "b4c8302af5dea125b0e8d2c2053f9ac3ae6bc1d1",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Basic",
+		"isPrimary": true,
+		"level": "4",
+		"levelNum": 4,
+		"playtype": "Single",
+		"songID": 1180,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "0abbb20e684ca20e4112ecf353d542a911180777",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Expert",
+		"isPrimary": true,
+		"level": "12",
+		"levelNum": 12,
+		"playtype": "Single",
+		"songID": 1180,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "9215d749b622adadc6754867e0943c5faa771cb9",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Master",
+		"isPrimary": true,
+		"level": "13+",
+		"levelNum": 13.7,
+		"playtype": "Single",
+		"songID": 1180,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "77aba7d3183209bcc7b45b317f61baa7170f5e23",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Advanced",
+		"isPrimary": true,
+		"level": "6",
+		"levelNum": 6,
+		"playtype": "Single",
+		"songID": 1181,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "49f47c53bd8f52a2290abbca8faca0124927b0f5",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Basic",
+		"isPrimary": true,
+		"level": "3",
+		"levelNum": 3,
+		"playtype": "Single",
+		"songID": 1181,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "3e00cccd5e475926aabd7176cde4250fe908d1ec",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Expert",
+		"isPrimary": true,
+		"level": "11",
+		"levelNum": 11,
+		"playtype": "Single",
+		"songID": 1181,
+		"versions": [
+			"buddies"
+		]
+	},
+	{
+		"chartID": "74348cb985944a9faafd81b79a6eed3ec61cd785",
+		"data": {
+			"isLatest": true
+		},
+		"difficulty": "DX Master",
+		"isPrimary": true,
+		"level": "13",
+		"levelNum": 13,
+		"playtype": "Single",
+		"songID": 1181,
 		"versions": [
 			"buddies"
 		]
