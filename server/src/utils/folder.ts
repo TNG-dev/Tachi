@@ -450,8 +450,11 @@ export async function GetEnumDistForFolderAsOf(
 				thisEnumDist[val] = 1;
 			}
 
-			// for the cumulative dist, count up until this metric.
-			for (const val of conf.values.slice(0, score[metric])) {
+			// eslint-disable-next-line @typescript-eslint/restrict-plus-operands, @typescript-eslint/no-non-null-assertion
+			const end = score[metric]! + 1;
+
+			// for the cumulative dist, count up until this metric; inclusive
+			for (const val of conf.values.slice(0, end)) {
 				if (thisCumulativeEnumDist[val] !== undefined) {
 					thisCumulativeEnumDist[val]++;
 				} else {
