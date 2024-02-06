@@ -460,6 +460,11 @@ function BreakdownChartContents({
 				scoreData: newScoreData,
 			}) as ScoreDocument;
 
+			// We don't actually know what the user's previous score was, we can only walk
+			// back the raise information we have. As such, we don't keep track of
+			// judgements, and must nix them here.
+			mockScore.scoreData.judgements = {};
+
 			preScoreCell = <ScoreCoreCells short chart={chart} game={game} score={mockScore} />;
 		}
 
