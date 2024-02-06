@@ -23513,5 +23513,77 @@
 			"akasha_blacky"
 		],
 		"title": "Λkasha"
+	},
+	{
+		"altTitles": [],
+		"artist": "にじさんじ",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2183,
+		"searchTerms": [
+			"virtualtolive_nijisanji"
+		],
+		"title": "Virtual to LIVE"
+	},
+	{
+		"altTitles": [],
+		"artist": "月ノ美兎",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2184,
+		"searchTerms": [
+			"antigravitygirl_tsukinomito"
+		],
+		"title": "アンチグラビティ・ガール"
+	},
+	{
+		"altTitles": [],
+		"artist": "葛葉",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2185,
+		"searchTerms": [
+			"contrail_kuzuha"
+		],
+		"title": "コントレイル"
+	},
+	{
+		"altTitles": [],
+		"artist": "kors k",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2186,
+		"searchTerms": [
+			"circuitsurfer_korsk"
+		],
+		"title": "Circuit Surfer"
+	},
+	{
+		"altTitles": [],
+		"artist": "Hommarju ft. かぼちゃ",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2187,
+		"searchTerms": [
+			"weareallthedreamer_hommarju"
+		],
+		"title": "We Are All The Dreamer"
+	},
+	{
+		"altTitles": [],
+		"artist": "Tatsunoshin",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2188,
+		"searchTerms": [
+			"doubleornothing_tatsunoshin"
+		],
+		"title": "Double or Nothing"
 	}
 ]
