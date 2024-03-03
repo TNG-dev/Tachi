@@ -10825,6 +10825,19 @@
 	{
 		"data": {
 			"level": "1",
+			"versions": "31"
+		},
+		"folderID": "F433523a3d513a07b3e1e4e4b9441eec2337f748bd6e8a249ea49dd4bcae92d7b",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 1 (EPOLIS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "1",
 			"versions": "14-cs"
 		},
 		"folderID": "F14159009731b0ab1fca61d9f61a51aafb9c014ef6a5aa814db697ffefc79cfc1",
@@ -11249,6 +11262,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 10 (EMPRESS CS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "10",
+			"versions": "31"
+		},
+		"folderID": "Fbe4f47c37dd0902394f94049e63c95e1da77686f6b71e38782adb3985d0264b1",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 10 (EPOLIS)",
 		"type": "charts"
 	},
 	{
@@ -11683,6 +11709,19 @@
 	{
 		"data": {
 			"level": "11",
+			"versions": "31"
+		},
+		"folderID": "F9c0a1ec60283b225f62eb8cd5ad240651fad00c1cbdfc2b1ca3fe3cb0e0689a4",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 11 (EPOLIS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "11",
 			"versions": "14-cs"
 		},
 		"folderID": "F75593cd8aa5156a7f2fda4383609a3acf39048f5575c154038f01861c199fb60",
@@ -12107,6 +12146,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 12 (EMPRESS CS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "12",
+			"versions": "31"
+		},
+		"folderID": "F534cb868ae0066629b76a5e92d4c21fbb86d6ff1b8ede167a1a46c4dd8a0fb6f",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 12 (EPOLIS)",
 		"type": "charts"
 	},
 	{
@@ -12541,6 +12593,19 @@
 	{
 		"data": {
 			"level": "2",
+			"versions": "31"
+		},
+		"folderID": "F8121a7d8a56e9c0e599af7dbed57c370b8ada2221830861f0694d3411c346ce1",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 2 (EPOLIS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "2",
 			"versions": "14-cs"
 		},
 		"folderID": "F093a9944c0cf2948f5c8a6a51867c991415866778e168c8d18803f3ef747c148",
@@ -12965,6 +13030,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 3 (EMPRESS CS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "3",
+			"versions": "31"
+		},
+		"folderID": "Fc80b3b1dfa2b007e4f23cd2c60f28a8d45485f95ba879eda08d858de574321bf",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 3 (EPOLIS)",
 		"type": "charts"
 	},
 	{
@@ -13399,6 +13477,19 @@
 	{
 		"data": {
 			"level": "4",
+			"versions": "31"
+		},
+		"folderID": "F35ed77db0f54982b25fef631bddfe278eaaa84b372edbfc2d4c5660804e77f11",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 4 (EPOLIS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "4",
 			"versions": "14-cs"
 		},
 		"folderID": "F0dfcc2374852d80e32e784e802ecc61b8f28b2e1dae481e240defab9a0128525",
@@ -13823,6 +13914,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 5 (EMPRESS CS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "5",
+			"versions": "31"
+		},
+		"folderID": "Fba8ebce8e849a290a5e50457761661a6def785120125ec77a821bc9d516f7e76",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 5 (EPOLIS)",
 		"type": "charts"
 	},
 	{
@@ -14257,6 +14361,19 @@
 	{
 		"data": {
 			"level": "6",
+			"versions": "31"
+		},
+		"folderID": "Fcfef278758f7e22d1670c1c9e57a9bc7de1b1b533b135eeeb541513d6502a7cc",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 6 (EPOLIS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "6",
 			"versions": "14-cs"
 		},
 		"folderID": "Fb46e5e2a42df20ac3ef5ce7279d5345ec63dc5cd9f67a744c16ebf421d0f5f59",
@@ -14681,6 +14798,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 7 (EMPRESS CS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "7",
+			"versions": "31"
+		},
+		"folderID": "F958bb839b8b6d7af5a3dd3628c8f1852b906e9cc308fd51abfa394ea8dd768a2",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 7 (EPOLIS)",
 		"type": "charts"
 	},
 	{
@@ -15115,6 +15245,19 @@
 	{
 		"data": {
 			"level": "8",
+			"versions": "31"
+		},
+		"folderID": "F4abbb092a1e14c1d26c31049d8344cb99f163e3bf170fb26f3f0671d86e82b4c",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 8 (EPOLIS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "8",
 			"versions": "14-cs"
 		},
 		"folderID": "Fdfd8d33d6ae81702e2323b29a697cf4e06f4205534cea8d4a197b3a2db6f4b3b",
@@ -15539,6 +15682,19 @@
 		"playtype": "DP",
 		"searchTerms": [],
 		"title": "Level 9 (EMPRESS CS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "9",
+			"versions": "31"
+		},
+		"folderID": "F93c7ad860631314b85e54be7ba4cd1fb5fc7279d94583182806e872303cbacf7",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "DP",
+		"searchTerms": [],
+		"title": "Level 9 (EPOLIS)",
 		"type": "charts"
 	},
 	{
@@ -15973,6 +16129,19 @@
 	{
 		"data": {
 			"level": "1",
+			"versions": "31"
+		},
+		"folderID": "Feb083d47b06dd6752591125bf41299e35596c168fb4946ba731ad9123b646aac",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 1 (EPOLIS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "1",
 			"versions": "14-cs"
 		},
 		"folderID": "Fcafbdbef61a09b59b6174ff09a7c948b3f30c688cee1db7e74262613a40ac3c7",
@@ -16397,6 +16566,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 10 (EMPRESS CS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "10",
+			"versions": "31"
+		},
+		"folderID": "F35c24c57f47fc0e1e6de909b284129527caba84848dc55e221ebca64febce978",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 10 (EPOLIS)",
 		"type": "charts"
 	},
 	{
@@ -16831,6 +17013,19 @@
 	{
 		"data": {
 			"level": "11",
+			"versions": "31"
+		},
+		"folderID": "F29c545c484d4079de3b40cfcb1e7cca18361a50d158d83dfdff1a14c12efeeae",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 11 (EPOLIS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "11",
 			"versions": "14-cs"
 		},
 		"folderID": "F5a10427a8b6505ec0e1889926eb831099b39af164f3c0c2ea993b0cd853902fb",
@@ -17255,6 +17450,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 12 (EMPRESS CS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "12",
+			"versions": "31"
+		},
+		"folderID": "F2b0542125b7def38e87972d7016c11d8751f51671be778669769417cd4c74204",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 12 (EPOLIS)",
 		"type": "charts"
 	},
 	{
@@ -17689,6 +17897,19 @@
 	{
 		"data": {
 			"level": "2",
+			"versions": "31"
+		},
+		"folderID": "Fec975ebc2bd28de6cc6d12174e8825963f52596534d72a5eed73ca5283622439",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 2 (EPOLIS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "2",
 			"versions": "14-cs"
 		},
 		"folderID": "Fb80de22bbd3ae7602c516b0e50595bba7f5a837eb1eb4cb4e67506b70f9d4f0a",
@@ -18113,6 +18334,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 3 (EMPRESS CS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "3",
+			"versions": "31"
+		},
+		"folderID": "F705f2fcc57ea4844e5698ae520cd5dc5ceb1e6fee24592e03dbead7560372f45",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 3 (EPOLIS)",
 		"type": "charts"
 	},
 	{
@@ -18547,6 +18781,19 @@
 	{
 		"data": {
 			"level": "4",
+			"versions": "31"
+		},
+		"folderID": "F6f44d23e0b72a4fec04d8cb2c7e7b059459e84d589e43675eb9e84607c63572b",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 4 (EPOLIS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "4",
 			"versions": "14-cs"
 		},
 		"folderID": "F05c9c8393a3849cebe513254724485f9810439ea4fc071125fce35aca8410813",
@@ -18971,6 +19218,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 5 (EMPRESS CS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "5",
+			"versions": "31"
+		},
+		"folderID": "F732113e45ebdede9bbd785aec4f602f529e8685ebcd7e6fa6f7e082967e47646",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 5 (EPOLIS)",
 		"type": "charts"
 	},
 	{
@@ -19405,6 +19665,19 @@
 	{
 		"data": {
 			"level": "6",
+			"versions": "31"
+		},
+		"folderID": "F51160a77a38a043628b0ad132429c465a0fd1eccefa1758deed23f02f844842f",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 6 (EPOLIS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "6",
 			"versions": "14-cs"
 		},
 		"folderID": "F4b76ea4509bd723ea4b5a23ee84fc84e6d042a0d7342b89f6efefefbc19fdcfb",
@@ -19829,6 +20102,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 7 (EMPRESS CS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "7",
+			"versions": "31"
+		},
+		"folderID": "Fc9269ab7a3b52690208795fb203a91bbfc79e969006adad4f5d3d0fdb1c606fc",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 7 (EPOLIS)",
 		"type": "charts"
 	},
 	{
@@ -20263,6 +20549,19 @@
 	{
 		"data": {
 			"level": "8",
+			"versions": "31"
+		},
+		"folderID": "Fcdc6aa3dd48511a6b7c219a3cbcadfad6f1a03583ea530023235a3cc52353e39",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 8 (EPOLIS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "8",
 			"versions": "14-cs"
 		},
 		"folderID": "Fa4780b10565d604921017cd42c624d67f5f9619cd688f858de59ce24a505edb5",
@@ -20687,6 +20986,19 @@
 		"playtype": "SP",
 		"searchTerms": [],
 		"title": "Level 9 (EMPRESS CS)",
+		"type": "charts"
+	},
+	{
+		"data": {
+			"level": "9",
+			"versions": "31"
+		},
+		"folderID": "F437949ea3ab0e2996a999ce3ae5b825f08d2fee6bc14e160402130cc02ce968e",
+		"game": "iidx",
+		"inactive": false,
+		"playtype": "SP",
+		"searchTerms": [],
+		"title": "Level 9 (EPOLIS)",
 		"type": "charts"
 	},
 	{
