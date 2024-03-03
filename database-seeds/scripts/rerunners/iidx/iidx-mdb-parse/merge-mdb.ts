@@ -86,7 +86,7 @@ async function ParseIIDXMDB() {
 	// omni XOR -omni in version name
 	// either both are true, or both are false
 	// if they don't match, that's probably a mistake
-	if (Boolean(options.omni) !== options.version.endsWith("-omni")) {
+	if (options.omni !== options.version.endsWith("-omni")) {
 		throw new Error(
 			`Using --omni flag, but the version you provided was ${options.version}, which doesn't look like an omnimix version.`
 		);
