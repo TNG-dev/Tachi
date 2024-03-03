@@ -117,6 +117,7 @@ const manualTitleMap = new Map([
 	["Jorqer", "Jörqer"],
 	["スカーレット警察のゲットーパトロール２４時", "スカーレット警察のゲットーパトロール24時"],
 	["Bad Apple!! feat.nomico 〜五十嵐撫子Ver.〜", "Bad Apple!! feat.nomico ～五十嵐 撫子 Ver.～"],
+	["ずんだもんの朝食　～目覚ましずんラップ～", "ずんだもんの朝食　〜目覚ましずんラップ〜"],
 ]);
 
 function normalizeTitle(title: string): string {
@@ -346,36 +347,50 @@ if (options.directory) {
 
 	MutateCollection("charts-maimaidx.json", (charts: ChartDocument<"maimaidx:Single">[]) => {
 		const items = fs.readdirSync(options.directory);
-		items.forEach((item) => {
+
+		for (const item of items) {
 			const fullPath = path.join(options.directory, item);
+
 			if (
 				!fs.lstatSync(fullPath).isDirectory() ||
 				!fs.existsSync(path.join(fullPath, "Music.xml"))
 			) {
-				return;
+				continue;
 			}
+
 			const musicData = parser.parse(
 				fs.readFileSync(path.join(fullPath, "Music.xml"))
 			).MusicData;
+
+			// UTAGE songs are in their own category
+			if (musicData.genreName.str === "宴会場") {
+				continue;
+			}
+
 			const title = `${musicData.name.str}`; // The song "39" is treated as a number by the XML parser
 			const category = musicData.genreName.str;
 			const song = findSong(songs, title, category);
+
 			if (!song) {
 				console.log(`Could not find song ${title}`);
-				return;
+				continue;
 			}
 
 			// DX song IDs start from 10000
 			const style = Math.floor(musicData.name.id / 10000) === 1 ? "DX " : "";
 
 			for (const [idx, notes] of Object.entries(musicData.notesData.Notes as XmlNotes[])) {
-				if (!notes.isEnable) {
+				// For some cursed reason, some charts are marked as enabled even if there's no
+				// chart file. We check if the chart file exists as a fallback.
+				if (!notes.isEnable || !fs.existsSync(notes.file.path)) {
 					continue;
 				}
+
 				const difficulty = `${style}${[...diffMap.values()][Number(idx)]}`;
 				const chart = charts.find(
 					(c) => c.songID === song.id && c.difficulty === difficulty
 				);
+
 				if (!chart) {
 					console.log(`Could not find chart ${difficulty} for ${title}`);
 					continue;
@@ -399,7 +414,8 @@ if (options.directory) {
 					chart.levelNum = internalLevel;
 				}
 			}
-		});
+		}
+
 		return charts;
 	});
 } else if (options.file) {

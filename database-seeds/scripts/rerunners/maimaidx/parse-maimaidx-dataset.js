@@ -50,6 +50,7 @@ const versionOverrides = {
 	"Knight Rider": 230,
 	"Let you DIVE!": 230,
 	"Trrricksters!!": 230,
+	"Λzure Vixen": 240,
 };
 
 (async () => {
@@ -74,6 +75,11 @@ const versionOverrides = {
 	let songID = Math.max(Math.max(...existingSongs.values()), 0) + 1;
 
 	for (const data of datum) {
+		// We don't support UTAGE charts, which are similar to CHUNITHM's WORLD'S END.
+		if (data.lev_utage) {
+			continue;
+		}
+
 		let thisSongID = songID;
 
 		const version = versionOverrides[data.title] ?? Number(data.version.substring(0, 3));
