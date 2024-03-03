@@ -23585,5 +23585,41 @@
 			"doubleornothing_tatsunoshin"
 		],
 		"title": "Double or Nothing"
+	},
+	{
+		"altTitles": [],
+		"artist": "猫又おかゆ",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2189,
+		"searchTerms": [
+			"kamisamanekosama_nekomataokayu"
+		],
+		"title": "カミサマ・ネコサマ"
+	},
+	{
+		"altTitles": [],
+		"artist": "猫又おかゆ",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2190,
+		"searchTerms": [
+			"mogumoguyummy_nekomataokayu"
+		],
+		"title": "もぐもぐYUMMY！"
+	},
+	{
+		"altTitles": [],
+		"artist": "猫又おかゆ",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2191,
+		"searchTerms": [
+			"dokuhaiswallow_nekomataokayu"
+		],
+		"title": "毒杯スワロウ"
 	}
 ]
