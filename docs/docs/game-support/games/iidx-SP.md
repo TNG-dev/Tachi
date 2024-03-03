@@ -118,6 +118,7 @@ The default rating algorithm is `ktLampRating`.
 | `28` | BISTROVER |
 | `29` | CastHour |
 | `30` | Resident |
+| `31` | EPOLIS |
 | `3-cs` | 3rd Style CS |
 | `4-cs` | 4th Style CS |
 | `5-cs` | 5th Style CS |

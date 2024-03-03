@@ -255,6 +255,7 @@ export const IIDX_SP_CONF = {
 		"28": "BISTROVER",
 		"29": "CastHour",
 		"30": "Resident",
+		"31": "Epolis",
 		"26-omni": "ROOTAGE Omnimix",
 		"27-omni": "HEROIC VERSE Omnimix",
 		"28-omni": "BISTROVER Omnimix",

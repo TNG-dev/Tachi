@@ -59,6 +59,7 @@ export async function ParseIIDXData(
 		case 28:
 		case 29:
 		case 30:
+		case 31:
 			structSize = 0x52c;
 			break;
 		default:
