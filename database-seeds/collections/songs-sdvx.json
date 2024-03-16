@@ -23621,5 +23621,115 @@
 			"dokuhaiswallow_nekomataokayu"
 		],
 		"title": "毒杯スワロウ"
+	},
+	{
+		"altTitles": [],
+		"artist": "qfeileadh",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2192,
+		"searchTerms": [
+			"torikoerinum_qfeileadh"
+		],
+		"title": "トリコエリヌム▽コンチェルト"
+	},
+	{
+		"altTitles": [],
+		"artist": "めと（Metomate）",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2193,
+		"searchTerms": [
+			"gunjoumatou_meto"
+		],
+		"title": "群青纏う朱の槍"
+	},
+	{
+		"altTitles": [],
+		"artist": "MYUKKE.",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2194,
+		"searchTerms": [
+			"choverygoose_myukke"
+		],
+		"title": "CHOVERY GOOSE!!!"
+	},
+	{
+		"altTitles": [],
+		"artist": "Kaname",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2195,
+		"searchTerms": [
+			"villain_kaname"
+		],
+		"title": "V!LLA!N"
+	},
+	{
+		"altTitles": [
+			"TOYBOX CANN驩N=墸Σ≡=｡ﾟ:*.:+｡.☆"
+		],
+		"artist": "Mono.",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2196,
+		"searchTerms": [
+			"toyboxcannon_mono"
+		],
+		"title": "TOYBOX CANNØN=墸Σ≡=｡ﾟ:*.:+｡.☆"
+	},
+	{
+		"altTitles": [],
+		"artist": "Yuta Imai",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2197,
+		"searchTerms": [
+			"ontheworld_yutaimai"
+		],
+		"title": "ON THE WORLD"
+	},
+	{
+		"altTitles": [],
+		"artist": "Pizuya's Cell",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2198,
+		"searchTerms": [
+			"choechoemagika_pizuya"
+		],
+		"title": "ちょえちょえまぎか"
+	},
+	{
+		"altTitles": [],
+		"artist": "BEMANI Sound Team \"Coyaan\"",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2199,
+		"searchTerms": [
+			"deeptendon_coyaan"
+		],
+		"title": "Deep tenDon Reflex"
+	},
+	{
+		"altTitles": [],
+		"artist": "BEMANI Sound Team \"二代目朱雀 feat.朱雀\"",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2200,
+		"searchTerms": [
+			"ambivalentvermilia_suzaku"
+		],
+		"title": "Ambivalent Vermilia"
 	}
 ]
