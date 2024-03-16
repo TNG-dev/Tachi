@@ -26111,5 +26111,148 @@
 			"Phony"
 		],
 		"title": "フォニイ"
+	},
+	{
+		"altTitles": [],
+		"artist": "Yuta Imai",
+		"data": {
+			"displayVersion": "inf2020",
+			"genre": "HI-TECH PSYSTYLE"
+		},
+		"id": 2342,
+		"searchTerms": [
+			"FEEDING FRENZY"
+		],
+		"title": "FEEDING FRENZY"
+	},
+	{
+		"altTitles": [],
+		"artist": "Feryquitous",
+		"data": {
+			"displayVersion": "inf2020",
+			"genre": "MELODIC CONTEMPORARIDDIM"
+		},
+		"id": 2343,
+		"searchTerms": [
+			"Plea Per Phase"
+		],
+		"title": "Plea Per Phase"
+	},
+	{
+		"altTitles": [],
+		"artist": "SYUNN",
+		"data": {
+			"displayVersion": "inf2020",
+			"genre": "DRUMSTEP"
+		},
+		"id": 2344,
+		"searchTerms": [
+			"Cosy Catastrophe"
+		],
+		"title": "Cosy Catastrophe"
+	},
+	{
+		"altTitles": [],
+		"artist": "Hommarju vs RoughSketch",
+		"data": {
+			"displayVersion": "inf2020",
+			"genre": "CROSSOVER"
+		},
+		"id": 2345,
+		"searchTerms": [
+			"Cross Fire"
+		],
+		"title": "Cross Fire"
+	},
+	{
+		"altTitles": [],
+		"artist": "Blacklolita",
+		"data": {
+			"displayVersion": "inf2020",
+			"genre": "HARD DANCE"
+		},
+		"id": 2346,
+		"searchTerms": [
+			"CyberConnect"
+		],
+		"title": "CyberConnect"
+	},
+	{
+		"altTitles": [],
+		"artist": "Yooh",
+		"data": {
+			"displayVersion": "inf2020",
+			"genre": "SYMPHONIC HARDWALTZ"
+		},
+		"id": 2347,
+		"searchTerms": [
+			"Dynasty"
+		],
+		"title": "Dynasty"
+	},
+	{
+		"altTitles": [],
+		"artist": "FAKE TYPE.",
+		"data": {
+			"displayVersion": "inf2020",
+			"genre": "DANCE MUSIC"
+		},
+		"id": 2348,
+		"searchTerms": [
+			"FAKE STYLE II"
+		],
+		"title": "FAKE STYLE II"
+	},
+	{
+		"altTitles": [],
+		"artist": "HHH",
+		"data": {
+			"displayVersion": "inf2020",
+			"genre": "HEAT UP"
+		},
+		"id": 2349,
+		"searchTerms": [
+			"Ignited Night"
+		],
+		"title": "Ignited Night"
+	},
+	{
+		"altTitles": [],
+		"artist": "kors k",
+		"data": {
+			"displayVersion": "inf2020",
+			"genre": "MORNING FULL ON"
+		},
+		"id": 2350,
+		"searchTerms": [
+			"Programmed Universe"
+		],
+		"title": "Programmed Universe"
+	},
+	{
+		"altTitles": [],
+		"artist": "猫叉劇団",
+		"data": {
+			"displayVersion": "inf2020",
+			"genre": "NOMADIC NATION"
+		},
+		"id": 2351,
+		"searchTerms": [
+			"Moon of CARAL"
+		],
+		"title": "カラルの月"
+	},
+	{
+		"altTitles": [],
+		"artist": "The Chattering Hatter",
+		"data": {
+			"displayVersion": "inf2020",
+			"genre": "CHAOS TASTE"
+		},
+		"id": 2352,
+		"searchTerms": [
+			"Geometric Tea Party"
+		],
+		"title": "ジオメトリック∮ティーパーティー"
 	}
 ]
