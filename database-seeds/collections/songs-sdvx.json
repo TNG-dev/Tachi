@@ -23731,5 +23731,17 @@
 			"ambivalentvermilia_suzaku"
 		],
 		"title": "Ambivalent Vermilia"
+	},
+	{
+		"altTitles": [],
+		"artist": "Cait Sith",
+		"data": {
+			"displayVersion": "exceed"
+		},
+		"id": 2201,
+		"searchTerms": [
+			"schrodingers_caitsith"
+		],
+		"title": "シュレーディンガーの猫"
 	}
 ]
