@@ -22,6 +22,7 @@ const VERSIONS = [
 	"newplus",
 	"sun",
 	"sunplus",
+	"luminous",
 ];
 
 interface IDWithDisplayName {
@@ -41,6 +42,7 @@ interface MusicFumenData {
 
 interface MusicXML {
 	MusicData: {
+		disableFlag: boolean;
 		name: IDWithDisplayName;
 		artistName: IDWithDisplayName;
 		releaseTagName: IDWithDisplayName;
@@ -131,6 +133,12 @@ for (const optionFolder of options.input) {
 		let songID = inGameIDToSongIDMap.get(inGameID);
 
 		if (songID === undefined) {
+			if (musicData.disableFlag) {
+				// Sometimes, removed songs slip into the base game,
+				// and are "removed" later by marking the disableFlag.
+				continue;
+			}
+
 			songID = musicData.name.id;
 
 			const displayVersion = VERSIONS[musicData.releaseTagName.id];
@@ -162,8 +170,16 @@ for (const optionFolder of options.input) {
 			const exists = existingCharts.get(`${inGameID}-${difficultyName}`);
 			const level = calculateLevel(difficulty);
 			const levelNum = calculateLevelNum(difficulty);
+
 			if (exists) {
-				if (!exists.versions.includes(options.version)) {
+				const versionIndex = exists.versions.indexOf(options.version);
+
+				if (musicData.disableFlag && versionIndex !== -1) {
+					exists.versions.splice(versionIndex);
+					continue;
+				}
+
+				if (versionIndex === -1) {
 					exists.versions.push(options.version);
 				}
 

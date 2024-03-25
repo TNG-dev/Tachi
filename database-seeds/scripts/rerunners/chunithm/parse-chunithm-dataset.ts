@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 import { CreateChartID, MutateCollection, ReadCollection, WriteCollection } from "../../util";
 import { ChartDocument, Difficulties, SongDocument } from "tachi-common";
 
-const CURRENT_VERSION = "sunplus";
+const CURRENT_VERSION = "luminous";
 const DATA_URL = "https://chunithm.sega.jp/storage/json/music.json";
 
 // Obtain a token from https://developer.chunirec.net/ -> ログイン -> アカウント管理 -> big purple button to issue an API key
@@ -49,6 +49,7 @@ const RELEASE_DATES = {
 	newplus: new Date("2022-04-14"),
 	sun: new Date("2022-10-13"),
 	sunplus: new Date("2023-05-11"),
+	luminous: new Date("2023-12-14"),
 };
 
 interface ChunithmSong {

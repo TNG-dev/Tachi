@@ -145,6 +145,10 @@ export const CHUNITHM_SINGLE_CONF = {
 		"sun-omni": "SUN Omnimix",
 		"sunplus": "SUN PLUS",
 		"sunplus-intl": "SUN PLUS International",
+		"sunplus-omni": "SUN PLUS Omnimix",
+		"luminous": "LUMINOUS",
+		"luminous-intl": "LUMINOUS International",
+		"luminous-omni": "LUMINOUS Omnimix",
 	},
 
 	chartData: z.strictObject({

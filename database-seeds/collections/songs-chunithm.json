@@ -18252,6 +18252,414 @@
 	},
 	{
 		"altTitles": [],
+		"artist": "ClariS「リコリス・リコイル」",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "POPS & ANIME"
+		},
+		"id": 2490,
+		"searchTerms": [],
+		"title": "ALIVE"
+	},
+	{
+		"altTitles": [],
+		"artist": "HoneyWorks feat. ちゅーたん(CV:早見沙織)",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "POPS & ANIME"
+		},
+		"id": 2491,
+		"searchTerms": [
+			"Kawaikute Gomen"
+		],
+		"title": "可愛くてごめん"
+	},
+	{
+		"altTitles": [],
+		"artist": "MAISONdes",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "POPS & ANIME"
+		},
+		"id": 2492,
+		"searchTerms": [
+			"Tokyo Shandy Rendezvous feat. KAF, Tsumiki"
+		],
+		"title": "トウキョウ・シャンディ・ランデヴ feat. 花譜, ツミキ"
+	},
+	{
+		"altTitles": [],
+		"artist": "松平健 [covered by 光吉猛修]",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "POPS & ANIME"
+		},
+		"id": 2493,
+		"searchTerms": [
+			"MATSUKEN SUMBA II"
+		],
+		"title": "マツケンサンバⅡ"
+	},
+	{
+		"altTitles": [],
+		"artist": "YOASOBI",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "POPS & ANIME"
+		},
+		"id": 2494,
+		"searchTerms": [
+			"Aidoru",
+			"Idol"
+		],
+		"title": "アイドル"
+	},
+	{
+		"altTitles": [],
+		"artist": "JAM Project featuring 水木一郎、影山ヒロノブ",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "POPS & ANIME"
+		},
+		"id": 2495,
+		"searchTerms": [],
+		"title": "STORM"
+	},
+	{
+		"altTitles": [],
+		"artist": "さくゆい",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "POPS & ANIME"
+		},
+		"id": 2496,
+		"searchTerms": [
+			"Sakuyui Taisou"
+		],
+		"title": "さくゆいたいそう"
+	},
+	{
+		"altTitles": [],
+		"artist": "えなこ feat. P丸様。「お兄ちゃんはおしまい！」",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "POPS & ANIME"
+		},
+		"id": 2497,
+		"searchTerms": [
+			"Iden Teitei Meltdown"
+		],
+		"title": "アイデン貞貞メルトダウン"
+	},
+	{
+		"altTitles": [],
+		"artist": "ONIMAI SISTERS（高野麻里佳・石原夏織・金元寿子・津田美波）「お兄ちゃんはおしまい！」",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "POPS & ANIME"
+		},
+		"id": 2498,
+		"searchTerms": [
+			"Himegoto*CriSisters"
+		],
+		"title": "ひめごと＊クライシスターズ"
+	},
+	{
+		"altTitles": [],
+		"artist": "星街すいせい（ホロライブ）",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "POPS & ANIME"
+		},
+		"id": 2499,
+		"searchTerms": [],
+		"title": "Stellar Stellar"
+	},
+	{
+		"altTitles": [],
+		"artist": "花譜",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "POPS & ANIME"
+		},
+		"id": 2500,
+		"searchTerms": [
+			"Fukakai",
+			"Incomprehensible"
+		],
+		"title": "不可解"
+	},
+	{
+		"altTitles": [],
+		"artist": "花譜",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "POPS & ANIME"
+		},
+		"id": 2501,
+		"searchTerms": [
+			"Umi ni Bakeru",
+			"Turn Into The Sea"
+		],
+		"title": "海に化ける"
+	},
+	{
+		"altTitles": [],
+		"artist": "名取さな",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "POPS & ANIME"
+		},
+		"id": 2502,
+		"searchTerms": [
+			"Parallel Searchlight"
+		],
+		"title": "パラレルサーチライト"
+	},
+	{
+		"altTitles": [],
+		"artist": "柊キライ",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "niconico"
+		},
+		"id": 2505,
+		"searchTerms": [
+			"Love ka?",
+			"Is it Love?"
+		],
+		"title": "ラブカ？"
+	},
+	{
+		"altTitles": [],
+		"artist": "ゆこぴ",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "niconico"
+		},
+		"id": 2506,
+		"searchTerms": [
+			"Kyuufuu All Back",
+			"Hair Swept Back By Gale-Force Winds"
+		],
+		"title": "強風オールバック"
+	},
+	{
+		"altTitles": [],
+		"artist": "南ノ南",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "niconico"
+		},
+		"id": 2507,
+		"searchTerms": [
+			"SEKAI-chan to KAFU-chan no Otsukai Gassoukyoku",
+			"SEKAI-chan and KAFU-chan's Errand Ensemble"
+		],
+		"title": "星界ちゃんと可不ちゃんのおつかい合騒曲"
+	},
+	{
+		"altTitles": [],
+		"artist": "稲葉曇",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "niconico"
+		},
+		"id": 2508,
+		"searchTerms": [
+			"Relay Outer"
+		],
+		"title": "リレイアウター"
+	},
+	{
+		"altTitles": [],
+		"artist": "海茶・多良レイト",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "niconico"
+		},
+		"id": 2509,
+		"searchTerms": [
+			"Odorobo"
+		],
+		"title": "おどロボ"
+	},
+	{
+		"altTitles": [],
+		"artist": "ポリスピカデリー / 鏡音レン / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "niconico"
+		},
+		"id": 2510,
+		"searchTerms": [],
+		"title": "Beat Eater"
+	},
+	{
+		"altTitles": [],
+		"artist": "キノシタ / 巡音ルカ / ワンダーランズ×ショウタイム「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "niconico"
+		},
+		"id": 2511,
+		"searchTerms": [],
+		"title": "Glory Steady Go!"
+	},
+	{
+		"altTitles": [],
+		"artist": "ぬゆり / MEIKO / 25時、ナイトコードで。「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "niconico"
+		},
+		"id": 2512,
+		"searchTerms": [
+			"Lower one's eyes"
+		],
+		"title": "ロウワー"
+	},
+	{
+		"altTitles": [],
+		"artist": "和田たけあき / 初音ミク / Leo/need「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "niconico"
+		},
+		"id": 2513,
+		"searchTerms": [
+			"Teratera",
+			"SHOW OFF"
+		],
+		"title": "てらてら"
+	},
+	{
+		"altTitles": [],
+		"artist": "DIVELA / 鏡音リン / MORE MORE JUMP！「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "niconico"
+		},
+		"id": 2514,
+		"searchTerms": [
+			"Tenshi no Clover",
+			"Angel's Clover"
+		],
+		"title": "天使のクローバー"
+	},
+	{
+		"altTitles": [],
+		"artist": "かいりきベア feat.GUMI・鏡音リン",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "niconico"
+		},
+		"id": 2515,
+		"searchTerms": [
+			"Inaiinai Izonshou"
+		],
+		"title": "イナイイナイ依存症"
+	},
+	{
+		"altTitles": [],
+		"artist": "かいりきベア",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "niconico"
+		},
+		"id": 2517,
+		"searchTerms": [
+			"Bug"
+		],
+		"title": "バグ"
+	},
+	{
+		"altTitles": [],
+		"artist": "OSTER project",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "niconico"
+		},
+		"id": 2518,
+		"searchTerms": [
+			"Miracle Paint"
+		],
+		"title": "ミラクルペイント"
+	},
+	{
+		"altTitles": [],
+		"artist": "supercell feat.初音ミク",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "niconico"
+		},
+		"id": 2519,
+		"searchTerms": [
+			"Black Rock Shooter"
+		],
+		"title": "ブラック★ロックシューター"
+	},
+	{
+		"altTitles": [],
+		"artist": "Toby Fox「UNDERTALE」",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "VARIETY"
+		},
+		"id": 2525,
+		"searchTerms": [
+			"Battle Against a True Hero"
+		],
+		"title": "本物のヒーローとの戦い"
+	},
+	{
+		"altTitles": [],
+		"artist": "Toby Fox「UNDERTALE」",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "VARIETY"
+		},
+		"id": 2526,
+		"searchTerms": [
+			"Death by Glamour"
+		],
+		"title": "華麗なる死闘"
+	},
+	{
+		"altTitles": [],
+		"artist": "3R2「Cytus Ⅱ」",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "VARIETY"
+		},
+		"id": 2528,
+		"searchTerms": [],
+		"title": "Blow My Mind"
+	},
+	{
+		"altTitles": [],
+		"artist": "KURORAK「Cytus Ⅱ」",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "VARIETY"
+		},
+		"id": 2529,
+		"searchTerms": [],
+		"title": "Jakarta PROGRESSION"
+	},
+	{
+		"altTitles": [],
+		"artist": "DJ YOSHITAKA",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "VARIETY"
+		},
+		"id": 2530,
+		"searchTerms": [],
+		"title": "VALLIS-NERIA"
+	},
+	{
+		"altTitles": [],
 		"artist": "Massive New Krew「WACCA」",
 		"data": {
 			"displayVersion": "sunplus",
@@ -18260,5 +18668,387 @@
 		"id": 2531,
 		"searchTerms": [],
 		"title": "Big Bang"
+	},
+	{
+		"altTitles": [],
+		"artist": "姜米條「Phigros」",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "VARIETY"
+		},
+		"id": 2532,
+		"searchTerms": [],
+		"title": "Spasmodic"
+	},
+	{
+		"altTitles": [],
+		"artist": "かめりあ",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "VARIETY"
+		},
+		"id": 2533,
+		"searchTerms": [],
+		"title": "ΩΩPARTS"
+	},
+	{
+		"altTitles": [],
+		"artist": "Tanchiky",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "VARIETY"
+		},
+		"id": 2534,
+		"searchTerms": [],
+		"title": "ENERGY SYNERGY MATRIX"
+	},
+	{
+		"altTitles": [],
+		"artist": "saaa + kei_iwata + stuv + わかどり",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "VARIETY"
+		},
+		"id": 2535,
+		"searchTerms": [],
+		"title": "New York Back Raise"
+	},
+	{
+		"altTitles": [],
+		"artist": "削除",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "VARIETY"
+		},
+		"id": 2536,
+		"searchTerms": [],
+		"title": "D-Birth"
+	},
+	{
+		"altTitles": [],
+		"artist": "Blacklolita",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "VARIETY"
+		},
+		"id": 2537,
+		"searchTerms": [],
+		"title": "GIGA BLAST"
+	},
+	{
+		"altTitles": [],
+		"artist": "xi",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "VARIETY"
+		},
+		"id": 2538,
+		"searchTerms": [],
+		"title": "Longinus"
+	},
+	{
+		"altTitles": [],
+		"artist": "cosMo@暴走P",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "VARIETY"
+		},
+		"id": 2539,
+		"searchTerms": [],
+		"title": "Ωκεανος"
+	},
+	{
+		"altTitles": [],
+		"artist": "Hommarju",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "VARIETY"
+		},
+		"id": 2540,
+		"searchTerms": [],
+		"title": "Love's Theme of BADASS ～バッド・アス 愛のテーマ～"
+	},
+	{
+		"altTitles": [],
+		"artist": "箱部なる (CV: M・A・O)",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "イロドリミドリ"
+		},
+		"id": 2549,
+		"searchTerms": [
+			"Doko ni mo ikanai"
+		],
+		"title": "どこにもいかない"
+	},
+	{
+		"altTitles": [],
+		"artist": "天王洲 なずな(CV:山本 彩乃)",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "イロドリミドリ"
+		},
+		"id": 2550,
+		"searchTerms": [
+			"Rabbitland Messenger"
+		],
+		"title": "ラビットランド・メッセンジャー"
+	},
+	{
+		"altTitles": [],
+		"artist": "曲：塩野 海／歌：星咲 あかり(CV：赤尾 ひかる)、式宮 舞菜(CV：牧野 天音)",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ゲキマイ"
+		},
+		"id": 2553,
+		"searchTerms": [
+			"On Stage!"
+		],
+		"title": "オン×ステージ！"
+	},
+	{
+		"altTitles": [],
+		"artist": "MisoilePunch♪",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ゲキマイ"
+		},
+		"id": 2554,
+		"searchTerms": [],
+		"title": "MarbleBlue."
+	},
+	{
+		"altTitles": [],
+		"artist": "かめりあ",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ゲキマイ"
+		},
+		"id": 2555,
+		"searchTerms": [],
+		"title": "Sage"
+	},
+	{
+		"altTitles": [],
+		"artist": "Laur",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ゲキマイ"
+		},
+		"id": 2556,
+		"searchTerms": [],
+		"title": "Mutation"
+	},
+	{
+		"altTitles": [],
+		"artist": "siromaru",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ゲキマイ"
+		},
+		"id": 2557,
+		"searchTerms": [],
+		"title": "Adverse Gaff"
+	},
+	{
+		"altTitles": [],
+		"artist": "曲：TAKU INOUE／歌：早乙女 彩華(CV：中島 唯)",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ゲキマイ"
+		},
+		"id": 2559,
+		"searchTerms": [],
+		"title": "Catch Me If You Can"
+	},
+	{
+		"altTitles": [],
+		"artist": "雄之助 feat.ねんね",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ORIGINAL"
+		},
+		"id": 2566,
+		"searchTerms": [
+			"Shoujo PastQ"
+		],
+		"title": "少女PastQ"
+	},
+	{
+		"altTitles": [],
+		"artist": "コバヤシユウヤ（IOSYS） feat.まるもこ",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ORIGINAL"
+		},
+		"id": 2567,
+		"searchTerms": [
+			"Kimi to Natsu-iro! ~Wonderful Vacation~"
+		],
+		"title": "君と夏色っ！～わんダフルバケーション～"
+	},
+	{
+		"altTitles": [],
+		"artist": "キツネリ feat.わかばやし",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ORIGINAL"
+		},
+		"id": 2568,
+		"searchTerms": [],
+		"title": "MyPaceInvention"
+	},
+	{
+		"altTitles": [],
+		"artist": "higma feat.ほとけ",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ORIGINAL"
+		},
+		"id": 2569,
+		"searchTerms": [],
+		"title": "colorful"
+	},
+	{
+		"altTitles": [],
+		"artist": "Se-U-Ra",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ORIGINAL"
+		},
+		"id": 2570,
+		"searchTerms": [],
+		"title": "ZegalltA"
+	},
+	{
+		"altTitles": [],
+		"artist": "周防パトラ",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ORIGINAL"
+		},
+		"id": 2571,
+		"searchTerms": [
+			"Uni no Uta"
+		],
+		"title": "ウニの歌"
+	},
+	{
+		"altTitles": [],
+		"artist": "長瀬有花",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ORIGINAL"
+		},
+		"id": 2572,
+		"searchTerms": [
+			"Kyoui no Mahou"
+		],
+		"title": "驚異の魔法"
+	},
+	{
+		"altTitles": [],
+		"artist": "somunia × nyankobrq",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ORIGINAL"
+		},
+		"id": 2573,
+		"searchTerms": [],
+		"title": "liberate"
+	},
+	{
+		"altTitles": [],
+		"artist": "TEMPLIME feat.星宮とと",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ORIGINAL"
+		},
+		"id": 2574,
+		"searchTerms": [],
+		"title": "lucky omen"
+	},
+	{
+		"altTitles": [],
+		"artist": "Palme",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ORIGINAL"
+		},
+		"id": 2575,
+		"searchTerms": [],
+		"title": "Sunlight Starlight"
+	},
+	{
+		"altTitles": [],
+		"artist": "ミディ feat.小鈴",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ORIGINAL"
+		},
+		"id": 2576,
+		"searchTerms": [
+			"Workaholic"
+		],
+		"title": "ワーカーホリック"
+	},
+	{
+		"altTitles": [],
+		"artist": "Mameyudoufu feat.Kanata.N",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ORIGINAL"
+		},
+		"id": 2577,
+		"searchTerms": [],
+		"title": "Overturn"
+	},
+	{
+		"altTitles": [],
+		"artist": "Carpainter",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ORIGINAL"
+		},
+		"id": 2578,
+		"searchTerms": [],
+		"title": "First Light"
+	},
+	{
+		"altTitles": [],
+		"artist": "cosMo＠暴走P",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ORIGINAL"
+		},
+		"id": 2579,
+		"searchTerms": [
+			"Last Piece ni Shukufuku to Eikou wo",
+			"Finding Blessing and Glory in the Last Piece"
+		],
+		"title": "ラストピースに祝福と栄光を"
+	},
+	{
+		"altTitles": [],
+		"artist": "かねこちはる",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ゲキマイ"
+		},
+		"id": 2583,
+		"searchTerms": [],
+		"title": "SILENT BLUE"
+	},
+	{
+		"altTitles": [],
+		"artist": "Yuta Imai",
+		"data": {
+			"displayVersion": "luminous",
+			"genre": "ゲキマイ"
+		},
+		"id": 2598,
+		"searchTerms": [],
+		"title": "HECATONCHEIR"
 	}
 ]
